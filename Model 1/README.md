@@ -1,11 +1,13 @@
-# Estimating Potential Outbreak Size in Wuhan
+# Estimating Potential Outbreak Size in Wuhan until 22 Jan
 
 #### Author: Yiran Jing
 #### Date: Jan 26 - Jan 29 2020
 
-Goal: Re-produce model in [Estimating the potential total number of novel Coronavirus cases in Wuhan City, China (Jan 21 2020)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
+### Goal:
+1. Re-produce model in [Estimating the potential total number of novel Coronavirus cases in Wuhan City, China (Jan 21 2020)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
+2. Estimate potential Outbreak Size in Wuhan until 22 Jan using the number of cases detected overseas on Jan 22, Jan 26 and Jan 29. (2 am Jan 23, Wuhan shut down). We believe the estimated result based on the observation of 29 Jan is more accurate.(See details below)
 
-The sample, used in the model estimation, is the number of cases detected outside mainland China (international travel from Wuhan). We use Observation on Jan 22, Jan 26 and Jan 29. (2 am Jan 23, Wuhan shut down)
+The sample, used in the model estimation, is the number of cases detected outside mainland China (international travel from Wuhan). We use Observation on Jan 22, Jan 26 and Jan 29.
 - 8 detected cases overseas until 22 Jan. (they are all out from Wuhan)
 - 29 detected cases overseas until 26 Jan (they are all out from Wuhan).
 - 67 detected cases overseas until 29 Jan (they are all out from Wuhan).
@@ -17,6 +19,7 @@ The sample, used in the model estimation, is the number of cases detected outsid
 - Based on 29 confirmed overseas cases in Jan 26, There are at least more than **16600** cases 95% CI (11310, 23480) before Jan 23.
 - Based on 67 confirmed overseas cases in Jan 29, There are at least more than **38500** cases 95% CI (30000, 48470) before Jan 23.
 - **Commuting flows** has significant impact on `2019-nCov epidemic growth rate`
+
 ***
 
 ## Statistical Modelling:
