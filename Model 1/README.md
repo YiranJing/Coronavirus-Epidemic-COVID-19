@@ -1,23 +1,30 @@
-# Estimating Potential Outbreak Size in Wuhan until 22 Jan
+# Estimating Potential Outbreak Size in Wuhan before Shut Down (Jan 22)
 
 #### Author: Yiran Jing
 #### Date: Jan 26 - Jan 29 2020
 
+### Background
+> 1. Wuhan shut down time: Jan 23 2 am
+> 2. The offical confirmed cases in wuhan is just more than 100 before shut down, then this offical number goes up too 2000 on Jan 29. 
+> 3. Population of international city Wuhan: 11 mllion; estimated airport catchment 19 million. 
+
+Considering the incubation period and under-reporting, we are trying to estmate the potential number of 2019-nCoV cases in wuhan. However, the sample we use is the number of detected cases overseas out from wuhan, thus we only be able to estimate the possible cases in wuhan before wuhan shut down.
+
 ### Goal:
 1. Re-produce model in [Estimating the potential total number of novel Coronavirus cases in Wuhan City, China (Jan 21 2020)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
-2. Estimate potential Outbreak Size in Wuhan until 22 Jan using the number of cases detected overseas on Jan 22, Jan 26 and Jan 29. (2 am Jan 23, Wuhan shut down). We believe the estimated result based on the observation of 29 Jan is more accurate.(See details below)
+2. Estimate potential Outbreak Size in Wuhan until Jan 22, using the number of cases detected overseas (Jan 22, Jan 26 and Jan 29). We believe the estimated result based on the observation of Jan 29 is more accurate since most of oversea cases have been detected until this day.
 
-The sample, used in the model estimation, is the number of cases detected outside mainland China (international travel from Wuhan). We use Observation on Jan 22, Jan 26 and Jan 29.
-- 8 detected cases overseas until 22 Jan. (they are all out from Wuhan)
-- 29 detected cases overseas until 26 Jan (they are all out from Wuhan).
-- 67 detected cases overseas until 29 Jan (they are all out from Wuhan).
+The sample, used in the model estimation, is the number of cases detected outside mainland China (international travel from Wuhan). 
+- 8 detected cases overseas until 22 Jan. (all travelled out from Wuhan)
+- 29 detected cases overseas until 26 Jan (all travelled out from Wuhan)
+- 67 detected cases overseas until 29 Jan (all travelled out from Wuhan)
 
 ## Main Conclusion:
-**Since 29 Jan is 6 days after Wuhan Shut down, most overseas cases have been detected until 29 Jan. We believe the estimated result based on the observation of 29 Jan is more accurate.**
+**Since 29 Jan is 7 days after Wuhan Shut down, most of oversea cases have been detected until 29 Jan. We believe the estimated result based on the observation of Jan 29 is more accurate.**
 
 - There are at least **4600** 95% CI(2100, 8550) cases in Wuhan, until Jan 19. (There is time deley between suspected and confirmed)
-- Based on 29 confirmed overseas cases in Jan 26, There are at least more than **16600** cases 95% CI (11310, 23480) before Jan 23.
-- Based on 67 confirmed overseas cases in Jan 29, There are at least more than **38500** cases 95% CI (30000, 48470) before Jan 23.
+- Based on 29 confirmed overseas cases in Jan 26, There are more than **16600** cases 95% CI(11310, 23480) before Jan 23.
+- Based on 67 confirmed overseas cases in Jan 29, There are more than **38500** cases 95% CI(30000, 48470) before Jan 23.
 - **Commuting flows** has significant impact on `2019-nCov epidemic growth rate`
 
 ***
@@ -26,16 +33,16 @@ The sample, used in the model estimation, is the number of cases detected outsid
 
 Suppose population follows binomial distribution Bin(p,N)
 - p: probability any one case will be detected overseas (international travel from Wuhan)
-- n: negative binomially distributed function of X (number of cases detected outside mainland China)
+- N: negative binomially distributed function of X (number of cases detected outside mainland China)
 
 ### Sensitivity analysis:
 Sensitivity analysis to estimate current cases in wuhan based on 3 scenarios:
 1. Baseline
-     - **8** or (67) overseas confirmed cases until 22 Jan.
+     - **8** or (67) overseas confirmed cases until Jan 22 and 29.
      - 10 day mean time to detection
      - 19 million airportCatchment
 2. Smaller catchment:
-     - airportCatchment = wuhan_population = 11 million
+     - airportCatchment = wuhan_population = 11 millio.
 3. Shorter detection window:
      - 8 day mean time to detection
 
