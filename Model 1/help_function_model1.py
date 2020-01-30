@@ -158,16 +158,14 @@ def sensitivity_analysis(date: str, wuhan_population: int,
                         airportCatchment: int, international_case: int, onsetTodetection: int,
                         incubation=6, internationalTraveller=3301):
     """
-    Sensitivity analysis to estimate current cases in wuhan based on 4 scenario
+    Sensitivity analysis to estimate current cases in wuhan based on 3 scenario
     1. Baseline
     2. Smaller catchment:
         airportCatchment = wuhan_population
     3. Shorter detection window:
-    4. More exported cases:
-         The real international case 29 overseas confirmed cases until 26 Jan.
     """
     # scenario cases
-    scenarios = ['Baseline', 'Smaller catchment', 'Shorter detection window', 'Exported cases Jan 26']
+    scenarios = ['Baseline', 'Smaller catchment', 'Shorter detection window']
     Catchment_old = airportCatchment
     onsetTodetection_old = onsetTodetection
     international_case_old = international_case
@@ -177,8 +175,6 @@ def sensitivity_analysis(date: str, wuhan_population: int,
             airportCatchment=wuhan_population
         elif scenario == 'Shorter detection window':
             onsetTodetection = 2
-        elif scenario == 'Exported cases Jan 26':
-            international_case = 29 
             
             
         wuhan_case = Estimate_wuhan_case(model_name = scenario, date = date, 
