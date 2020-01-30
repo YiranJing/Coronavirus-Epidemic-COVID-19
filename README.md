@@ -9,7 +9,7 @@ Epidemic prediction and estimation of 2019-nCoV
    - Update/track by new (real-time) data.
    - Compare with the reality: understanding models' limitation.
    - Try to improve model's estimation/prediction/inference further.
-1. Build dashboard for real-time visualisation.
+1. Collect data and Build dashboard for real-time visualisation.
 1. Insights sharing
 
 
@@ -17,7 +17,7 @@ Epidemic prediction and estimation of 2019-nCoV
 1. [Estimating the potential number of cases in Wuhan before shut down](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)
    - Author: Yiran Jing
    - Reference: [report2 (Jan 21)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
-2. Visualization Dashboard 
+2. Visualisation Dashboard
 
 
 
@@ -59,9 +59,3 @@ Please connect with us if you are interested in this project!
 
 - Email: yjin5856@uni.sydney.edu.au
 - Wechat: A570281374
-
-
-
-
-
-
