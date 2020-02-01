@@ -19,6 +19,20 @@ Epidemic prediction and estimation of 2019-nCoV
    - Reference: [report2 (Jan 21)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
 2. Visualisation Dashboard
 
+## Data Sources
+- Merged Dataset output: `data/mergedData/combined.csv`
+- Referenced: [coronavirus-ds](https://github.com/pdtyreus/coronavirus-ds)
+The data for tracking the 2019-nCoV outbreak is provided by the [Johns Hopkins Center for Systems Science and Engineering](https://systems.jhu.edu/research/public-health/ncov/)
+
+### Pulling Updates from Google Sheets
+
+The data is updated in a read-only [Google Sheet](https://docs.google.com/spreadsheets/d/1yZv9w9zRKwrGTaR-YzmAqMefw4wMlaXocejdxZaTs6w).
+
+Download credentials and install dependencies as described [in the Google documentation.](https://developers.google.com/sheets/api/quickstart/python).
+
+```shell script
+python pull_gsheet_csse.py  # within data folder
+```
 
 
 ## Other projects on github
@@ -32,20 +46,14 @@ Epidemic prediction and estimation of 2019-nCoV
 ***
 
 ### Key Reference
+1. [Early Transmission Dynamics in Wuhan (Jan 29)](https://www.nejm.org/doi/full/10.1056/NEJMoa2001316)
 1. [WHO report (Jan 23)](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200123-sitrep-3-2019-ncov.pdf)
 2. [Estimating the potential total number of novel
 Coronavirus cases in Wuhan City, China (Jan 21 2020)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
     - [Statistical model and Python code](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)
 3. [Transmissibility of 2019-nCoV (Jan 24)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf)
 4. [Epidemic Prediction by UK scientists (Jan 24 2020)](https://www.medrxiv.org/node/71375.external-links.html)
-5. [Preliminary assessment of the International Spreading
-Risk Associated with the 2019 novel Coronavirus
-(2019-nCoV) outbreak in Wuhan City (Jan 21 2020 )](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan21.pdf)
 
-#### Main Dataset description:
-- Domestic and international airline passenger data are available via subscription from OAG (www.oag.com).
-- Population data
-- data 2019-nCoV (keep updating)
 
 ***
 ## Welcome to join us!!
