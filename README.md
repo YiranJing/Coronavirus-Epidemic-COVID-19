@@ -14,10 +14,18 @@
 ## Projects:
 1. [Estimating the potential number of cases in Wuhan before shut down](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)
    - Author: Yiran Jing
+   - **Main Conclusion: There are more than 38500 cases 95% CI(30000, 48470) before Jan 23**, based on oversea confirmed cases on 29 Jan.
    - Reference: [report2 (Jan 21)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
-2. Estimating Outbreak size in Wuhan of following month using SIR model
+2. [Estimating Outbreak size in Wuhan using SIR model](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202%20SIR/Estimate_Outbreak_size_Wuhan.ipynb)
    - Author: Yiran Jing
-
+   - **Main Conclusion:** (using Chinese offical data bwteen 2019-12-08 and 2020-02-02)
+      - **Estimated R0(basic reproduction number): 2.9**
+      - **Estimated Maximum infected case: more than 3000000**
+      - **The peak of 2019-nCoV will appear in April**
+![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202%20SIR/image/withControl.png)
+      
+      
+      
 ## Visualization
 1. Time series Visualisation Dashboard (Jan 21- Feb 1)
 ![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/ncov.gif)
