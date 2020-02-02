@@ -18,9 +18,13 @@ Epidemic prediction and estimation of 2019-nCoV
    - Author: Yiran Jing
    - Reference: [report2 (Jan 21)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
 2. Visualisation Dashboard
+<<<<<<< HEAD
 ***
+=======
+
+>>>>>>> parent of bf3b466... add visualisation
 ## Data Sources
-- Merged Dataset output: [data/mergedData/combined.csv](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/data/mergedData/combined.csv)
+- Merged Dataset output: `data/mergedData/combined.csv`
 - Referenced: [coronavirus-ds](https://github.com/pdtyreus/coronavirus-ds)
 The data for tracking the 2019-nCoV outbreak is provided by the [Johns Hopkins Center for Systems Science and Engineering](https://systems.jhu.edu/research/public-health/ncov/)
 
@@ -34,6 +38,15 @@ Download credentials and install dependencies as described [in the Google docume
 python pull_gsheet_csse.py  # within data folder
 ```
 ***
+
+## Other projects on github
+1. [Modelling of the nCoV-2019 outbreak in Wuhan](https://github.com/chrism0dwk/wuhan)
+   - Author: Jon Read, Jess Bridgen, and Chris Jewell at Lancaster University
+1. [微信公众号实时查询感染人数](https://github.com/echo-cool/2019-nCov)
+   - Author: [echo-cool](https://github.com/echo-cool)
+2. [2019新型冠状病毒疫情实时爬虫](https://github.com/BlankerL/DXY-2019-nCoV-Crawler)
+   - Author: [Isaac Lin](https://github.com/BlankerL)
+
 
 ## Other projects on github
 1. [Modelling of the nCoV-2019 outbreak in Wuhan](https://github.com/chrism0dwk/wuhan)
