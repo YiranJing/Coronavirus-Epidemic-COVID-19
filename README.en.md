@@ -11,22 +11,23 @@
 > There are 9 million people stay in Wuhan after 23 Jan. And official reported that 5 million people travel out Wuhan for Chinese Spring Festival. The effective catchment population of Wuhan international airport is around 19 million.
 
 Consider the transmissibility and population of Wuhan changed a lot before and after Jan 23, 2020, I choice different methods to nowcasting and forecasting the potential outbreak size in Wuhan referencing by published papers.
-### Model 1: [Estimating the potential number of cases in Wuhan until Jan 23](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)
+### Model 1: [Estimating the potential number of cases in Wuhan until Jan 23](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)😷
    - Author: Yiran Jing
    - **Main Conclusion: There are more than 38500 cases 95% CI(30000, 48470) until Jan 23**, based on 29 Jan data.
    > Method: Considering Wuhan is the major air and train transportation hub of China, we use the number of cases exported from Wuhan internationally as the sample, assuming the infected people follow a Possion distribution, then calculate the 95% confidence interval by profile likelihood method. Sensitivity analysis followed by.
-   
+
    > Reference: [report2 (Jan 21)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
 
-### Model 2: [Simulating outbreak size of 2019-nCoV in Wuhan after 23 Jan](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202/Forecast_Outbreak_Wuhan.ipynb)
+### Model 2: [Simulating outbreak size of 2019-nCoV in Wuhan after 23 Jan](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202/Forecast_Outbreak_Wuhan.ipynb)📈
    - Author: Yiran Jing
    > Method: SIER (susceptible-exposed-infectious- recovered) model and Sensitivity analysis
-   
+
    > Reference: [Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak (Jan 31)](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930260-9)
 
    - **Main Conclusion:** (using Chinese official data between 2019-12-08 and 2020-02-02)
       - **Estimated initial transmissibility R0 (the basic reproduction number) of 2019-nCoV: 2.9**
-      - **Estimated Maximum infected case in Wuhan: more than 10000**
+      - **Estimated Maximum infected case in Wuhan: more than 14000**
+      - **Consider inadequate medical resources and under-reported offical data, Maximum infected case in Wuhan might between 16000 and 25000**
       - **The peak will appear after 22 Feb**
       - Close City policy has significant control for 2019-nCoV, otherwise, the infected cases may up to 200 thousand.
    - Key assumptions within this Model:
@@ -35,20 +36,29 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
       - Before 23 Jan, 1 case can infect 5 people on average. While after 23 Jan, only 1 people a case may infect.
       - Before 23 Jan, the population in Wuhan is 11 million. After 23 Jan, population in Wuhan is 9 million.
       - The mean of incubation period is 7 days, and the mean duration of the infection is 14 days.
+      - Wuhan has adequate medical resources and the official number is correct.
 ![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202/image/withControl.png)
+
 Note:
 - Removed: heal or death
 - Exposed: individuals during incubation period
 - Susceptible: Healthy people
 - Infected: Confirmed cases
 ![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202/image/iamges-SIER.png)
-#### Sensitivity Analysis using the conclusion of [Model 1](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)
-   - There are 38500 cases until 23 Jan, and 80% of them are in incubation period.
+
+### Sensitivity Analysis
+#### Case 1: Sensitivity Analysis using the conclusion of [Model 1](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)(official under-reported)
+   - Wuhan has 38500 cases until 23 Jan, and 80% of them are in incubation period.
    - Assume the death rate = cure rate = 3% (official number)
    - **Estimated Maximum infected case in Wuhan: more than 22000**
-
-
-
+#### Case 2: Sensitivity Analysis under inadequate medical resources
+   - Suppose the mean duration of the infection is 20 days, rather than 14 days.
+   - Estimated initial transmissibility R0 (the basic reproduction number) of 2019-nCoV: 3.7
+   - **Estimated Maximum infected case in Wuhan: more than 16000** under official data
+#### Case 3: Sensitivity Analysis combining case 1 and case 2
+   - Suppose the mean duration of the infection is 20 days
+   - Suppose Wuhan 38500 cases until 23 Jan, and 80% of them are in incubation period.
+   - E**Estimated Maximum infected case in Wuhan: more than 25000**
 
 
 
