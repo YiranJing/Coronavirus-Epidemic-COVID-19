@@ -18,7 +18,7 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
 
    > Reference: [report2 (Jan 21)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
 
-### Model 2: [Simulating outbreak size of 2019-nCoV in Wuhan after 23 Jan](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202/Forecast_Outbreak_Wuhan.ipynb)📈
+### Model 2: [Simulating Peak of 2019-nCoV in Wuhan after 23 Jan](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202/Forecast_Outbreak_Wuhan.ipynb)📈
    - Author: Yiran Jing
    > Method: SIER (susceptible-exposed-infectious- recovered) model and Sensitivity analysis
 
@@ -26,9 +26,9 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
 
    - **Main Conclusion:** (using Chinese official data between 2019-12-08 and 2020-02-02)
       - **Estimated initial transmissibility R0 (the basic reproduction number) of 2019-nCoV: 2.9**
-      - **Estimated Maximum infected case in Wuhan: more than 14000**
-      - **Consider inadequate medical resources and under-reported offical data, Maximum infected case in Wuhan might between 16000 and 25000**
-      - **The peak will appear after 22 Feb**
+      - **Estimated Maximum infected case in Wuhan: more than 14000 (peak, not cumulative)**
+      - **Consider inadequate medical resources and under-reported offical data, Maximum infected case (peak, not cumulative) in Wuhan might between 16000 and 25000**
+      - **The peak will appear after 22 Feb, 2020**
       - Close City policy has significant control for 2019-nCoV, otherwise, the infected cases may up to 200 thousand.
    - Key assumptions within this Model:
       - Exposed group (individuals during incubation period) is 4 times larger than Infective group (4109 confirmed cases until 02 Feb)
