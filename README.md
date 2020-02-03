@@ -41,7 +41,7 @@
 - Susceptible(易感人群): 健康但有风险被感染的人群
 - Infected(确诊并隔离患者): 确诊人群
 ![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202/image/SIER2.png)
-#### 用[模型 1]的结论做敏感度分析测试(https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)
+#### 用[模型 1](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)的结论做敏感度分析测试
   - 在1月23号有38500名感染者，假设其中80%在潜伏期，其余为有明显症状患者
   - 假设目前死亡率等于治愈率，均为3% （根据官方数字）
   - **估计武汉患者最多可超过2.2万人**
