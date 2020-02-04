@@ -72,10 +72,10 @@ Note:
    - **Estimated Maximum infected case in Wuhan: more than 25000**
 
 #### Case 5: Official under-report Data + inadequate medical resources + higher transmission probability
-      - Suppose the mean duration of the infection is 20 days
-      - Suppose Wuhan 38500 cases until 23 Jan, and 80% of them are in incubation period
-      - Suppose after 23 Jan, 2 people a case may infect
-      - **Estimated Maximum infected case in Wuhan: more than 150000**
+   - Suppose the mean duration of the infection is 20 days
+   - Suppose Wuhan 38500 cases until 23 Jan, and 80% of them are in incubation period
+   - Suppose after 23 Jan, 2 people a case may infect
+   - **Estimated Maximum infected case in Wuhan: more than 150000**
 
 
 
