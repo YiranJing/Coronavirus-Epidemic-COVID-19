@@ -3,10 +3,19 @@
 #### Author: Yiran Jing
 #### Date: Jan 26 - Jan 29 2020
 
+### Usage:
+- Choice 1: [Estimating_current_cases_in_Wuhan.ipynb](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201/Estimating_current_cases_in_Wuhan.ipynb)
+
+- Choice 2:
+```sh
+pip install -r ../requirements.txt
+python run_model1.py
+```
+
 ### Background
 > 1. Wuhan shut down time: Jan 23 2 am
-> 2. The offical confirmed cases in wuhan is just more than 100 before shut down, then this offical number goes up too 2000 on Jan 29. 
-> 3. Population of international city Wuhan: 11 mllion; estimated airport catchment 19 million. 
+> 2. The offical confirmed cases in wuhan is just more than 100 before shut down, then this offical number goes up too 2000 on Jan 29.
+> 3. Population of international city Wuhan: 11 mllion; estimated airport catchment 19 million.
 
 Considering the incubation period and under-reporting, we are trying to estmate the potential number of 2019-nCoV cases in wuhan. However, the sample we use is the number of detected cases overseas out from wuhan, thus we only be able to estimate the possible cases in wuhan before wuhan shut down.
 
@@ -14,7 +23,7 @@ Considering the incubation period and under-reporting, we are trying to estmate 
 1. Re-produce model in [Estimating the potential total number of novel Coronavirus cases in Wuhan City, China (Jan 21 2020)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
 2. Estimate potential Outbreak Size in Wuhan until Jan 22, using the number of cases detected overseas (Jan 22, Jan 26 and Jan 29). We believe the estimated result based on the observation of Jan 29 is more accurate since most of oversea cases have been detected until this day.
 
-The sample, used in the model estimation, is the number of cases detected outside mainland China (international travel from Wuhan). 
+The sample, used in the model estimation, is the number of cases detected outside mainland China (international travel from Wuhan).
 - 8 detected cases overseas until 22 Jan. (all travelled out from Wuhan)
 - 29 detected cases overseas until 26 Jan (all travelled out from Wuhan)
 - 67 detected cases overseas until 29 Jan (all travelled out from Wuhan)

@@ -30,7 +30,7 @@ class SIER:
         self.results = None
         self.modelRun = False
 
-    def run(self):
+    def run(self, death_rate):
         Susceptible = [self.Susceptible]
         Exposed = [self.Exposed]
         Infected = [self.Infected]
@@ -45,9 +45,14 @@ class SIER:
             Exposed.append(Exposed[-1] + S_to_E - E_to_I)
             Infected.append(Infected[-1] + E_to_I - I_to_R)
             Resistant.append(Resistant[-1] + I_to_R)
-
+        
+        # Death is death_rate* recovery group
+        Death = list(map(lambda x: (x * death_rate), Resistant))
+        # Heal is removed - Death
+        Heal = list(map(lambda x: (x * (1-death_rate)), Resistant))
         self.results = pd.DataFrame.from_dict({'Time':list(range(len(Susceptible))),
-            'Susceptible':Susceptible, 'Exposed': Exposed, 'Infected':Infected, 'Resistant':Resistant},
+            'Susceptible':Susceptible, 'Exposed': Exposed, 'Infected':Infected, 'Resistant':Resistant,
+                                               'Death':Death, 'Heal': Heal},
             orient='index').transpose()
         self.modelRun = True
         return self.results
@@ -62,10 +67,12 @@ class SIER:
         plt.plot(self.results['Time'], self.results['Susceptible'], color='blue')
         plt.plot(self.results['Time'], self.results['Infected'], color='red')
         plt.plot(self.results['Time'], self.results['Exposed'], color='orange')
-        plt.plot(self.results['Time'], self.results['Resistant'], color='green')
+        plt.plot(self.results['Time'], self.results['Resistant'], color='palegreen')
+        plt.plot(self.results['Time'], self.results['Heal'], color='green')
+        plt.plot(self.results['Time'], self.results['Death'], color='grey')
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
-        plt.legend(['Susceptible','Infected','Exposed','Removed'], prop={'size': 12}, bbox_to_anchor=(0.5, 1.02), ncol=4, fancybox=True, shadow=True)
+        plt.legend(['Susceptible','Infected','Exposed','Removed', 'Heal', 'Death'], prop={'size': 12}, bbox_to_anchor=(0.5, 1.02), ncol=6, fancybox=True, shadow=True)
         plt.title(title, fontsize = 20)
         plt.show()
         
@@ -77,10 +84,12 @@ class SIER:
               format(int(max(self.results['Infected']))))
         fig, ax = plt.subplots(figsize=(10,6))
         plt.plot(self.results['Time'], self.results['Infected'], color='red')
-        plt.plot(self.results['Time'], self.results['Resistant'], color='green')
+        plt.plot(self.results['Time'], self.results['Resistant'], color='palegreen')
         plt.plot(self.results['Time'], self.results['Exposed'], color='orange')
+        plt.plot(self.results['Time'], self.results['Heal'], color='green')
+        plt.plot(self.results['Time'], self.results['Death'], color='grey')
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
-        plt.legend(['Infected','Removed','Exposed'], prop={'size': 12}, bbox_to_anchor=(0.5, 1.02), ncol=3, fancybox=True, shadow=True)
+        plt.legend(['Infected','Removed','Exposed','Heal','Death'], prop={'size': 12}, bbox_to_anchor=(0.5, 1.02), ncol=5, fancybox=True, shadow=True)
         plt.title(title, fontsize = 20)
         plt.show()

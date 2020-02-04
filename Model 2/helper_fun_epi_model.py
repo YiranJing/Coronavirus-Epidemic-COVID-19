@@ -74,7 +74,7 @@ class Estimate_Wuhan_Outbreak(Estimate_parameter):
         self.model = None
         
         
-    def _run_SIER(self,title:str, ylabel:str, xlabel:str, show_Sus = True) -> pandas.core.frame.DataFrame:
+    def _run_SIER(self,title:str, ylabel:str, xlabel:str, death_rate: float, show_Sus = True) -> pandas.core.frame.DataFrame:
         """
         Run SIER model
         """
@@ -82,7 +82,7 @@ class Estimate_Wuhan_Outbreak(Estimate_parameter):
         sier = SIER(eons=self.econ, Susceptible=self.N-self.E0-self.I0-self.R0, Exposed = self.E0, 
                     Infected=self.I0, Resistant=self.R0, rateSI=Est_beta, rateIR=self.Est.nu, 
                     rateAl = self.alpha)
-        result = sier.run()
+        result = sier.run(death_rate)
         # Draw plot
         if show_Sus:
             sier.plot(title, ylabel, xlabel)
