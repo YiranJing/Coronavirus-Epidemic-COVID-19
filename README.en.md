@@ -28,7 +28,7 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
       - **Estimated initial transmissibility R0 (the basic reproduction number) of 2019-nCoV: 2.9**
       - **Estimated Maximum infected case in Wuhan: more than 14000 (peak, not cumulative)**
       - **Consider inadequate medical resources and under-reported official data, Maximum infected case (peak, not cumulative) in Wuhan might between 16000 and 25000**
-      - **Based on official news on 02 Feb, human control is still limited to control the transmissibility. in this situation, Maximum infected case (peak, not cumulative) in Wuhan can more than 100 thousand or even 150 thousand**
+      - **Based on official news on 02 Feb, some cases cannot be detected immediately, also not perfect isolation. Under this situation, Maximum infected case (peak, not cumulative) in Wuhan can more than 100 thousand or even 150 thousand**
       - **The peak will appear after 22 Feb, 2020**
       - Close City policy has significant control for 2019-nCoV, otherwise, the infected cases may up to 200 thousand.
    - Key assumptions within this Model:
@@ -60,7 +60,7 @@ Note:
    - **Estimated Maximum infected case in Wuhan: more than 16000** under official data
 
 #### Case 3: Sensitivity Analysis considering higher transmission probability
-   > Dr.Lanjuan Li on feb 02 said that due to limited testing kits and imperfect isolation, some cases cannot be detected correctly or immediately, Also not perfect isolation
+   > Dr.Lanjuan Li on feb 02 said that due to limited testing kits, some cases cannot be detected correctly or immediately, Also not perfect isolation
    > 2019-nCoV has lots of transmission ways, thus harder to prevent than other epidemic.
 
    - Suppose after 23 Jan, 2 people a case may infect
