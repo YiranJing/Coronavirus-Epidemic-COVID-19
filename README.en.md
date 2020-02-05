@@ -13,7 +13,7 @@
 Consider the transmissibility and population of Wuhan changed a lot before and after Jan 23, 2020, I choice different methods to nowcasting and forecasting the potential outbreak size in Wuhan referencing by published papers.
 ### Model 1: [Estimating the potential number of cases in Wuhan until Jan 23](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)😷
    - Author: Yiran Jing
-   - **Main Conclusion (_for Wuhan City only_): There are more than 38500 cases 95% CI(30000, 48470) until Jan 23**, based on 29 Jan data.
+   - **Main Conclusion (_within Wuhan City only_): There are more than 38500 cases 95% CI(30000, 48470) until Jan 23**, based on 29 Jan data.
    > Method: Considering Wuhan is the major air and train transportation hub of China, we use the number of cases exported from Wuhan internationally as the sample, assuming the infected people follow a Possion distribution, then calculate the 95% confidence interval by profile likelihood method. Sensitivity analysis followed by.
 
    > Reference: [report2 (Jan 21)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
@@ -24,7 +24,7 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
 
    > Reference: [Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak (Jan 31)](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930260-9)
 
-   - **Main Conclusion_for Wuhan City only_:** (using Chinese official data between 2019-12-08 and 2020-02-02)
+   - **Main Conclusion (_within Wuhan City only_):** (using Chinese official data between 2019-12-08 and 2020-02-02)
       - **Estimated initial transmissibility R0 (the basic reproduction number) of 2019-nCoV: 2.9**
       - **Under the most optimistic estimate, the maximum infected case in Wuhan: more than 14000 (peak, not cumulative)**
       - Consider inadequate medical resources and under-reported official data, Maximum infected case (peak, not cumulative) in Wuhan might between 16000 and 25000
