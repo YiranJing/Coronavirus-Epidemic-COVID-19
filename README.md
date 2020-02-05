@@ -13,7 +13,7 @@
 
 ### 模型 1: [估计武汉封城时的感染人数](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)😷
    - 作者: 景怡然
-   - **主要结论： 截止1月23日，武汉有超过 38500 名感染者加确诊者，95%置信区间(30000, 48470)**，根据1月29号海外发现的感染人数计算，引用2018年的交通数据估算。
+   - **主要结论(_仅仅针对武汉市_)： 截止1月23日，武汉有超过 38500 名感染者加确诊者，95%置信区间(30000, 48470)**，根据1月29号海外发现的感染人数计算，引用2018年的交通数据估算。
    > Method: Considering Wuhan is the major air and train transportation hub of China, we use the number of cases exported from Wuhan internationally as the sample, assuming the infected people follow a Possion distribution, then calculate the 95% confidence interval by profile likelihood method. Sensitivity analysis followed by.
 
    > Reference: [report2 (Jan 21)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
@@ -24,10 +24,10 @@
 
    > Reference: [Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak (Jan 31)](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930260-9)
 
-   - **主要结论:** (根据 2019-12-08 至 2020-02-02 的官方数据)
+   - **主要结论(_仅仅针对武汉市_):** (根据 2019-12-08 至 2020-02-02 的官方数据)
       - **估计最初的传播速率 R0 (基本传染数) 为: 2.9**
-      - **乐观估计武汉肺炎的患者会超过 1.4 万人 (非累计，仅峰值)，峰值最早在2月中旬出现**
-      - **考虑到医疗资源不足和官方数据低于实际，武汉肺炎患者的实际峰值可能会在1.6万至2.5万人之间**
+      - **在非常乐观的情况下，预测武汉肺炎的患者会超过 1.4 万人 (非累计，仅峰值)，峰值最早在2月中下旬出现**
+      - 考虑到医疗资源不足和官方数据低于实际，武汉肺炎患者的实际峰值可能会在1.6万至2.5万人之间
       - **根据2月2号官方媒体爆料，患者发现并不及时而且隔离措施也没有做的很好。基于这个现实，武汉肺炎患者的实际峰值很可能超过10万甚至15万**
       - 封城措施对控制病情有非常显著的作用: 根据模型估算，如果不封城，仅仅隔离患者，武汉患者峰值可能会高达20万。
    - 模型主要假设:
@@ -77,6 +77,9 @@
 
 
 ***
+### To do
+目前关于肺炎的研究和学习，以及接下来的方向：[Project](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/projects/1)
+
 ***
 ## Other Insightful 2019-nCoV projects on github
 ### Visualization
@@ -98,19 +101,6 @@
     - Author: [Isaac Lin](https://github.com/BlankerL)
 1. [新增肺炎微博超话爬取数据](https://github.com/czy1999/weibo-topic-spider)
     - Author: [czy1999](https://github.com/czy1999)
-
-
-***
-
-### Key Reference
-1. [Early Transmission Dynamics in Wuhan (Jan 29)](https://www.nejm.org/doi/full/10.1056/NEJMoa2001316)
-1. [Nowcasting and forecasting the potential domestic and
-international spread of the 2019-nCoV outbreak using Markov Chain Monte Carlo methods](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930260-9)
-2. [Estimating the potential total number of novel
-Coronavirus cases in Wuhan City, China (Jan 21 2020)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
-    - [Statistical model and Python code](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)
-3. [Transmissibility of 2019-nCoV (Jan 24)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf)
-4. [Epidemic Prediction by UK scientists (Jan 24 2020)](https://www.medrxiv.org/node/71375.external-links.html)
 
 
 ***
