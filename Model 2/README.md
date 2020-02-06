@@ -16,13 +16,19 @@ python run_model2.py
 
    > Reference: [Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak (Jan 31)](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930260-9)
 
-   - **Main Conclusion:** (using Chinese official data between 2019-12-08 and 2020-02-02)
-      - **Estimated initial transmissibility R0 (the basic reproduction number) of 2019-nCoV: 2.9**
-      - **Estimated Maximum infected case in Wuhan: more than 14000 (peak, not cumulative)**
-      - **Consider inadequate medical resources and under-reported official data, Maximum infected case (peak, not cumulative) in Wuhan might between 16000 and 25000**
-      - **Based on official news on 02 Feb, human control is still limited to control the transmissibility. in this situation, Maximum infected case (peak, not cumulative) in Wuhan can more than 100 thousand or even 150 thousand**
+   - **Main Conclusion (_within Wuhan City only_):** (using Chinese official data between 2019-12-08 and 2020-02-02)
+      - Estimated initial transmissibility **R0** (the basic reproduction number) of 2019-nCoV: **2.9**
+      - **Under the most optimistic estimate, the maximum infected case in Wuhan: more than 14000 (peak, not cumulative)** (_the peak of red line of the plot below._) **And the cumulative number of cases in the whole period is around 50 thousand** (_the green line_).
+      - **Truth 1**: Consider inadequate medical resources and under-reported official data, Maximum infected case (peak, not cumulative) in Wuhan might between 16000 and 25000
+      - **Truth 2**: Risk of transmission is still high between 23 Jan and 04 Feb, and begin to decrease after 5 Feb.
+         > Based on official news on 2 Feb, cases cannot be detected immediately, also not perfect isolation. Under this situation, Maximum infected case (peak, not cumulative) in Wuhan can more than 100 thousand or even 150 thousand.
+         > Update: 3 new hospitals begin to accept patents after 5 Feb.(can accept around 6 thousand patients total). Now the risk of transmission is decrease, since more patients can be in hospitals and isolated.
+
+     
+      - **Consider truth 1 and 2, the maximum infected case (peak, not cumulative) in Wuhan maybe between 25 thousand and 100 thousand**.
       - **The peak will appear after 22 Feb, 2020**
-      - Close City policy has significant control for 2019-nCoV, otherwise, the infected cases may up to 200 thousand.
+      - Close City policy has significant control for 2019-nCoV, otherwise, the peak of infected cases may up to 200 thousand.
+
    - Key assumptions within this Model:
       - Exposed group (individuals during incubation period) is 4 times larger than Infective group (4109 confirmed cases until 02 Feb)
       - After 23 Jan, confirmed cases will be isolated.
