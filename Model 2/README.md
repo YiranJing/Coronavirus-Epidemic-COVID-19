@@ -11,6 +11,23 @@
 pip install -r ../requirements.txt
 python run_model2.py
 ```
+
+***
+### More Explanations of the estimated parameters:
+1. Estimate the transmission probability (b):
+    - `_estimate_transmission_probablity` by `func` in `helper_fun_epi_model.py`:
+    - In the beginning (08 Dec 2019), suppose the susceptible group (S) is same as the total population (N). And the number of infected people is 1 (I(t=0) = 1), then apply these condition to SIER model's formula, we get
+![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202/image/model2_formula1.png)
+
+The transmission probability (b) is obtained by resolving the formula above.
+
+2. Estimate `Beta`（β, rate of spread）of SEIR model， and adjust it based on updated new information:
+   - **β = kb**, where k is the the number of people a confirmed case contacts/meets daily (感染者平均每天的接触人数)
+   - To apply the information of **truth 2**(see below) (i.e. to adjust the rate of spread), what I did is adjust value of k, and keep b as constant.
+
+_If you have further question or suggestions, please create issue or make pull request!_
+
+***
 ### Detail
    > Method: SIER (susceptible-exposed-infectious- recovered) model and Sensitivity analysis
 
@@ -22,18 +39,19 @@ python run_model2.py
       - **Truth 1**: Consider inadequate medical resources and under-reported official data, Maximum infected case (peak, not cumulative) in Wuhan might between 16000 and 25000
       - **Truth 2**: Risk of transmission is still high between 23 Jan and 04 Feb, and begin to decrease after 5 Feb.
          > Based on official news on 2 Feb, cases cannot be detected immediately, also not perfect isolation. Under this situation, Maximum infected case (peak, not cumulative) in Wuhan can more than 100 thousand or even 150 thousand.
+
          > Update: 3 new hospitals begin to accept patents after 5 Feb.(can accept around 6 thousand patients total). Now the risk of transmission is decrease, since more patients can be in hospitals and isolated.
 
-     
+
       - **Consider truth 1 and 2, the maximum infected case (peak, not cumulative) in Wuhan maybe between 25 thousand and 100 thousand**.
       - **The peak will appear after 22 Feb, 2020**
       - Close City policy has significant control for 2019-nCoV, otherwise, the peak of infected cases may up to 200 thousand.
 
    - Key assumptions within this Model:
       - Exposed group (individuals during incubation period) is 4 times larger than Infective group (4109 confirmed cases until 02 Feb)
-      - After 23 Jan, confirmed cases will be isolated.
+      - After 23 Jan, confirmed cases will be isolated immediately.(i.e. only exposed group are infectious to others)
       - Assume the death rate is 3% (official number).
-      - Before 23 Jan, 1 case can infect 5 people on average. While after 23 Jan, only 1 people a case may infect.
+      - Before 23 Jan, 1 case contacts 5 people on average. While after 23 Jan, only 1 people 1 case contacts.
       - Before 23 Jan, the population in Wuhan is 11 million. After 23 Jan, population in Wuhan is 9 million.
       - The mean of incubation period is 7 days, and the mean duration of the infection is 14 days.
       - Wuhan has adequate medical resources and the official number is correct.

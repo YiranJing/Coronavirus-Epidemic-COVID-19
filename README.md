@@ -46,7 +46,7 @@
       - 潜伏人群是确诊病例的五倍。(确诊病例按照4109计算，截止2月2日)
       - 23号封城以后，所有确诊病例都会被严格隔离
       - 假设肺炎死亡率为3%（官方数字）
-      - 23号之前，平均1个感染者会传染5个人；23号以后，平均1个感染者最多只会传染1个人
+      - 23号之前，平均1个感染者会接触5个人；23号以后，平均1个感染者最多只会接触1个人 (k)
       - 23号之前，武汉人口为1100万；23号后，武汉人口为900万
       - 平均潜伏期为7天，恢复期约为14天
       - 乐观估计医疗资源充足且官方数字准确
@@ -86,37 +86,23 @@
   - 假设23号以后，平均1个感染者依旧会传染给2个人
   - **估计武汉肺炎的患者会高达 15 万人 (非累计，仅峰值)**
 
-
+## 可视化
+[CoronaTracker Analytics Dashboard](https://www.coronatracker.com/analytics/)
 
 ***
 ### To do
-目前关于肺炎的研究和学习，以及接下来的方向：[Project](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/projects/1)
+我在2月4号加入 [CoronaTracker](https://www.coronatracker.com/)的分析小组，我们目前的分析项目内容包括：
+- Latest Stats
+- News Aggregator
+- Health advisories
+- Health-center locators
+- Geomap+Travel-path of disease
+- Baseline Mortality Estimations
+- Topic modelling + Sentiment
+[安卓版app下载链接](https://play.google.com/store/apps/details?id=com.coronatracker.corona_flutter&hl=en_AU)
 
-***
-## Other Insightful 2019-nCoV projects on github
-### Visualization
-1. Time series Visualisation Dashboard (Jan 21- Feb 1)
-![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/ncov.gif)
-   - Author: [P. Daniel Tyreus](https://github.com/pdtyreus)
-   - [original repo](https://github.com/pdtyreus/coronavirus-ds)
-   - [Time series visualisation by geopandas](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Visualization)
-2. [Real time visualisation by province, China](https://yiqing.ahusmart.com/)
-   - Author: [Kai Fang](https://github.com/hack-fang)
-   - [original repo](https://github.com/hack-fang/nCov)
+目前关于肺炎的学习和任务，以及接下来的方向在这里更新：[Project](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/projects/1)
 
-### Real-Time Data Sources
-1. [Modelling of the nCoV-2019 outbreak in Wuhan](https://github.com/chrism0dwk/wuhan)
-    - Author: Jon Read, Jess Bridgen, and Chris Jewell at Lancaster University
-1. [微信公众号实时查询感染人数](https://github.com/echo-cool/2019-nCov)
-    - Author: [echo-cool](https://github.com/echo-cool)
-2. [2019新型冠状病毒疫情实时爬虫](https://github.com/BlankerL/DXY-2019-nCoV-Crawler)
-    - Author: [Isaac Lin](https://github.com/BlankerL)
-1. [新增肺炎微博超话爬取数据](https://github.com/czy1999/weibo-topic-spider)
-    - Author: [czy1999](https://github.com/czy1999)
-
-
-***
-## 欢迎加入!!
 如果你对肺炎相关的数据分析和可视化感兴趣，请联系我！
 
 - 邮箱: yjin5856@uni.sydney.edu.au

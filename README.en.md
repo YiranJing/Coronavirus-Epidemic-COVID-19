@@ -38,7 +38,8 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
       - **Under the most optimistic estimate, the maximum infected case in Wuhan: more than 14000 (peak, not cumulative)** (_the peak of red line of the plot below._) **And the cumulative number of cases in the whole period is around 50 thousand** (_the green line_).
       - **Truth 1**: Consider inadequate medical resources and under-reported official data, Maximum infected case (peak, not cumulative) in Wuhan might between 16000 and 25000
       - **Truth 2**: Risk of transmission is still high between 23 Jan and 04 Feb, and begin to decrease after 5 Feb.
-         > Based on official news on 2 Feb, cases cannot be detected immediately, also not perfect isolation. Under this situation, Maximum infected case (peak, not cumulative) in Wuhan can more than 100 thousand or even 150 thousand.
+         > Based on official news on 2 Feb, cases cannot be detected immediately, also not perfect isolation. Under this situation, Maximum infected case (peak, not cumulative) in Wuhan can more than 100 thousand or even 150 thousand. (suppose k=2)
+
          > Update: 3 new hospitals begin to accept patents after 5 Feb.(can accept around 6 thousand patients total). Now the risk of transmission is decrease, since more patients can be in hospitals and isolated.
 
 
@@ -49,9 +50,9 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
 
    - Key assumptions within this Model:
       - Exposed group (individuals during incubation period) is 4 times larger than Infective group (4109 confirmed cases until 02 Feb)
-      - After 23 Jan, confirmed cases will be isolated.
+      - After 23 Jan, confirmed cases will be isolated immediately.(i.e. only exposed group are infectious to others)
       - Assume the death rate is 3% (official number).
-      - Before 23 Jan, 1 case can infect 5 people on average. While after 23 Jan, only 1 people a case may infect.
+      - Before 23 Jan, 1 case contacts 5 people on average. While after 23 Jan, only 1 people 1 case contacts.
       - Before 23 Jan, the population in Wuhan is 11 million. After 23 Jan, population in Wuhan is 9 million.
       - The mean of incubation period is 7 days, and the mean duration of the infection is 14 days.
       - Wuhan has adequate medical resources and the official number is correct.
@@ -96,35 +97,23 @@ Note:
 
 
 ***
+## Visualization
+[CoronaTracker Analytics Dashboard](https://www.coronatracker.com/analytics/)
 
 ### To do
-My current study and next steps for 2019-nCoV search: [Project](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/projects/1)
-***
-## Other Insightful 2019-nCoV projects on github
-### Visualization
-1. Time series Visualisation Dashboard (Jan 21- Feb 1)
-![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/ncov.gif)
-   - Author: [P. Daniel Tyreus](https://github.com/pdtyreus)
-   - [original repo](https://github.com/pdtyreus/coronavirus-ds)
-   - [Time series visualisation by geopandas](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Visualization)
-2. [Real time visualisation by province, China](https://yiqing.ahusmart.com/)
-   - Author: [Kai Fang](https://github.com/hack-fang)
-   - [original repo](https://github.com/hack-fang/nCov)
+I join [CoronaTracker Analysis team](https://www.coronatracker.com/) now for collaborate 2019-nCoV research, our main tasks are:
+- Latest Stats
+- News Aggregator
+- Health advisories
+- Health-center locators
+- Geomap+Travel-path of disease
+- Baseline Mortality Estimations
+- Topic modelling + Sentiment
+[downland Android app](https://play.google.com/store/apps/details?id=com.coronatracker.corona_flutter&hl=en_AU)
 
-### Real-Time Data Sources
-1. [Modelling of the nCoV-2019 outbreak in Wuhan](https://github.com/chrism0dwk/wuhan)
-    - Author: Jon Read, Jess Bridgen, and Chris Jewell at Lancaster University
-1. [微信公众号实时查询感染人数](https://github.com/echo-cool/2019-nCov)
-    - Author: [echo-cool](https://github.com/echo-cool)
-2. [2019新型冠状病毒疫情实时爬虫](https://github.com/BlankerL/DXY-2019-nCoV-Crawler)
-    - Author: [Isaac Lin](https://github.com/BlankerL)
-1. [新增肺炎微博超话爬取数据](https://github.com/czy1999/weibo-topic-spider)
-    - Author: [czy1999](https://github.com/czy1999)
+My current study and tasks are updated here: [Project](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/projects/1)
 
-
-***
-## Welcome to join us!!
-Please connect with me if you are interested in this project!
+Welcome to connect with me if you are interested in this project!
 
 - Email: yjin5856@uni.sydney.edu.au
 - Wechat: A570281374
