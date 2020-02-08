@@ -18,6 +18,16 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
 2. The model s' structures are quite simple, haven't combine enough information, so cannot get really good or robust result.
    - But for the prediction of Wuhan City only, maybe enough.
    - Will keep updating model based on the latest information.
+
+#### Main Challenges for all predictions:
+1. We have limtied understanding of this new disease
+   - For example, we didnot test all  people with 2019-nCoV correctly. (unclear symptoms: whether people with 2019-nCoV who do not have symptoms can transmit an infection)
+2. It is hard to get the real-time correct information. (official Chinese data is under-report 100% ), especially for Wuhan.
+   - For example, we do not know how many people infected when wuhan shut down.
+3. The prediction is highly sensitive to the policy
+   - (for example, travel restriction,  force people stay in home, wuhan build 3 new hospital for 2019-nCoV etc. ), all of these policies influenced a lot on the time-line. **When we do prediction, our key assumption is no new policy in the future**.
+
+
 ***
 
 ### Model 1: [Estimating the potential number of cases in Wuhan until Jan 23](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)😷
