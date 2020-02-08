@@ -28,7 +28,11 @@
    - 这些随着时间发展快速变化的正常都对病情控制有很大的影响。**而当我们用模型预测未来时，我们的重要前提假设是未来不会有新的政策发生**。
 
 ***
-
+#### 从丁香园抓取最新数据
+```sh
+## Update data from DXY
+$ cd ../data_processing && python DXY_AreaData_query.py # save data out to data folder.
+```
 ### 模型 1: [估计武汉封城时的感染人数](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)😷
    - 作者: 景怡然
    - **主要结论(_仅仅针对武汉市_)： 截止1月23日，武汉有超过 38500 名感染者加确诊者，95%置信区间(30000, 48470)**，根据1月29号海外发现的感染人数计算，引用2018年的交通数据估算。

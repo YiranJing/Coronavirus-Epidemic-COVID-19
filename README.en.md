@@ -29,6 +29,12 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
 
 
 ***
+#### Query data from Ding Xiang Yuan
+```sh
+## Update data from DXY
+$ cd data_processing && python DXY_AreaData_query.py # save data out to data folder.
+```
+
 
 ### Model 1: [Estimating the potential number of cases in Wuhan until Jan 23](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)😷
    - Author: Yiran Jing
