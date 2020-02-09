@@ -4,13 +4,11 @@
 
 #### Date: Since Jan 26 2020
 
-***
-
-## Projects:
-> On January 23, authorities in Wuhan shut down the city’s public transportation, including buses, trains, ferries, and the airport.
-> There are 9 million people stay in Wuhan after 23 Jan. And official reported that 5 million people travel out Wuhan for Chinese Spring Festival. The effective catchment population of Wuhan international airport is around 19 million.
-
-Consider the transmissibility and population of Wuhan changed a lot before and after Jan 23, 2020, I choice different methods to nowcasting and forecasting the potential outbreak size in Wuhan city referencing by published papers.
+## Contents：
+1. Nowcasting and Forecasting the 2019-nCoV Outbreak size in Wuhan
+   - Model 1: Estimating the potential number of cases in Wuhan until Jan 23
+   - Model 2: Simulating Peak of 2019-nCoV in Wuhan after 23 Jan
+2. Real-Time forecasting of the total confirmed cases in China
 
 #### Key limitation within models below:
 1. My models conclusions are critically dependent on the assumptions underpinning models.
@@ -29,12 +27,12 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
 
 
 ***
-#### Query data from Ding Xiang Yuan
-```sh
-## Update data from DXY
-$ cd data_processing && python DXY_AreaData_query.py # save data out to data folder.
-```
 
+## Nowcasting and Forecasting the 2019-nCoV Outbreak size in Wuhan
+> On January 23, authorities in Wuhan shut down the city’s public transportation, including buses, trains, ferries, and the airport.
+> There are 9 million people stay in Wuhan after 23 Jan. And official reported that 5 million people travel out Wuhan for Chinese Spring Festival. The effective catchment population of Wuhan international airport is around 19 million.
+
+Consider the transmissibility and population of Wuhan changed a lot before and after Jan 23, 2020, I choice different methods to nowcasting and forecasting the potential outbreak size in Wuhan city referencing by published papers.
 
 ### Model 1: [Estimating the potential number of cases in Wuhan until Jan 23](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)😷
    - Author: Yiran Jing
@@ -109,6 +107,24 @@ Note:
    - Suppose Wuhan 38500 cases until 23 Jan, and 80% of them are in incubation period
    - Suppose after 23 Jan, 2 people a case may infect
    - **Estimated Maximum infected case in Wuhan: more than 150000**
+
+***
+## Real-Time forecasting of the total confirmed cases in China
+
+Estimating the confirmed cases of China in the next few days based on the latest data from DingXiangYuan
+
+#### Step:
+1. Query the latest data from DingXiangYuan
+```sh
+## Update data from DXY
+$ cd data_processing && python DXY_AreaData_query.py # save data out to data folder.
+```
+2. Baseline model forecasting
+> Hyper-parameter selection: Using the last 3 days as the test data
+
+![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/baseline_forecast.png)   
+
+Note: blue line is the prediction for the next 4 days. (the black points are the real records form DXY)
 
 
 
