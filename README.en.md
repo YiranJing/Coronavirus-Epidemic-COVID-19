@@ -1,4 +1,4 @@
-# Nowcasting and Forecasting the 2019-nCoV Outbreak size in Wuhan
+# Nowcasting and Forecasting the 2019-nCoV Outbreak
 
 [简体中文](README.md) | English
 
