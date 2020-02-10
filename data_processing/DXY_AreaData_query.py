@@ -41,30 +41,35 @@ def translate_to_English(data, prov_dict, city_dict):
     """        
     data['province'] = data['province'].apply(getProvinceTranslation)
     data['city'] = data['city'].apply(getCityTranslation)
+    
+    for city in unable_translation: # remove these unable translated data
+        data = data[data['city']!=city]
     return data
     
 def getProvinceTranslation(name):
-    if not isNaN(name) and not name.split(" ")[0].isalpha(): # and ('Province' not in name) and not name.split(" ")[0].isalpha():
+    if not isNaN(name): # 
         return prov_dict[name]
     else: 
         return name
 
+unable_translation = []
 def getCityTranslation(name):
     try:
-        if not isNaN(name) and not name[0].isalpha(): # and name!= None and not name.isalpha():
+        if not isNaN(name): 
             return city_dict[name]
         else:
             return name
     except:
-        if name != None:
-            print(name + ' cannot be translated, ask Yiran to mannully Translate\n')
+        unable_translation.append(name)
+        #print(name + ' cannot be translated\n')
+        return name
         
 def main():
     
     ## Query the latest data
     os.system('python dataset.py')
     
-    DXYArea = pd.read_csv('../data/DXYArea.csv')
+    DXYArea = pd.read_csv('../data/DXY_Chinese.csv')
     # select column
     DXYArea = DXYArea[['date','country','countryCode','province', 'city', 'confirmed', 'suspected', 'cured', 'dead']]
     
