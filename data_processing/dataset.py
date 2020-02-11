@@ -117,7 +117,7 @@ for country in toutiao_data["world"]:
     })
 
 # 更新数据
-csv_file = "../data/DXYArea.csv"
+csv_file = "../data/DXY_Chinese.csv"
 
 df = pd.read_csv(csv_file)
 df["date"] = df["date"].map(
@@ -147,4 +147,4 @@ df.drop_duplicates(
 df.sort_values(["date", "countryCode", "provinceCode", "cityCode", "city"], inplace=True)
 df.to_csv(csv_file, index=False, encoding='utf-8')
 
-print(f"""{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}Update records successfully to ../data/DXYArea.csv""")
+print(f"""{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}Update records successfully to ../data/DXY_Chinese.csv""")

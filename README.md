@@ -26,6 +26,10 @@
    - 比如，交通限制，强制居家隔离（反而造成大量家庭内部感染），2月5号之后武汉新建立的三所医院开始接受大量病患
    - 这些随着时间发展快速变化的正常都对病情控制有很大的影响。**而当我们用模型预测未来时，我们的重要前提假设是未来不会有新的政策发生**。
 
+#### Data
+[实时数据抓取并储存在csv](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/data_processing/Model%202)
+
+
 ***
 
 ## 估计和预测 2019-nCoV 新型冠状病毒在武汉的爆发情况:
@@ -111,13 +115,26 @@ $ cd ../data_processing && python DXY_AreaData_query.py # save data out to data 
 2. 基础模型预测
    > Hyper-parameter selection: Using the last 3 days as the test data
 
-![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/baseline_forecast.png)   
+注释：蓝色的线为预测未来4天趋势，黑色的点是官方数据真实记录
 
-注释：蓝色的线为预测未来4天趋势，黑色的点是丁香园的真实记录
+##### 全国预测
+![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/baseline_forecast_overall.png)   
+
+##### 湖北省预测
+![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/baseline_forecast_Hubei.png)
+
+
 
 ***
 
 ## 可视化
+
+##### 目前见过的最棒的全国可视化
+![image](https://github.com/Mistletoer/NCP-historical-data-visualization/blob/master/demo.gif)
+- Author: [Minghou Lei](https://github.com/Mistletoer)
+- [Origin Github](https://github.com/Mistletoer/NCP-historical-data-visualization-2019-nCoV-)
+
+##### 海外可视化（英文版）
 [CoronaTracker Analytics Dashboard](https://www.coronatracker.com/analytics/)
 
 ***

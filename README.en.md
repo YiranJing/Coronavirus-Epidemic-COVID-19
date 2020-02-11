@@ -25,6 +25,8 @@
 3. The prediction is highly sensitive to the policy
    - (for example, travel restriction,  force people stay in home, wuhan build 3 new hospital for 2019-nCoV etc. ), all of these policies influenced a lot on the time-line. **When we do prediction, our key assumption is no new policy in the future**.
 
+#### Data
+[Real-time data query and save to csv](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/data_processing/Model%202)
 
 ***
 
@@ -120,16 +122,26 @@ Estimating the confirmed cases of China in the next few days based on the latest
 $ cd data_processing && python DXY_AreaData_query.py # save data out to data folder.
 ```
 2. Baseline model forecasting
-> Hyper-parameter selection: Using the last 3 days as the test data
-
-![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/baseline_forecast.png)   
+> Hyper-parameter selection: Using the last 3 days as the test data  
 
 Note: blue line is the prediction for the next 4 days. (the black points are the real records form DXY)
 
+##### Overall China forecast
+![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/baseline_forecast_overall.png)   
+
+##### Hubei Province forecast
+![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/baseline_forecast_Hubei.png)
 
 
 ***
 ## Visualization
+
+##### The best visualization of 2019-nCoV in China
+![image](https://github.com/Mistletoer/NCP-historical-data-visualization/blob/master/demo.gif)
+- Author: [Minghou Lei](https://github.com/Mistletoer)
+- [Origin Github](https://github.com/Mistletoer/NCP-historical-data-visualization-2019-nCoV-)
+
+##### Dashboard overseas
 [CoronaTracker Analytics Dashboard](https://www.coronatracker.com/analytics/)
 
 ### To do
