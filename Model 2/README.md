@@ -1,6 +1,7 @@
 
 # Model 2: Simulating Peak of 2019-nCoV in Wuhan after 23 Jan
 
+简体中文 | [English](README.en.md)
 ***
 
 ## Usage:
@@ -28,67 +29,62 @@ The transmission probability (b) is obtained by resolving the formula above.
 _If you have further question or suggestions, please create issue or make pull request!_
 
 ***
-### Detail
-   > Method: SIER (susceptible-exposed-infectious- recovered) model and Sensitivity analysis
+### 模型 2: [模拟预测武汉封城后肺炎感染人数以及峰值](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202)📈
+   - 作者: 景怡然
+   > Method: Deterministic SEIR (susceptible-exposed-infectious- recovered) model and Sensitivity analysis
 
    > Reference: [Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak (Jan 31)](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930260-9)
 
-   - **Main Conclusion (_within Wuhan City only_):** (using Chinese official data between 2019-12-08 and 2020-02-02)
-      - Estimated initial transmissibility **R0** (the basic reproduction number) of 2019-nCoV: **2.9**
-      - **Under the most optimistic estimate, the maximum infected case in Wuhan: more than 14000 (peak, not cumulative)** (_the peak of red line of the plot below._) **And the cumulative number of cases in the whole period is around 50 thousand** (_the green line_).
-      - **Truth 1**: Consider inadequate medical resources and under-reported official data, Maximum infected case (peak, not cumulative) in Wuhan might between 16000 and 25000
-      - **Truth 2**: Risk of transmission is still high between 23 Jan and 04 Feb, and begin to decrease after 5 Feb.
-         > Based on official news on 2 Feb, cases cannot be detected immediately, also not perfect isolation. Under this situation, Maximum infected case (peak, not cumulative) in Wuhan can more than 100 thousand or even 150 thousand.
+   - **主要结论(_仅仅针对武汉市_):** (根据 2019-12-08 至 2020-02-02 的官方数据)
+      - 估计最初的传播速率 **R0** (基本传染数) 为: **2.9**
+      - **在非常乐观的情况下，预测武汉肺炎的感染人数会超过 1.4 万人 (非累计，仅峰值)，峰值最早在2月中下旬出现** (峰值为下图的红线最高点); **整个过程直到疫情结束，武汉累计患病总数约为5万** (绿色的线)
+      - **实情1**: 考虑到医疗资源不足和官方数据低于实际，武汉肺炎患者的实际峰值可能会在1.6万至2.5万人之间
+      - **实情2**: 肺炎传染风险在封城之后，到2月5号之前依旧很高，主要原因是很多病患传染一家人。2月5号之后武汉3所新医院开始投入使用，所以传染风险会有明显下降
+        > 根据2月2号官方媒体爆料，患者发现并不及时而且隔离措施也没有做的很好。基于这个现实，武汉肺炎患者的实际峰值很可能超过10万甚至15万。
+        > 更新：2月5号之后，武汉新建的三所医院开始收纳病患（共计有6000床位），所以现在的传染风险应该有明显下降，毕竟更多的病人可以被医院收容（治疗/强制隔离）
+      - **结合实情1和2，武汉实际肺炎患者人数应该在2.5万至10万之间**
+      - 封城措施对控制病情有非常显著的作用: 根据模型估算，如果不封城，仅仅隔离患者，武汉患者峰值可能会高达20万
+   - 模型主要假设:
+      - 潜伏人群是确诊病例的五倍。(确诊病例按照4109计算，截止2月2日)
+      - 23号封城以后，所有确诊病例都会被严格隔离
+      - 假设肺炎死亡率为3%（官方数字）
+      - 23号之前，平均1个感染者会接触5个人；23号以后，平均1个感染者最多只会接触1个人 (k)
+      - 23号之前，武汉人口为1100万；23号后，武汉人口为900万
+      - 平均潜伏期为7天，恢复期约为14天
+      - 乐观估计医疗资源充足且官方数字准确
 
-         > Update: 3 new hospitals begin to accept patents after 5 Feb.(can accept around 6 thousand patients total). Now the risk of transmission is decrease, since more patients can be in hospitals and isolated.
-
-
-      - **Consider truth 1 and 2, the maximum infected case (peak, not cumulative) in Wuhan maybe between 25 thousand and 100 thousand**.
-      - **The peak will appear after 22 Feb, 2020**
-      - Close City policy has significant control for 2019-nCoV, otherwise, the peak of infected cases may up to 200 thousand.
-
-   - Key assumptions within this Model:
-      - Exposed group (individuals during incubation period) is 4 times larger than Infective group (4109 confirmed cases until 02 Feb)
-      - After 23 Jan, confirmed cases will be isolated immediately.(i.e. only exposed group are infectious to others)
-      - Assume the death rate is 3% (official number).
-      - Before 23 Jan, 1 case contacts 5 people on average. While after 23 Jan, only 1 people 1 case contacts.
-      - Before 23 Jan, the population in Wuhan is 11 million. After 23 Jan, population in Wuhan is 9 million.
-      - The mean of incubation period is 7 days, and the mean duration of the infection is 14 days.
-      - Wuhan has adequate medical resources and the official number is correct.
 ![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202/image/withControl.png)
 
-Note:
-- Removed: heal or death
-- Death: Removed group * death_rate
-- Exposed: individuals during incubation period
-- Susceptible: Healthy people
-- Infected: Confirmed cases
-![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202/image/iamges-SIER.png)
+注释:
+- Removed(移除人群): 治愈或者死亡
+- Death(死亡患者): 移除人群 * 致死率
+- Exposed(潜伏人群): 在潜伏期的患者
+- Susceptible(易感人群): 健康但有风险被感染的人群
+- Infected(确诊并隔离患者): 确诊人群
+![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202/image/SIER2.png)
 
-### Sensitivity Analysis
-#### Case 1: Official under-report Data: Sensitivity Analysis using the conclusion of [Model 1](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)
-   - Wuhan has 38500 cases until 23 Jan, and 80% of them are in incubation period.
-   - Assume the death rate = cure rate = 3% (official number)
-   - **Estimated Maximum infected case in Wuhan: more than 22000**
-#### Case 2: Sensitivity Analysis under inadequate medical resources
-   - Suppose the mean duration of the infection is 20 days, rather than 14 days.
-   - Estimated initial transmissibility R0 (the basic reproduction number) of 2019-nCoV: 3.7
-   - **Estimated Maximum infected case in Wuhan: more than 16000** under official data
+### 敏感度分析测试
+#### 测试1: 官方数字低于实际:
+  - 用[模型 1](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)的结论作为初始条件
+  - 在1月23号有38500名感染者，假设其中80%在潜伏期，其余为有明显症状患者
+  - 假设目前死亡率等于治愈率，均为3% （根据官方数字）
+  - **估计武汉患者最多可超过2.2万人 (非累计，仅峰值)**
+#### 测试2: 医疗资源不充足
+  - 假设恢复期为20天，而不是14天
+  - 估计最初的传播速率 R0 (基本传染数) 为: 3.7
+  - **估计武汉肺炎的患者会超过 1.6 万人 (非累计，仅峰值)**, 基于官方数字
+#### 测试3: 早发现早隔离并不能做的很好
+  > 2月2日李兰娟院士在接受新闻采访时说，检测试剂盒供应不足，且部分患者检测结果回呈阴性，所以其实做不到“早发现，早隔离，早诊断，早治疗”
+  > 近期不断有媒体爆料称新型肺炎的传播途径多种多样，比传统流行病更加难以预防
 
-#### Case 3: Sensitivity Analysis considering higher transmission probability
-   > Dr.Lanjuan Li on feb 02 said that due to limited testing kits and imperfect isolation, some cases cannot be detected correctly or immediately, Also not perfect isolation
-   > 2019-nCoV has lots of transmission ways, thus harder to prevent than other epidemic.
-
-   - Suppose after 23 Jan, 2 people a case may infect
-   - **Estimated Maximum infected case in Wuhan: more than 100000** under official data
-
-#### Case 4: Official under-report Data + inadequate medical resources
-   - Suppose the mean duration of the infection is 20 days
-   - Suppose Wuhan 38500 cases until 23 Jan, and 80% of them are in incubation period
-   - **Estimated Maximum infected case in Wuhan: more than 25000**
-
-#### Case 5: Official under-report Data + inadequate medical resources + higher transmission probability
-      - Suppose the mean duration of the infection is 20 days
-      - Suppose Wuhan 38500 cases until 23 Jan, and 80% of them are in incubation period
-      - Suppose after 23 Jan, 2 people a case may infect
-      - **Estimated Maximum infected case in Wuhan: more than 150000**
+  - 假设23号以后，平均1个感染者依旧会传染给2个人
+  - **估计武汉肺炎的患者会超过 10 万人 (非累计，仅峰值)**, 基于官方数字  
+#### 测试4: 官方数字低于实际+医疗资源不足
+  - 假设恢复期为20天
+  - 假设在1月23号有38500名感染者，假设其中80%在潜伏期，其余为有明显症状患者
+  - **估计武汉肺炎的患者会超过 2.5 万人 (非累计，仅峰值)**
+#### 测试5: 官方数字低于实际+医疗资源不足+早发现早隔离并不能做的很好
+  - 假设恢复期为20天
+  - 假设在1月23号有38500名感染者，假设其中80%在潜伏期，其余为有明显症状患者
+  - 假设23号以后，平均1个感染者依旧会传染给2个人
+  - **估计武汉肺炎的患者会高达 15 万人 (非累计，仅峰值)**

@@ -4,7 +4,7 @@
 import numpy as np
 import pandas as pd
 import pandas
-from SIER_model import SIER
+from SIR_model import SIR
 from SIR_model import SIR
 from matplotlib import pyplot as plt
 from helper_fun_epi_model import *

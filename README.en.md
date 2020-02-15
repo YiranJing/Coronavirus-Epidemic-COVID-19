@@ -6,9 +6,15 @@
 
 ## Contents：
 1. Nowcasting and Forecasting the 2019-nCoV Outbreak size in Wuhan
+  > MSE, basic SEIR model, sentiment analysis
+
    - Model 1: Estimating the potential number of cases in Wuhan until Jan 23
    - Model 2: Simulating Peak of 2019-nCoV in Wuhan after 23 Jan
-2. Real-Time forecasting of the total confirmed cases in China
+2. Model 3: Real-Time forecasting of the confirmed cases in China in the next 2 months
+  > Baseline: Ridge regression, improved by Dynamic SEIR model
+
+   - Prediction for China total trend
+   - Prediction for Hubei and ex-hubei trend
 
 #### Key limitation within models below:
 1. My models conclusions are critically dependent on the assumptions underpinning models.
@@ -45,7 +51,7 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
 
 ### Model 2: [Simulating Peak of 2019-nCoV in Wuhan after 23 Jan](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202)📈
    - Author: Yiran Jing
-   > Method: Deterministic SIER (susceptible-exposed-infectious- recovered) model and Sensitivity analysis
+   > Method: Deterministic SEIR (susceptible-exposed-infectious- recovered) model and Sensitivity analysis
 
    > Reference: [Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak (Jan 31)](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930260-9)
 
@@ -62,76 +68,44 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
       - **Consider truth 1 and 2, the maximum infected case (peak, not cumulative) in Wuhan maybe between 25 thousand and 100 thousand**.
       - **The peak will appear after 22 Feb, 2020**
       - Close City policy has significant control for 2019-nCoV, otherwise, the peak of infected cases may up to 200 thousand.
+***
+### Model 3:[Real-Time forecasting of the confirmed cases in China in the next 2 months](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%203)
+    - Author: [Shih Heng Lo](https://github.com/Harrisonust); Yiran Jing
+    > Method: Dynamic SEIR (susceptible-exposed-infectious- recovered) model, estimate contact rate per day
+    > Model comparison based on the test score (MAPE) of last 5 days
+    > Reference: [Dynamic SIR model](https://github.com/Harrisonust/Machine-Learning/tree/master/nCoV2)
+
+    - **Main Conclusion (China TOtal):** (using Chinese official data between 2019-12-08 and 2020-02-14)
+       - The number of net confirmed cases will exceed 60000, and the peak can be reach before 20 Feb.
+       - The transmission rate in decreasing from initial 3+(R0) to less than 0.5.
 
 
-   - Key assumptions within this Model:
-      - Exposed group (individuals during incubation period) is 4 times larger than Infective group (4109 confirmed cases until 02 Feb)
-      - After 23 Jan, confirmed cases will be isolated immediately.(i.e. only exposed group are infectious to others)
-      - Assume the death rate is 3% (official number).
-      - Before 23 Jan, 1 case contacts 5 people on average. While after 23 Jan, only 1 people 1 case contacts.
-      - Before 23 Jan, the population in Wuhan is 11 million. After 23 Jan, population in Wuhan is 9 million.
-      - The mean of incubation period is 7 days, and the mean duration of the infection is 14 days.
-      - Wuhan has adequate medical resources and the official number is correct.
-![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202/image/withControl.png)
 
+![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/dynamic_SEIR.png)
+The red line shows the trend of net confirmed cases in the next 50 days.
 Note:
 - Removed: heal or death
 - Death: Removed group * death_rate
 - Exposed: individuals during incubation period
 - Susceptible: Healthy people
 - Infected: Confirmed cases
-![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%202/image/iamges-SIER.png)
 
-### Sensitivity Analysis
-#### Case 1: Official under-report Data: Sensitivity Analysis using the conclusion of [Model 1](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/Model%201)
-   - Wuhan has 38500 cases until 23 Jan, and 80% of them are in incubation period.
-   - Assume the death rate = cure rate = 3% (official number)
-   - **Estimated Maximum infected case in Wuhan: more than 22000**
-#### Case 2: Sensitivity Analysis under inadequate medical resources
-   - Suppose the mean duration of the infection is 20 days, rather than 14 days.
-   - Estimated initial transmissibility R0 (the basic reproduction number) of 2019-nCoV: 3.7
-   - **Estimated Maximum infected case in Wuhan: more than 16000** under official data
+![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/contact_rate.png)
+The first point of blue line is R0 (the basic production rate)
 
-#### Case 3: Sensitivity Analysis considering higher transmission probability
-   > Dr.Lanjuan Li on feb 02 said that due to limited testing kits, some cases cannot be detected correctly or immediately, Also not perfect isolation
-   > 2019-nCoV has lots of transmission ways, thus harder to prevent than other epidemic.
 
-   - Suppose after 23 Jan, 2 people a case may infect
-   - **Estimated Maximum infected case in Wuhan: more than 100000** under official data
-
-#### Case 4: Official under-report Data + inadequate medical resources
-   - Suppose the mean duration of the infection is 20 days
-   - Suppose Wuhan 38500 cases until 23 Jan, and 80% of them are in incubation period
-   - **Estimated Maximum infected case in Wuhan: more than 25000**
-
-#### Case 5: Official under-report Data + inadequate medical resources + higher transmission probability
-   - Suppose the mean duration of the infection is 20 days
-   - Suppose Wuhan 38500 cases until 23 Jan, and 80% of them are in incubation period
-   - Suppose after 23 Jan, 2 people a case may infect
-   - **Estimated Maximum infected case in Wuhan: more than 150000**
 
 ***
-## Real-Time forecasting of the total confirmed cases in China
+## Real-Time forecasting of the confirmed cases in China
 
 Estimating the confirmed cases of China in the next few days based on the latest data from DingXiangYuan
 
-#### Step:
+#### Real-time data query Step:
 1. Query the latest data from DingXiangYuan
 ```sh
 ## Update data from DXY
 $ cd data_processing && python DXY_AreaData_query.py # save data out to data folder.
 ```
-2. Baseline model forecasting
-> Hyper-parameter selection: Using the last 3 days as the test data  
-
-Note: blue line is the prediction for the next 4 days. (the black points are the real records form DXY)
-
-##### Overall China forecast
-![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/baseline_forecast_overall.png)   
-
-##### Hubei Province forecast
-![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/baseline_forecast_Hubei.png)
-
 
 ***
 ## Visualization
@@ -143,17 +117,6 @@ Note: blue line is the prediction for the next 4 days. (the black points are the
 
 ##### Dashboard overseas
 [CoronaTracker Analytics Dashboard](https://www.coronatracker.com/analytics/)
-
-### To do
-I join [CoronaTracker Analysis team](https://www.coronatracker.com/) now for collaborate 2019-nCoV research, our main tasks are:
-- Latest Stats
-- News Aggregator
-- Health advisories
-- Health-center locators
-- Geomap+Travel-path of disease
-- Baseline Mortality Estimations
-- Topic modelling + Sentiment
-[downland Android app](https://play.google.com/store/apps/details?id=com.coronatracker.corona_flutter&hl=en_AU)
 
 My current study and tasks are updated here: [Project](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/projects/1)
 

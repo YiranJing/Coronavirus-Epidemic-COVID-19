@@ -6,7 +6,7 @@ import numpy as np
 import scipy.optimize as optimization
 import pandas as pd
 import pandas
-from SIER_model import SIER
+from SEIR_model import SEIR
 
 class Estimate_parameter:
     """
@@ -79,7 +79,7 @@ class Estimate_Wuhan_Outbreak(Estimate_parameter):
         Run SIER model
         """
         Est_beta = self.Est._estimate_transmission_probablity()*self.k
-        sier = SIER(eons=self.econ, Susceptible=self.N-self.E0-self.I0-self.R0, Exposed = self.E0, 
+        sier = SEIR(eons=self.econ, Susceptible=self.N-self.E0-self.I0-self.R0, Exposed = self.E0, 
                     Infected=self.I0, Resistant=self.R0, rateSI=Est_beta, rateIR=self.Est.nu, 
                     rateAl = self.alpha)
         result = sier.run(death_rate)

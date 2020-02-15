@@ -54,43 +54,61 @@ def add_net_confirmed_case(DXYArea: pd.core.frame.DataFrame)-> pd.core.frame.Dat
 
 
         
+def isNaN(num):
+    return num != num
+
+## Resoruce for Chinese - English Translation
+with open('chineseProvince_to_EN.pkl','rb') as f:
+    prov_dict = pkl.load(f)
+
+    
+with open('chineseCity_to_EN.pkl','rb') as f:
+    city_dict = pkl.load(f)    
+        
 def translate_to_English(data, prov_dict, city_dict):
     """Translate Chinese in dataset to English
     """        
     data['province'] = data['province'].apply(getProvinceTranslation)
     data['city'] = data['city'].apply(getCityTranslation)
+    
+    for city in unable_translation: # remove these unable translated data
+        data = data[data['city']!=city]
     return data
     
 def getProvinceTranslation(name):
-    if not isNaN(name) and not name.split(" ")[0].isalpha(): # and ('Province' not in name) and not name.split(" ")[0].isalpha():
+    if not isNaN(name):
         return prov_dict[name]
     else: 
         return name
 
+unable_translation = []
 def getCityTranslation(name):
     try:
-        if not isNaN(name) and not name[0].isalpha(): # and name!= None and not name.isalpha():
+        if not isNaN(name): 
             return city_dict[name]
         else:
             return name
     except:
-        if name != None:
-            print(name + ' cannot be translated, ask Yiran to mannully Translate\n')
+        unable_translation.append(name)
+        #print(name + ' cannot be translated\n')
+        return name
         
 def main():
     
     ## Query the latest data
     os.system('python dataset.py')
     
-    DXYArea = pd.read_csv('../data/DXYArea.csv')
+    DXYArea = pd.read_csv('../data/DXY_Chinese.csv') # Read Chinese version 
     # select column
     DXYArea = DXYArea[['date','country','countryCode','province', 'city', 'confirmed', 'suspected', 'cured', 'dead']]
+
     
     daily_frm_DXYArea = translate_to_English(DXYArea, prov_dict, city_dict)
     
-    # add new columns
     daily_frm_DXYArea = add_days(daily_frm_DXYArea)  # add the number of days after 2019-12-08
     daily_frm_DXYArea = add_net_confirmed_case(daily_frm_DXYArea) # add net confirmed case
+    
+    daily_frm_DXYArea.to_csv('../data/DXYArea.csv', index = None, header=True)
     
     print("Save area daily dataset (English) into ../data/DXYArea.csv")
     

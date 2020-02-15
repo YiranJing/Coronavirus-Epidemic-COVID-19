@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-class SIER:
+class SEIR:
     """
     'eons' (number of time points to model, default 1000)
     'Susceptible' (number of susceptible individuals at time 0, default 950)
