@@ -6,12 +6,12 @@
 
 ## Contents：
 1. Nowcasting and Forecasting the 2019-nCoV Outbreak size in Wuhan
-  > MSE, basic SEIR model, sentiment analysis
+   > MSE, basic SEIR model, sentiment analysis
 
    - Model 1: Estimating the potential number of cases in Wuhan until Jan 23
    - Model 2: Simulating Peak of 2019-nCoV in Wuhan after 23 Jan
 2. Model 3: Real-Time forecasting of the confirmed cases in China in the next 2 months
-  > Baseline: Ridge regression, improved by Dynamic SEIR model
+   > Baseline: Ridge regression, improved by Dynamic SEIR model
 
    - Prediction for China total trend
    - Prediction for Hubei and ex-hubei trend
@@ -69,15 +69,16 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
       - **The peak will appear after 22 Feb, 2020**
       - Close City policy has significant control for 2019-nCoV, otherwise, the peak of infected cases may up to 200 thousand.
 ***
-### Model 3:[Real-Time forecasting of the confirmed cases in China in the next 2 months](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%203)
-    - Author: [Shih Heng Lo](https://github.com/Harrisonust); Yiran Jing
-    > Method: Dynamic SEIR (susceptible-exposed-infectious- recovered) model, estimate contact rate per day
-    > Model comparison based on the test score (MAPE) of last 5 days
-    > Reference: [Dynamic SIR model](https://github.com/Harrisonust/Machine-Learning/tree/master/nCoV2)
 
-    - **Main Conclusion (China TOtal):** (using Chinese official data between 2019-12-08 and 2020-02-14)
-       - The number of net confirmed cases will exceed 60000, and the peak can be reach before 20 Feb.
-       - The transmission rate in decreasing from initial 3+(R0) to less than 0.5.
+### Model 3:[Real-Time forecasting of the confirmed cases in China in the next 2 months](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%203)
+   - Author: [Shih Heng Lo](https://github.com/Harrisonust); Yiran Jing
+   > Method: Dynamic SEIR (susceptible-exposed-infectious- recovered) model, estimate contact rate per day
+   > Model comparison based on the test score (MAPE) of last 5 days
+   > Reference: [Dynamic SIR model](https://github.com/Harrisonust/Machine-Learning/tree/master/nCoV2)
+
+   - **Main Conclusion (China TOtal):** (using Chinese official data between 2019-12-08 and 2020-02-14)
+      - The number of net confirmed cases will exceed 60000, and the peak can be reach before 20 Feb.
+      - The transmission rate in decreasing from initial 3+(R0) to less than 0.5.
 
 
 

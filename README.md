@@ -6,7 +6,7 @@
 
 ## 内容：
 1. 估计和预测 2019-nCoV 新型冠状病毒在武汉的爆发情况
-> MSE, basic SEIR model, sentiment analysis
+   > MSE, basic SEIR model, sentiment analysis
 
    - 模型 1: 估计武汉封城时的感染人数
    - 模型 2: 模拟预测武汉封城后肺炎感染人数以及峰值
@@ -67,14 +67,14 @@
       - 封城措施对控制病情有非常显著的作用: 根据模型估算，如果不封城，仅仅隔离患者，武汉患者峰值可能会高达20万
 ***
 ### 模型 3: [根据丁香园实时数据预测全国未来两个月的肺炎趋势](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%203)
-    - 作者: [羅士恆](https://github.com/Harrisonust); 景怡然
-    > Method: Dynamic SEIR (susceptible-exposed-infectious- recovered) model, estimate contact rate per day;
-    > Model comparison based on the test score (MAPE) of last 5 days
-    > Reference: [Dynamic SIR model](https://github.com/Harrisonust/Machine-Learning/tree/master/nCoV2)
+   - 作者: [羅士恆](https://github.com/Harrisonust); 景怡然
+   > Method: Dynamic SEIR (susceptible-exposed-infectious- recovered) model, estimate contact rate per day;
+   > Model comparison based on the test score (MAPE) of last 5 days
+   > Reference: [Dynamic SIR model](https://github.com/Harrisonust/Machine-Learning/tree/master/nCoV2)
 
-    - **主要结论(针对全国):** (根据 2019-12-08 至 2020-02-14 官方数据)
-       - 现存确诊患者的峰值会突破6万，峰值有望在2月20日之前到来
-       - 目前传播速率已经有效得到控制，从最初的R0>3以降至0.5以下
+   - **主要结论(针对全国):** (根据 2019-12-08 至 2020-02-14 官方数据)
+      - 现存确诊患者的峰值会突破6万，峰值有望在2月20日之前到来
+      - 目前传播速率已经有效得到控制，从最初的R0>3以降至0.5以下
 
 ![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/dynamic_SEIR.png)
 红色的线为现存确诊人数的走势估计
