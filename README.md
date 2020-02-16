@@ -12,7 +12,7 @@
    - 模型 2: 模拟预测武汉封城后肺炎感染人数以及峰值
 
 2. 根据丁香园实时数据预测全国未来两个月的肺炎趋势
-   > Author: [Shih Heng Lo](https://github.com/Harrisonust)(模型灵感的提供以及指导者); Yiran Jing.
+   > Author: [Shih Heng Lo](https://github.com/Harrisonust)(模型灵感的提供以及指导者); Yiran Jing. <br />
    > Baseline: Ridge regression, improved by Dynamic SEIR model
 
    - 全国走势预测

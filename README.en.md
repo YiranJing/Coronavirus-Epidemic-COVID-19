@@ -12,8 +12,9 @@
    - Model 2: Simulating Peak of 2019-nCoV in Wuhan after 23 Jan
 
 2. Model 3: Real-Time forecasting of the confirmed cases in China in the next 2 months
-   > Baseline: Ridge regression, improved by Dynamic SEIR model
-   > Author: [Shih Heng Lo](https://github.com/Harrisonust); Yiran Jing.
+   > Baseline: Ridge regression, improved by Dynamic SEIR model <br />
+   > Author: [Shih Heng Lo](https://github.com/Harrisonust); Yiran Jing
+   
    - Prediction for China total trend
    - Prediction for Hubei and ex-hubei trend
 
