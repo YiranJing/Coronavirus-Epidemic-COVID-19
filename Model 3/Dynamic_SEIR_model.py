@@ -154,7 +154,6 @@ class Train_Dynamic_SEIR:
                         self.rateSI = self._calculate_beta(c = self.c, t = t, b = self.b, 
                                                        alpha = self.alpha)
                         self.betalist.append(self.rateSI)
-                        print(self.rateSI)
                 
                 else:
                     self.rateSI = self._calculate_beta(c = self.c, t = t, b = self.b, 

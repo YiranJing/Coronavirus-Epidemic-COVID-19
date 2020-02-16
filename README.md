@@ -7,7 +7,7 @@
 ## 内容：
 1. 估计和预测 2019-nCoV 新型冠状病毒在武汉的爆发情况
    > MSE, basic SEIR model, sentiment analysis
-
+   > [了解 SEIR 模型原理](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/SEIRModel.png)
    - 模型 1: 估计武汉封城时的感染人数
    - 模型 2: 模拟预测武汉封城后肺炎感染人数以及峰值
 2. 模型 3: 根据丁香园实时数据预测全国未来两个月的肺炎趋势
@@ -33,7 +33,7 @@
    - 这些随着时间发展快速变化的正常都对病情控制有很大的影响。**而当我们用模型预测未来时，我们的重要前提假设是未来不会有新的政策发生**。
 
 #### Data
-[实时数据抓取并储存在csv](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/data_processing/Model%202)
+[实时数据抓取并储存在csv](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/tree/master/data_processing)
 
 
 ***
@@ -69,25 +69,33 @@
 ### 模型 3: [根据丁香园实时数据预测全国未来两个月的肺炎趋势](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%203)
    - 作者: [羅士恆](https://github.com/Harrisonust); 景怡然
    > Method: Dynamic SEIR (susceptible-exposed-infectious- recovered) model, estimate contact rate per day;
-   > Model comparison based on the test score (MAPE) of last 5 days
+   > Model comparison based on the test score (MAPE) of last 5 days, baseline is [ridge Ridge regression](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%203/Baseline_RidgeRegression.ipynb)
    > Reference: [Dynamic SIR model](https://github.com/Harrisonust/Machine-Learning/tree/master/nCoV2)
 
    - **主要结论(针对全国):** (根据 2019-12-08 至 2020-02-14 官方数据)
-      - 现存确诊患者的峰值会突破6万，峰值有望在2月20日之前到来
-      - 目前传播速率已经有效得到控制，从最初的R0>3以降至0.5以下
+      - **现存确诊患者的峰值会突破6万，峰值有望在2月20日之前到来**
+      - **目前传播速率已经有效得到控制，从最初的R0>3以降至0.5以下**
+   - 模型主要假设：[了解 SEIR 模型原理](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/SEIRModel.png)
+      - 人口总数不变: 由于国际航空禁运，严格的居家隔离错误和肺炎较低的死亡率，这个假设基本成立
+      - 在SEIR模型中，潜伏期的人前期不具有传染性。然而新型冠状肺炎在初期就有较高的传染率
+      - 假设平均恢复期为14天，和非典类似
+      - 假设潜伏期未发病的人数是疑似病例的4～5倍， 假设死亡率为2%
+
 
 ![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/dynamic_SEIR.png)
-红色的线为现存确诊人数的走势估计
-![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/contact_rate.png)
-蓝色的线的第一个点为R0(基本传染数)
 
-
+红色的线为现存感染人数的走势预测
 注释:
 - Removed(移除人群): 治愈或者死亡
 - Death(死亡患者): 移除人群 * 致死率
 - Exposed(潜伏人群): 在潜伏期的患者
 - Susceptible(易感人群): 健康但有风险被感染的人群
 - Infected(确诊并隔离患者): 确诊人群
+
+#### Dynamic contact rate β as a function of time t
+![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/beta.png)
+
+
 ***
 
 #### 抓取数据步骤:
