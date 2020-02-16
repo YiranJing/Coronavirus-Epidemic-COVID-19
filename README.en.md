@@ -10,9 +10,10 @@
    > [Overview of SEIR model](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/SEIRModel.png)
    - Model 1: Estimating the potential number of cases in Wuhan until Jan 23
    - Model 2: Simulating Peak of 2019-nCoV in Wuhan after 23 Jan
+
 2. Model 3: Real-Time forecasting of the confirmed cases in China in the next 2 months
    > Baseline: Ridge regression, improved by Dynamic SEIR model
-
+   > Author: [Shih Heng Lo](https://github.com/Harrisonust); Yiran Jing.
    - Prediction for China total trend
    - Prediction for Hubei and ex-hubei trend
 
@@ -36,7 +37,7 @@
 
 ***
 
-## Nowcasting and Forecasting the 2019-nCoV Outbreak size in Wuhan
+### Nowcasting and Forecasting the 2019-nCoV Outbreak size in Wuhan (Model 1 and 2)
 > On January 23, authorities in Wuhan shut down the city’s public transportation, including buses, trains, ferries, and the airport.
 > There are 9 million people stay in Wuhan after 23 Jan. And official reported that 5 million people travel out Wuhan for Chinese Spring Festival. The effective catchment population of Wuhan international airport is around 19 million.
 
@@ -70,7 +71,7 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
       - Close City policy has significant control for 2019-nCoV, otherwise, the peak of infected cases may up to 200 thousand.
 ***
 
-### Model 3:[Real-Time forecasting of the confirmed cases in China in the next 2 months](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%203)
+## Model 3:[Real-Time forecasting of the confirmed cases in China in the next 2 months](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%203)📉
    - Author: [Shih Heng Lo](https://github.com/Harrisonust); Yiran Jing
    > Method: Dynamic SEIR (susceptible-exposed-infectious- recovered) model, estimate contact rate per day
    > Model comparison based on the test score (MAPE) of last 5 days, baseline is [ridge Ridge regression](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%203/Baseline_RidgeRegression.ipynb)
