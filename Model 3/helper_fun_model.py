@@ -46,10 +46,10 @@ def get_China_exclude_province(df, provinceName: str)-> pandas.core.frame.DataFr
     
     NotHubei = China_total.reset_index(drop= True)
     Hubei = Hubei.reset_index(drop= True)
-    NotHubei['suspected'] = NotHubei['suspected'] - Hubei['suspected']
-    NotHubei['cured'] = NotHubei['cured'] - Hubei['cured']
-    NotHubei['dead'] = NotHubei['dead'] - Hubei['dead']
-    NotHubei['confirmed'] = NotHubei['confirmed'] - Hubei['confirmed']
+    
+    NotHubei['E'] = NotHubei['E'] - Hubei['E']
+    NotHubei['R'] = NotHubei['R'] - Hubei['R']
+    NotHubei['I'] = NotHubei['I'] - Hubei['I']
     
     return NotHubei
 

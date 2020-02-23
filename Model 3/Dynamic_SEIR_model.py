@@ -31,7 +31,7 @@ class Train_Dynamic_SEIR:
     'rateAl' (base rate of isolation 'altha', from E to I, default 0.1)
     """
     def __init__(self, data: pandas.core.frame.DataFrame, 
-                 population: int, epoch = 1000, rateIR=0.01, rateAl = 0.1):
+                 population: int, epoch = 1000, rateIR=0.01, rateAl = 0.1, c = 1, b = -3, alpha = 0.1):
         self.epoch = epoch # change weights in each epoch
         self.steps = len(data) 
         # real observation
@@ -47,9 +47,9 @@ class Train_Dynamic_SEIR:
         self.past_days = data['Days'].min() # count the number of days before the first traning point
         
         # other parameters within SEIR model
-        self.c = 1; # intial guess
-        self.b = -3; # intial guess
-        self.alpha = 0.1; # intial guess
+        self.c = c; # intial guess
+        self.b = b; # intial guess
+        self.alpha = alpha; # intial guess
         self.rateSI = self._calculate_beta(c = self.c, t = 0, b = self.b, alpha = self.alpha) # intial guess
         self.rateIR = rateIR
         self.rateAl = rateAl
@@ -83,44 +83,37 @@ class Train_Dynamic_SEIR:
         mape = np.abs((y-y_pred))/np.abs(y)
         return np.mean(mape)
     
-    def _calculate_MAPE_last_5_days(self):
-        """
-        Calcualte MAPE between estimated value and fitted value in the last 5 days, same as the test set of baseline
-        """
-        y = np.array(self.Infected[-5:])
-        y_pred = np.array(self.I_pre[-5:])
-        mape = np.abs((y-y_pred))/np.abs(y)
-        return np.mean(mape)
     
     def _update(self):
         """
-        try to find (global mini parameter)
+        Helper function of train() function.
+        
+        try to find (global mini parameter) using Gradient Descent within one iteration 
+           calculate the new gradients, and then update parameters
         """
         E =  2.71828182846
-        alpha_eta  = 0.000000000000001;
-        b_eta = 0.00000000001;
-        c_eta = 0.0000000000001;
+        alpha_eta  = 0.000000000000001; # learning rate
+        b_eta = 0.00000000001; # learning rate
+        c_eta = 0.0000000000001; # learning rate
         alpha_temp=0.0;
         c_temp=0.0;
         b_temp =0.0;
         for t in range(0, self.steps):
             
-            formula1 = E**(-self.alpha*(t + self.b)) 
-            formula2 = E**(self.rateSI*self.Susceptible[t]/self.numIndividuals - self.rateIR) * t
-            formula3 = E**(self.alpha*(t + self.b)) 
+            formula = E**(self.alpha*(t + self.b)) 
+            formula2 = E**(-self.alpha*(t + self.b))
             
             loss_to_beta = -2*(self.Infected[t] - self.I_pre[t])*(self.I_pre[t])*t*self.Susceptible[t]/self.numIndividuals
             
-            #loss_to_beta = 2*(formula2 - self.Infected[t])*(formula2*self.Susceptible[t]*t)/self.numIndividuals
             
-            # use chain rule to calculate partial derivative
-            beta_to_alpha = -self.c*pow(formula1,2)*(t + self.b)*(formula3 -1)*pow((1+formula1),-3)
-            beta_to_b = -self.c*pow(formula1,2)*self.alpha*(formula3 -1)*pow((1+formula1),-3)
-            beta_to_c = formula1*pow((1+formula1),-2)
+            # use chain rule to calculate partial derivatives
+            beta_to_alpha = -self.c*formula*(t+self.b)*(formula-1)*pow((1+formula),-3)
+            beta_to_b = -self.c*formula*self.alpha*(formula -1)*pow((1+formula),-3)
+            beta_to_c = formula2*pow((1+formula2),-2)
             
-            alpha_temp += loss_to_beta * beta_to_alpha 
-            b_temp += loss_to_beta * beta_to_b
-            c_temp += loss_to_beta * beta_to_c
+            alpha_temp += loss_to_beta * beta_to_alpha  # new gradient
+            b_temp += loss_to_beta * beta_to_b # new gradient
+            c_temp += loss_to_beta * beta_to_c # new gradient
             
         
         self.alpha -= alpha_eta*alpha_temp; # update values
@@ -135,7 +128,15 @@ class Train_Dynamic_SEIR:
         Use real-time data into SEIR model to do estimation
         Improve estimated parameter by epoch iteration
         Goal:
-            find optimial beta(contact rate) by mini loss function
+            find optimial beta(contact rate) by mini loss function using Gradient Descent Step-by-step
+        
+        Gradient Descent: 
+            To solve for the gradient, we iterate through our data points using our new alpha, c and 𝑏 values 
+            and compute the partial derivatives. 
+            
+            The new gradient tells us the slope of our cost function at our current position (current parameter values) 
+            and the direction we should move to update our parameters. 
+            The size of our update is controlled by the learning rate. (see _update() function above)
         """
         for e in range(self.epoch):
             # prediction list
@@ -148,17 +149,19 @@ class Train_Dynamic_SEIR:
                     self.E_pre.append(self.Exposed[0])
                     self.I_pre.append(self.Infected[0])
                     self.R_pre.append(self.Resistant[0])
+                    self.rateSI = self._calculate_beta(c = self.c, t = t, b = self.b, 
+                                                       alpha = self.alpha)
+                    #print("time {}, beta {}".format(t, self.rateSI)) #❤️
                     
                     # collect the optimal fitted beta
                     if e == (self.epoch - 1):
-                        self.rateSI = self._calculate_beta(c = self.c, t = t, b = self.b, 
-                                                       alpha = self.alpha)
                         self.betalist.append(self.rateSI)
                 
                 else:
                     self.rateSI = self._calculate_beta(c = self.c, t = t, b = self.b, 
                                                        alpha = self.alpha)
-                    #print(self.rateSI)
+                    #print("time {}, beta {}".format(t, self.rateSI)) #❤️
+                   
                     # collect the optimal fitted beta
                     if e == (self.epoch - 1):
                         self.betalist.append(self.rateSI)
@@ -180,10 +183,8 @@ class Train_Dynamic_SEIR:
                 orient='index').transpose()
                     self.loss = self._calculate_loss()
                     MAPE = self._calculate_MAPE()
-                    MAPEtest = self._calculate_MAPE_last_5_days()
                     print("The loss in is {}".format(self.loss))
                     print("The MAPE in the whole period is {}".format(MAPE))
-                    print("The MAPE in the last 5 days is {}".format(MAPEtest))
                     #print("Optimial beta is {}".format(self.rateSI))
             
             ## calculate loss in each iteration
@@ -192,8 +193,8 @@ class Train_Dynamic_SEIR:
             #print("The loss in iteration {} is {}".format(e, self.loss))
             #print("Current beta is {}".format(self.rateSI))  
             
-            ## do beta optimation
-            self._update()
+            ## ML optimization.
+            self._update() # Update parameters using Gradient Descent in each step
             
         return self.estimation # the lastest estimation 
     
@@ -280,6 +281,7 @@ class dynamic_SEIR:
         for i in range(1, self.eons): # number of prediction days
             self.rateSI = self._calculate_beta(c = self.c, t = i, b = self.b, 
                                                alpha = self.alpha, past_days = self.past_days)
+            
             #print(self.rateSI)
             S_to_E = (self.rateSI * Susceptible[-1] * Infected[-1]) / self.numIndividuals
             E_to_I = (self.rateAl * Exposed[-1])
@@ -349,5 +351,28 @@ class dynamic_SEIR:
         plt.title(title, fontsize = 20)
         plt.show()    
     
+########################
+## Model evaluation 
+########################
+def plot_test_data_with_MAPE(test_data, predict_data):
+    """
+    Calculate MAPE test score using SEIR model prediction result
+    and Draw the plot to see the difference
+    """
+    y = test["I"].reset_index(drop = True)
+    y_pred = predict_data[:len(test)]['Infected'].reset_index(drop = True)
+    mape = np.mean(np.abs((y-y_pred))/np.abs(y))
+    print("The MAMPE is: ".format(mape))
+    print(mape)
     
-    
+    # Draw plot
+    fig, ax = plt.subplots(figsize=(15,6))
+    plt.plot(test['date'], y, color='steelblue')
+    plt.plot(test['date'], y_pred, color='orangered')
+        
+    plt.xlabel('2020 Date')
+    plt.ylabel('Infected case')
+    plt.title('Infected cases prediction for China total', fontsize = 20)
+    plt.legend(['Observation', 'Prediction'], loc = 'upper left', prop={'size': 12}, 
+           bbox_to_anchor=(0.5, 1.02), ncol=2, fancybox=True, shadow=True)
+    plt.show() 

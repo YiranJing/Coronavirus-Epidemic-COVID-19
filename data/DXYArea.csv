@@ -7814,12 +7814,12 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-15,越南,VN,,,16,0,7,0,69,9
 2020-02-16,阿联酋,AE,,,8,0,4,0,70,4
 2020-02-16,澳大利亚,AU,,,15,0,5,0,70,10
-2020-02-16,比利时,BE,,,1,0,0,0,70,1
+2020-02-16,比利时,BE,,,1,0,1,0,70,0
 2020-02-16,加拿大,CA,,,8,0,1,0,70,7
-2020-02-16,中国,CN,,,68584,8228,9468,1666,70,57450
-2020-02-16,中国,CN,Beijing,,380,0,105,4,70,271
-2020-02-16,中国,CN,Tianjin,,122,0,37,3,70,82
-2020-02-16,中国,CN,Hebei Province,,300,0,100,3,70,197
+2020-02-16,中国,CN,,,70637,7264,10860,1772,70,58005
+2020-02-16,中国,CN,Beijing,,381,0,114,4,70,263
+2020-02-16,中国,CN,Tianjin,,124,0,45,3,70,76
+2020-02-16,中国,CN,Hebei Province,,301,0,109,3,70,189
 2020-02-16,中国,CN,Hebei Province,Shijiazhuang,28,0,7,0,70,21
 2020-02-16,中国,CN,Hebei Province,Tangshan,51,0,9,0,70,42
 2020-02-16,中国,CN,Hebei Province,Qinhuangdao,10,0,3,0,70,7
@@ -7831,7 +7831,7 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Hebei Province,Cangzhou,47,0,14,2,70,31
 2020-02-16,中国,CN,Hebei Province,Langfang,30,0,14,0,70,16
 2020-02-16,中国,CN,Hebei Province,Hengshui,8,0,4,0,70,4
-2020-02-16,中国,CN,Shanxi Province,,128,0,46,0,70,82
+2020-02-16,中国,CN,Shanxi Province,,129,0,50,0,70,79
 2020-02-16,中国,CN,Shanxi Province,Taiyuan,19,0,6,0,70,13
 2020-02-16,中国,CN,Shanxi Province,Datong,12,0,4,0,70,8
 2020-02-16,中国,CN,Shanxi Province,Yangquan,4,0,0,0,70,4
@@ -7843,7 +7843,7 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Shanxi Province,Xinzhou,7,0,0,0,70,7
 2020-02-16,中国,CN,Shanxi Province,Linfen,2,0,1,0,70,1
 2020-02-16,中国,CN,Shanxi Province,Luliang,6,0,6,0,70,0
-2020-02-16,中国,CN,Inner Mongolia Autonomous Region,,70,0,7,0,70,63
+2020-02-16,中国,CN,Inner Mongolia Autonomous Region,,72,0,8,0,70,64
 2020-02-16,中国,CN,Inner Mongolia Autonomous Region,Hohhot,7,0,0,0,70,7
 2020-02-16,中国,CN,Inner Mongolia Autonomous Region,Baotou,11,0,0,0,70,11
 2020-02-16,中国,CN,Inner Mongolia Autonomous Region,Wuhai,2,0,0,0,70,2
@@ -7853,7 +7853,7 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Inner Mongolia Autonomous Region,Hulunbeier,6,0,1,0,70,5
 2020-02-16,中国,CN,Inner Mongolia Autonomous Region,Bayannaoer,8,0,0,0,70,8
 2020-02-16,中国,CN,Inner Mongolia Autonomous Region,Wulanchabu,3,0,0,0,70,3
-2020-02-16,中国,CN,Liaoning Province,,120,0,34,1,70,85
+2020-02-16,中国,CN,Liaoning Province,,121,0,41,1,70,79
 2020-02-16,中国,CN,Liaoning Province,Shenyang,28,0,12,0,70,16
 2020-02-16,中国,CN,Liaoning Province,Dalian,18,0,5,0,70,13
 2020-02-16,中国,CN,Liaoning Province,Anshan,4,0,0,0,70,4
@@ -7867,7 +7867,7 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Liaoning Province,Tieling,7,0,1,0,70,6
 2020-02-16,中国,CN,Liaoning Province,Sunny,6,0,2,0,70,4
 2020-02-16,中国,CN,Liaoning Province,Huludao,12,0,0,1,70,11
-2020-02-16,中国,CN,Jilin Province,,89,0,28,1,70,60
+2020-02-16,中国,CN,Jilin Province,,89,0,30,1,70,58
 2020-02-16,中国,CN,Jilin Province,Changchun,45,0,14,0,70,31
 2020-02-16,中国,CN,Jilin Province,Jilin,5,0,3,0,70,2
 2020-02-16,中国,CN,Jilin Province,Siping,14,0,4,1,70,9
@@ -7876,7 +7876,7 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Jilin Province,Tonghua,3,0,0,0,70,3
 2020-02-16,中国,CN,Jilin Province,Matsubara,2,0,1,0,70,1
 2020-02-16,中国,CN,Jilin Province,Baicheng,1,0,0,0,70,1
-2020-02-16,中国,CN,Heilongjiang Province,,445,0,72,11,70,362
+2020-02-16,中国,CN,Heilongjiang Province,,457,0,80,11,70,366
 2020-02-16,中国,CN,Heilongjiang Province,Harbin,182,0,30,3,70,149
 2020-02-16,中国,CN,Heilongjiang Province,Qiqihar,38,0,8,1,70,29
 2020-02-16,中国,CN,Heilongjiang Province,Jixi,46,0,1,0,70,45
@@ -7887,25 +7887,25 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Heilongjiang Province,Qitaihe,16,0,4,0,70,12
 2020-02-16,中国,CN,Heilongjiang Province,Mudanjiang,12,0,1,0,70,11
 2020-02-16,中国,CN,Heilongjiang Province,Heihe,14,0,0,0,70,14
-2020-02-16,中国,CN,Heilongjiang Province,Suihua,46,0,12,4,70,30
-2020-02-16,中国,CN,Shanghai,,328,0,140,1,70,187
-2020-02-16,中国,CN,Jiangsu Province,,617,0,190,0,70,427
+2020-02-16,中国,CN,Heilongjiang Province,Suihua,46,0,13,4,70,29
+2020-02-16,中国,CN,Shanghai,,331,0,140,1,70,190
+2020-02-16,中国,CN,Jiangsu Province,,626,0,226,0,70,400
 2020-02-16,中国,CN,Jiangsu Province,Nanjing,92,0,29,0,70,63
 2020-02-16,中国,CN,Jiangsu Province,Wuxi,53,0,18,0,70,35
 2020-02-16,中国,CN,Jiangsu Province,Xuzhou,78,0,23,0,70,55
-2020-02-16,中国,CN,Jiangsu Province,Changzhou,46,0,11,0,70,35
+2020-02-16,中国,CN,Jiangsu Province,Changzhou,46,0,20,0,70,26
 2020-02-16,中国,CN,Jiangsu Province,Suzhou,86,0,26,0,70,60
 2020-02-16,中国,CN,Jiangsu Province,Nantong,40,0,15,0,70,25
 2020-02-16,中国,CN,Jiangsu Province,Lianyungang,48,0,12,0,70,36
-2020-02-16,中国,CN,Jiangsu Province,Huaian,63,0,13,0,70,50
+2020-02-16,中国,CN,Jiangsu Province,Huaian,63,0,23,0,70,40
 2020-02-16,中国,CN,Jiangsu Province,Yancheng,27,0,9,0,70,18
 2020-02-16,中国,CN,Jiangsu Province,Yangzhou,22,0,7,0,70,15
 2020-02-16,中国,CN,Jiangsu Province,Zhenjiang,12,0,4,0,70,8
 2020-02-16,中国,CN,Jiangsu Province,Taizhou,37,0,16,0,70,21
 2020-02-16,中国,CN,Jiangsu Province,Suqian,13,0,7,0,70,6
-2020-02-16,中国,CN,Zhejiang Province,,1167,0,437,0,70,730
+2020-02-16,中国,CN,Zhejiang Province,,1171,0,470,0,70,701
 2020-02-16,中国,CN,Zhejiang Province,Hangzhou,166,0,75,0,70,91
-2020-02-16,中国,CN,Zhejiang Province,Ningbo,155,0,53,0,70,102
+2020-02-16,中国,CN,Zhejiang Province,Ningbo,155,0,54,0,70,101
 2020-02-16,中国,CN,Zhejiang Province,Wenzhou,502,0,169,0,70,333
 2020-02-16,中国,CN,Zhejiang Province,Jiaxing,43,0,11,0,70,32
 2020-02-16,中国,CN,Zhejiang Province,Huzhou,10,0,4,0,70,6
@@ -7913,11 +7913,11 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Zhejiang Province,Jinhua,55,0,24,0,70,31
 2020-02-16,中国,CN,Zhejiang Province,Quzhou,21,0,9,0,70,12
 2020-02-16,中国,CN,Zhejiang Province,Zhoushan,10,0,5,0,70,5
-2020-02-16,中国,CN,Zhejiang Province,Taizhou,146,0,60,0,70,86
+2020-02-16,中国,CN,Zhejiang Province,Taizhou,146,0,63,0,70,83
 2020-02-16,中国,CN,Zhejiang Province,Lishui,17,0,10,0,70,7
-2020-02-16,中国,CN,Anhui Province,,962,0,233,6,70,723
+2020-02-16,中国,CN,Anhui Province,,973,0,266,6,70,701
 2020-02-16,中国,CN,Anhui Province,Hefei,169,0,43,1,70,125
-2020-02-16,中国,CN,Anhui Province,Wuhu,31,0,11,0,70,20
+2020-02-16,中国,CN,Anhui Province,Wuhu,31,0,13,0,70,18
 2020-02-16,中国,CN,Anhui Province,Bengbu,157,0,9,5,70,143
 2020-02-16,中国,CN,Anhui Province,Huainan,24,0,7,0,70,17
 2020-02-16,中国,CN,Anhui Province,Ma'anshan,36,0,10,0,70,26
@@ -7927,12 +7927,12 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Anhui Province,Huangshan,9,0,1,0,70,8
 2020-02-16,中国,CN,Anhui Province,Chuzhou,13,0,7,0,70,6
 2020-02-16,中国,CN,Anhui Province,Fuyang,152,0,32,0,70,120
-2020-02-16,中国,CN,Anhui Province,Suzhou,39,0,11,0,70,28
+2020-02-16,中国,CN,Anhui Province,Suzhou,39,0,13,0,70,26
 2020-02-16,中国,CN,Anhui Province,Lu'an,65,0,15,0,70,50
-2020-02-16,中国,CN,Anhui Province,Bozhou,108,0,25,0,70,83
-2020-02-16,中国,CN,Anhui Province,Chizhou,17,0,4,0,70,13
+2020-02-16,中国,CN,Anhui Province,Bozhou,108,0,35,0,70,73
+2020-02-16,中国,CN,Anhui Province,Chizhou,17,0,6,0,70,11
 2020-02-16,中国,CN,Anhui Province,Xuancheng,6,0,4,0,70,2
-2020-02-16,中国,CN,Fujian Province,,287,0,77,0,70,210
+2020-02-16,中国,CN,Fujian Province,,290,0,84,0,70,206
 2020-02-16,中国,CN,Fujian Province,Fuzhou,68,0,20,0,70,48
 2020-02-16,中国,CN,Fujian Province,Xiamen,34,0,5,0,70,29
 2020-02-16,中国,CN,Fujian Province,Putian,55,0,10,0,70,45
@@ -7942,7 +7942,7 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Fujian Province,Nanping,20,0,5,0,70,15
 2020-02-16,中国,CN,Fujian Province,Longyan,6,0,1,0,70,5
 2020-02-16,中国,CN,Fujian Province,Ningde,25,0,6,0,70,19
-2020-02-16,中国,CN,Jiangxi,,925,0,239,1,70,685
+2020-02-16,中国,CN,Jiangxi,,930,0,275,1,70,654
 2020-02-16,中国,CN,Jiangxi,Nanchang,227,0,75,0,70,152
 2020-02-16,中国,CN,Jiangxi,Jingdezhen,5,0,1,0,70,4
 2020-02-16,中国,CN,Jiangxi,Pingxiang,32,0,4,0,70,28
@@ -7954,7 +7954,7 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Jiangxi,Yichun,104,0,20,0,70,84
 2020-02-16,中国,CN,Jiangxi,Fuzhou,72,0,20,0,70,52
 2020-02-16,中国,CN,Jiangxi,Shangrao,123,0,31,0,70,92
-2020-02-16,中国,CN,Shandong Province,,537,0,164,2,70,371
+2020-02-16,中国,CN,Shandong Province,,541,0,175,2,70,364
 2020-02-16,中国,CN,Shandong Province,Jinan,47,0,11,0,70,36
 2020-02-16,中国,CN,Shandong Province,Qingdao,57,0,22,1,70,34
 2020-02-16,中国,CN,Shandong Province,Zibo,29,0,4,0,70,25
@@ -7970,26 +7970,26 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Shandong Province,Liaocheng,38,0,10,0,70,28
 2020-02-16,中国,CN,Shandong Province,Binzhou,14,0,9,0,70,5
 2020-02-16,中国,CN,Shandong Province,Heze,18,0,11,0,70,7
-2020-02-16,中国,CN,Henan Province,,1231,0,397,13,70,821
+2020-02-16,中国,CN,Henan Province,,1246,0,438,16,70,792
 2020-02-16,中国,CN,Henan Province,Zhengzhou,148,0,64,0,70,84
-2020-02-16,中国,CN,Henan Province,Kaifeng,26,0,6,0,70,20
-2020-02-16,中国,CN,Henan Province,Luoyang,31,0,9,0,70,22
-2020-02-16,中国,CN,Henan Province,Pingdingshan,58,0,19,1,70,38
+2020-02-16,中国,CN,Henan Province,Kaifeng,26,0,7,0,70,19
+2020-02-16,中国,CN,Henan Province,Luoyang,31,0,10,0,70,21
+2020-02-16,中国,CN,Henan Province,Pingdingshan,58,0,20,1,70,37
 2020-02-16,中国,CN,Henan Province,Anyang,51,0,18,0,70,33
-2020-02-16,中国,CN,Henan Province,Hebi,19,0,4,0,70,15
+2020-02-16,中国,CN,Henan Province,Hebi,19,0,5,0,70,14
 2020-02-16,中国,CN,Henan Province,Xinxiang,56,0,10,2,70,44
-2020-02-16,中国,CN,Henan Province,Jiaozuo,30,0,5,1,70,24
+2020-02-16,中国,CN,Henan Province,Jiaozuo,30,0,7,1,70,22
 2020-02-16,中国,CN,Henan Province,Puyang,17,0,2,0,70,15
-2020-02-16,中国,CN,Henan Province,Xuchang,38,0,7,0,70,31
-2020-02-16,中国,CN,Henan Province,Luohe,34,0,9,0,70,25
+2020-02-16,中国,CN,Henan Province,Xuchang,38,0,8,0,70,30
+2020-02-16,中国,CN,Henan Province,Luohe,34,0,12,0,70,22
 2020-02-16,中国,CN,Henan Province,Sanmenxia,7,0,4,0,70,3
 2020-02-16,中国,CN,Henan Province,Nanyang,151,0,50,2,70,99
 2020-02-16,中国,CN,Henan Province,Shangqiu,91,0,30,2,70,59
-2020-02-16,中国,CN,Henan Province,Xinyang,261,0,64,2,70,195
-2020-02-16,中国,CN,Henan Province,Zhoukou,71,0,23,0,70,48
+2020-02-16,中国,CN,Henan Province,Xinyang,261,0,74,2,70,185
+2020-02-16,中国,CN,Henan Province,Zhoukou,71,0,27,0,70,44
 2020-02-16,中国,CN,Henan Province,Zhumadian,138,0,64,0,70,74
 2020-02-16,中国,CN,Henan Province,Jiyuan,4,0,0,0,70,4
-2020-02-16,中国,CN,Hubei Province,,56249,0,5623,1596,70,49030
+2020-02-16,中国,CN,Hubei Province,,58182,0,6639,1696,70,49847
 2020-02-16,中国,CN,Hubei Province,Wuhan,39462,0,2915,1233,70,35314
 2020-02-16,中国,CN,Hubei Province,Yellowstone,988,0,192,14,70,782
 2020-02-16,中国,CN,Hubei Province,Shiyan,602,0,116,2,70,484
@@ -8005,26 +8005,26 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Hubei Province,Xiantao,523,0,87,17,70,419
 2020-02-16,中国,CN,Hubei Province,Qianjiang,166,0,12,6,70,148
 2020-02-16,中国,CN,Hubei Province,Tianmen,447,0,27,10,70,410
-2020-02-16,中国,CN,Hunan Province,,1004,0,449,3,70,552
+2020-02-16,中国,CN,Hunan Province,,1006,0,467,3,70,536
 2020-02-16,中国,CN,Hunan Province,Changsha,241,0,89,1,70,151
 2020-02-16,中国,CN,Hunan Province,Zhuzhou,78,0,29,0,70,49
 2020-02-16,中国,CN,Hunan Province,Xiangtan,35,0,14,0,70,21
 2020-02-16,中国,CN,Hunan Province,Hengyang,47,0,28,0,70,19
 2020-02-16,中国,CN,Hunan Province,Shaoyang,101,0,59,1,70,41
 2020-02-16,中国,CN,Hunan Province,Yueyang,154,0,54,1,70,99
-2020-02-16,中国,CN,Hunan Province,Changde,79,0,28,0,70,51
+2020-02-16,中国,CN,Hunan Province,Changde,79,0,31,0,70,48
 2020-02-16,中国,CN,Hunan Province,Zhangjiajie,5,0,4,0,70,1
 2020-02-16,中国,CN,Hunan Province,Yiyang,59,0,25,0,70,34
 2020-02-16,中国,CN,Hunan Province,Chenzhou,39,0,22,0,70,17
 2020-02-16,中国,CN,Hunan Province,Yongzhou,43,0,27,0,70,16
 2020-02-16,中国,CN,Hunan Province,Huaihua,40,0,30,0,70,10
 2020-02-16,中国,CN,Hunan Province,Loudi,75,0,34,0,70,41
-2020-02-16,中国,CN,Guangdong Province,,1316,0,436,2,70,878
+2020-02-16,中国,CN,Guangdong Province,,1322,0,473,4,70,845
 2020-02-16,中国,CN,Guangdong Province,Canton,338,0,121,0,70,217
 2020-02-16,中国,CN,Guangdong Province,Shaoguan,10,0,4,0,70,6
 2020-02-16,中国,CN,Guangdong Province,Shenzhen,414,0,115,0,70,299
 2020-02-16,中国,CN,Guangdong Province,Zhuhai,96,0,37,0,70,59
-2020-02-16,中国,CN,Guangdong Province,Shantou,25,0,11,0,70,14
+2020-02-16,中国,CN,Guangdong Province,Shantou,25,0,13,0,70,12
 2020-02-16,中国,CN,Guangdong Province,Foshan,84,0,23,0,70,61
 2020-02-16,中国,CN,Guangdong Province,Jiangmen,23,0,4,0,70,19
 2020-02-16,中国,CN,Guangdong Province,Zhanjiang,22,0,11,0,70,11
@@ -8040,7 +8040,7 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Guangdong Province,Zhongshan,65,0,34,0,70,31
 2020-02-16,中国,CN,Guangdong Province,Chaozhou,5,0,1,0,70,4
 2020-02-16,中国,CN,Guangdong Province,Jieyang,8,0,4,0,70,4
-2020-02-16,中国,CN,Guangxi Zhuang Autonomous Region,,237,0,46,2,70,189
+2020-02-16,中国,CN,Guangxi Zhuang Autonomous Region,,238,0,51,2,70,185
 2020-02-16,中国,CN,Guangxi Zhuang Autonomous Region,Nanning,50,0,11,0,70,39
 2020-02-16,中国,CN,Guangxi Zhuang Autonomous Region,Liuzhou,24,0,8,0,70,16
 2020-02-16,中国,CN,Guangxi Zhuang Autonomous Region,Guilin,31,0,10,0,70,21
@@ -8054,7 +8054,7 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Guangxi Zhuang Autonomous Region,Hezhou,4,0,0,0,70,4
 2020-02-16,中国,CN,Guangxi Zhuang Autonomous Region,Hechi,22,0,0,1,70,21
 2020-02-16,中国,CN,Guangxi Zhuang Autonomous Region,guest,11,0,0,0,70,11
-2020-02-16,中国,CN,Hainan,,162,0,39,4,70,119
+2020-02-16,中国,CN,Hainan,,162,0,52,4,70,106
 2020-02-16,中国,CN,Hainan,Seaport,33,0,9,0,70,24
 2020-02-16,中国,CN,Hainan,Sanya,54,0,15,1,70,38
 2020-02-16,中国,CN,Hainan,Danzhou,15,0,2,0,70,13
@@ -8062,8 +8062,8 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Hainan,Wenchang,3,0,1,0,70,2
 2020-02-16,中国,CN,Hainan,Wanning,13,0,3,0,70,10
 2020-02-16,中国,CN,Hainan,East,3,0,2,0,70,1
-2020-02-16,中国,CN,Chongqing,,544,0,184,5,70,355
-2020-02-16,中国,CN,Sichuan Province,,481,0,129,3,70,349
+2020-02-16,中国,CN,Chongqing,,551,0,207,5,70,339
+2020-02-16,中国,CN,Sichuan Province,,495,0,136,3,70,356
 2020-02-16,中国,CN,Sichuan Province,Chengdu,140,0,49,3,70,88
 2020-02-16,中国,CN,Sichuan Province,Zigong,9,0,2,0,70,7
 2020-02-16,中国,CN,Sichuan Province,Panzhihua,13,0,10,0,70,3
@@ -8079,16 +8079,16 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Sichuan Province,Guang'an,30,0,10,0,70,20
 2020-02-16,中国,CN,Sichuan Province,Florida,36,0,5,0,70,31
 2020-02-16,中国,CN,Sichuan Province,Ya'an,7,0,2,0,70,5
-2020-02-16,中国,CN,Sichuan Province,Bazhong,24,0,2,0,70,22
+2020-02-16,中国,CN,Sichuan Province,Bazhong,24,0,3,0,70,21
 2020-02-16,中国,CN,Sichuan Province,Ziyang,3,0,2,0,70,1
-2020-02-16,中国,CN,Guizhou Province,,144,0,37,1,70,106
+2020-02-16,中国,CN,Guizhou Province,,146,0,47,1,70,98
 2020-02-16,中国,CN,Guizhou Province,Guiyang,34,0,6,0,70,28
 2020-02-16,中国,CN,Guizhou Province,Liupanshui,10,0,3,1,70,6
-2020-02-16,中国,CN,Guizhou Province,Zunyi,32,0,3,0,70,29
+2020-02-16,中国,CN,Guizhou Province,Zunyi,32,0,5,0,70,27
 2020-02-16,中国,CN,Guizhou Province,Anshun,4,0,0,0,70,4
 2020-02-16,中国,CN,Guizhou Province,Bijie,23,0,6,0,70,17
 2020-02-16,中国,CN,Guizhou Province,Tongren,10,0,7,0,70,3
-2020-02-16,中国,CN,Yunnan Province,,169,0,42,0,70,127
+2020-02-16,中国,CN,Yunnan Province,,171,0,42,0,70,129
 2020-02-16,中国,CN,Yunnan Province,Kunming,49,0,8,0,70,41
 2020-02-16,中国,CN,Yunnan Province,Qujing,13,0,5,0,70,8
 2020-02-16,中国,CN,Yunnan Province,Yuxi,14,0,3,0,70,11
@@ -8111,7 +8111,7 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Shaanxi Province,Yulin,3,0,1,0,70,2
 2020-02-16,中国,CN,Shaanxi Province,Good health,24,0,5,0,70,19
 2020-02-16,中国,CN,Shaanxi Province,Shangluo,7,0,2,0,70,5
-2020-02-16,中国,CN,Gansu province,,90,0,49,2,70,39
+2020-02-16,中国,CN,Gansu province,,90,0,54,2,70,34
 2020-02-16,中国,CN,Gansu province,Lanzhou,35,0,17,2,70,16
 2020-02-16,中国,CN,Gansu province,Jinchang,1,0,1,0,70,0
 2020-02-16,中国,CN,Gansu province,silver,4,0,1,0,70,3
@@ -8129,21 +8129,21 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,中国,CN,Ningxia Hui Autonomous Region,Wuzhong,27,0,6,0,70,21
 2020-02-16,中国,CN,Ningxia Hui Autonomous Region,Guyuan,5,0,2,0,70,3
 2020-02-16,中国,CN,Ningxia Hui Autonomous Region,Zhongwei,3,0,3,0,70,0
-2020-02-16,中国,CN,Xinjiang Uygur Autonomous Region,,71,0,11,1,70,59
+2020-02-16,中国,CN,Xinjiang Uygur Autonomous Region,,75,0,12,1,70,62
 2020-02-16,中国,CN,Xinjiang Uygur Autonomous Region,Urumqi,23,0,3,0,70,20
 2020-02-16,中国,CN,Xinjiang Uygur Autonomous Region,Turpan,3,0,1,0,70,2
 2020-02-16,中国,CN,Xinjiang Uygur Autonomous Region,Shihezi,3,0,1,1,70,1
 2020-02-16,中国,CN,Xinjiang Uygur Autonomous Region,Wujiaqu,2,0,0,0,70,2
-2020-02-16,中国,CN,Taiwan,,18,0,2,0,70,16
-2020-02-16,中国,CN,Hongkong,,56,0,1,1,70,54
-2020-02-16,中国,CN,Macao,,10,0,3,0,70,7
+2020-02-16,中国,CN,Taiwan,,20,0,2,1,70,17
+2020-02-16,中国,CN,Hongkong,,57,0,2,1,70,54
+2020-02-16,中国,CN,Macao,,10,0,5,0,70,5
 2020-02-16,德国,DE,,,16,0,1,0,70,15
 2020-02-16,埃及,EG,,,1,0,0,0,70,1
 2020-02-16,西班牙,ES,,,2,0,0,0,70,2
 2020-02-16,芬兰,FI,,,1,0,1,0,70,0
-2020-02-16,法国,FR,,,12,0,0,1,70,11
+2020-02-16,法国,FR,,,12,0,4,1,70,7
 2020-02-16,英国,GB,,,9,0,8,0,70,1
-2020-02-16,印度,IN,,,3,0,0,0,70,3
+2020-02-16,印度,IN,,,3,0,2,0,70,1
 2020-02-16,意大利,IT,,,3,0,0,0,70,3
 2020-02-16,日本,JP,,,355,0,1,1,70,353
 2020-02-16,柬埔寨,KH,,,1,0,1,0,70,0
@@ -8158,3 +8158,1805 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-16,泰国,TH,,,34,0,14,0,70,20
 2020-02-16,美国,US,,,15,0,3,0,70,12
 2020-02-16,越南,VN,,,16,0,7,0,70,9
+2020-02-17,阿联酋,AE,,,8,0,4,0,71,4
+2020-02-17,澳大利亚,AU,,,15,0,5,0,71,10
+2020-02-17,比利时,BE,,,1,0,1,0,71,0
+2020-02-17,加拿大,CA,,,8,0,1,0,71,7
+2020-02-17,中国,CN,,,72528,6242,12561,1870,71,58097
+2020-02-17,中国,CN,Beijing,,387,0,122,4,71,261
+2020-02-17,中国,CN,Tianjin,,125,0,46,3,71,76
+2020-02-17,中国,CN,Hebei Province,,302,0,123,4,71,175
+2020-02-17,中国,CN,Hebei Province,Shijiazhuang,28,0,7,0,71,21
+2020-02-17,中国,CN,Hebei Province,Tangshan,51,0,9,0,71,42
+2020-02-17,中国,CN,Hebei Province,Qinhuangdao,10,0,3,0,71,7
+2020-02-17,中国,CN,Hebei Province,Handan,31,0,10,0,71,21
+2020-02-17,中国,CN,Hebei Province,Xingtai,22,0,10,1,71,11
+2020-02-17,中国,CN,Hebei Province,Baoding,32,0,20,0,71,12
+2020-02-17,中国,CN,Hebei Province,Zhangjiakou,34,0,9,0,71,25
+2020-02-17,中国,CN,Hebei Province,Chengde,7,0,5,0,71,2
+2020-02-17,中国,CN,Hebei Province,Cangzhou,47,0,14,2,71,31
+2020-02-17,中国,CN,Hebei Province,Langfang,30,0,14,0,71,16
+2020-02-17,中国,CN,Hebei Province,Hengshui,8,0,4,0,71,4
+2020-02-17,中国,CN,Shanxi Province,,130,0,53,0,71,77
+2020-02-17,中国,CN,Shanxi Province,Taiyuan,19,0,6,0,71,13
+2020-02-17,中国,CN,Shanxi Province,Datong,12,0,4,0,71,8
+2020-02-17,中国,CN,Shanxi Province,Yangquan,4,0,1,0,71,3
+2020-02-17,中国,CN,Shanxi Province,Changzhi,8,0,1,0,71,7
+2020-02-17,中国,CN,Shanxi Province,Jincheng,9,0,2,0,71,7
+2020-02-17,中国,CN,Shanxi Province,Shuozhou,7,0,2,0,71,5
+2020-02-17,中国,CN,Shanxi Province,Jinzhong,36,0,13,0,71,23
+2020-02-17,中国,CN,Shanxi Province,Yuncheng,19,0,13,0,71,6
+2020-02-17,中国,CN,Shanxi Province,Xinzhou,7,0,1,0,71,6
+2020-02-17,中国,CN,Shanxi Province,Linfen,2,0,1,0,71,1
+2020-02-17,中国,CN,Shanxi Province,Luliang,6,0,6,0,71,0
+2020-02-17,中国,CN,Inner Mongolia Autonomous Region,,73,0,8,0,71,65
+2020-02-17,中国,CN,Inner Mongolia Autonomous Region,Hohhot,7,0,0,0,71,7
+2020-02-17,中国,CN,Inner Mongolia Autonomous Region,Baotou,11,0,0,0,71,11
+2020-02-17,中国,CN,Inner Mongolia Autonomous Region,Wuhai,2,0,0,0,71,2
+2020-02-17,中国,CN,Inner Mongolia Autonomous Region,Chifeng,9,0,2,0,71,7
+2020-02-17,中国,CN,Inner Mongolia Autonomous Region,Tongliao,6,0,0,0,71,6
+2020-02-17,中国,CN,Inner Mongolia Autonomous Region,Erdos,11,0,3,0,71,8
+2020-02-17,中国,CN,Inner Mongolia Autonomous Region,Hulunbeier,6,0,1,0,71,5
+2020-02-17,中国,CN,Inner Mongolia Autonomous Region,Bayannaoer,8,0,0,0,71,8
+2020-02-17,中国,CN,Inner Mongolia Autonomous Region,Wulanchabu,3,0,1,0,71,2
+2020-02-17,中国,CN,Liaoning Province,,121,0,43,1,71,77
+2020-02-17,中国,CN,Liaoning Province,Shenyang,28,0,17,0,71,11
+2020-02-17,中国,CN,Liaoning Province,Dalian,19,0,5,0,71,14
+2020-02-17,中国,CN,Liaoning Province,Anshan,4,0,0,0,71,4
+2020-02-17,中国,CN,Liaoning Province,Benxi,3,0,1,0,71,2
+2020-02-17,中国,CN,Liaoning Province,Dandong,7,0,4,0,71,3
+2020-02-17,中国,CN,Liaoning Province,Jinzhou,12,0,6,0,71,6
+2020-02-17,中国,CN,Liaoning Province,Yingkou,1,0,1,0,71,0
+2020-02-17,中国,CN,Liaoning Province,Fuxin,8,0,0,0,71,8
+2020-02-17,中国,CN,Liaoning Province,Liaoyang,3,0,2,0,71,1
+2020-02-17,中国,CN,Liaoning Province,Panjin,11,0,0,0,71,11
+2020-02-17,中国,CN,Liaoning Province,Tieling,7,0,1,0,71,6
+2020-02-17,中国,CN,Liaoning Province,Sunny,6,0,2,0,71,4
+2020-02-17,中国,CN,Liaoning Province,Huludao,12,0,0,1,71,11
+2020-02-17,中国,CN,Jilin Province,,89,0,34,1,71,54
+2020-02-17,中国,CN,Jilin Province,Changchun,45,0,16,0,71,29
+2020-02-17,中国,CN,Jilin Province,Jilin,5,0,3,0,71,2
+2020-02-17,中国,CN,Jilin Province,Siping,14,0,4,1,71,9
+2020-02-17,中国,CN,Jilin Province,Gongzhuling,6,0,2,0,71,4
+2020-02-17,中国,CN,Jilin Province,Liaoyuan,7,0,1,0,71,6
+2020-02-17,中国,CN,Jilin Province,Tonghua,3,0,0,0,71,3
+2020-02-17,中国,CN,Jilin Province,Matsubara,2,0,1,0,71,1
+2020-02-17,中国,CN,Jilin Province,Baicheng,1,0,0,0,71,1
+2020-02-17,中国,CN,Heilongjiang Province,,464,0,85,11,71,368
+2020-02-17,中国,CN,Heilongjiang Province,Harbin,182,0,32,3,71,147
+2020-02-17,中国,CN,Heilongjiang Province,Qiqihar,38,0,8,1,71,29
+2020-02-17,中国,CN,Heilongjiang Province,Jixi,46,0,1,0,71,45
+2020-02-17,中国,CN,Heilongjiang Province,Hegang,5,0,2,0,71,3
+2020-02-17,中国,CN,Heilongjiang Province,Shuangyashan,49,0,1,2,71,46
+2020-02-17,中国,CN,Heilongjiang Province,Daqing,19,0,3,1,71,15
+2020-02-17,中国,CN,Heilongjiang Province,Jiamusi,15,0,13,0,71,2
+2020-02-17,中国,CN,Heilongjiang Province,Qitaihe,16,0,4,0,71,12
+2020-02-17,中国,CN,Heilongjiang Province,Mudanjiang,12,0,1,0,71,11
+2020-02-17,中国,CN,Heilongjiang Province,Heihe,14,0,0,0,71,14
+2020-02-17,中国,CN,Heilongjiang Province,Suihua,46,0,12,4,71,30
+2020-02-17,中国,CN,Shanghai,,333,0,161,1,71,171
+2020-02-17,中国,CN,Jiangsu Province,,629,0,263,0,71,366
+2020-02-17,中国,CN,Jiangsu Province,Nanjing,92,0,30,0,71,62
+2020-02-17,中国,CN,Jiangsu Province,Wuxi,53,0,18,0,71,35
+2020-02-17,中国,CN,Jiangsu Province,Xuzhou,78,0,28,0,71,50
+2020-02-17,中国,CN,Jiangsu Province,Changzhou,46,0,21,0,71,25
+2020-02-17,中国,CN,Jiangsu Province,Suzhou,86,0,26,0,71,60
+2020-02-17,中国,CN,Jiangsu Province,Nantong,40,0,15,0,71,25
+2020-02-17,中国,CN,Jiangsu Province,Lianyungang,48,0,12,0,71,36
+2020-02-17,中国,CN,Jiangsu Province,Huaian,63,0,23,0,71,40
+2020-02-17,中国,CN,Jiangsu Province,Yancheng,27,0,10,0,71,17
+2020-02-17,中国,CN,Jiangsu Province,Yangzhou,22,0,8,0,71,14
+2020-02-17,中国,CN,Jiangsu Province,Zhenjiang,12,0,4,0,71,8
+2020-02-17,中国,CN,Jiangsu Province,Taizhou,37,0,16,0,71,21
+2020-02-17,中国,CN,Jiangsu Province,Suqian,13,0,7,0,71,6
+2020-02-17,中国,CN,Zhejiang Province,,1172,0,514,0,71,658
+2020-02-17,中国,CN,Zhejiang Province,Hangzhou,166,0,76,0,71,90
+2020-02-17,中国,CN,Zhejiang Province,Ningbo,155,0,55,0,71,100
+2020-02-17,中国,CN,Zhejiang Province,Wenzhou,502,0,182,0,71,320
+2020-02-17,中国,CN,Zhejiang Province,Jiaxing,43,0,11,0,71,32
+2020-02-17,中国,CN,Zhejiang Province,Huzhou,10,0,4,0,71,6
+2020-02-17,中国,CN,Zhejiang Province,Shaoxing,42,0,17,0,71,25
+2020-02-17,中国,CN,Zhejiang Province,Jinhua,55,0,24,0,71,31
+2020-02-17,中国,CN,Zhejiang Province,Quzhou,21,0,9,0,71,12
+2020-02-17,中国,CN,Zhejiang Province,Zhoushan,10,0,5,0,71,5
+2020-02-17,中国,CN,Zhejiang Province,Taizhou,146,0,63,0,71,83
+2020-02-17,中国,CN,Zhejiang Province,Lishui,17,0,10,0,71,7
+2020-02-17,中国,CN,Anhui Province,,982,0,293,6,71,683
+2020-02-17,中国,CN,Anhui Province,Hefei,169,0,43,1,71,125
+2020-02-17,中国,CN,Anhui Province,Wuhu,31,0,13,0,71,18
+2020-02-17,中国,CN,Anhui Province,Bengbu,157,0,9,5,71,143
+2020-02-17,中国,CN,Anhui Province,Huainan,24,0,8,0,71,16
+2020-02-17,中国,CN,Anhui Province,Ma'anshan,36,0,10,0,71,26
+2020-02-17,中国,CN,Anhui Province,Huaibei,26,0,10,0,71,16
+2020-02-17,中国,CN,Anhui Province,Tongling,28,0,10,0,71,18
+2020-02-17,中国,CN,Anhui Province,Anqing,82,0,34,0,71,48
+2020-02-17,中国,CN,Anhui Province,Huangshan,9,0,1,0,71,8
+2020-02-17,中国,CN,Anhui Province,Chuzhou,13,0,7,0,71,6
+2020-02-17,中国,CN,Anhui Province,Fuyang,152,0,37,0,71,115
+2020-02-17,中国,CN,Anhui Province,Suzhou,39,0,13,0,71,26
+2020-02-17,中国,CN,Anhui Province,Lu'an,65,0,15,0,71,50
+2020-02-17,中国,CN,Anhui Province,Bozhou,108,0,35,0,71,73
+2020-02-17,中国,CN,Anhui Province,Chizhou,17,0,6,0,71,11
+2020-02-17,中国,CN,Anhui Province,Xuancheng,6,0,4,0,71,2
+2020-02-17,中国,CN,Fujian Province,,292,0,91,0,71,201
+2020-02-17,中国,CN,Fujian Province,Fuzhou,68,0,23,0,71,45
+2020-02-17,中国,CN,Fujian Province,Xiamen,34,0,5,0,71,29
+2020-02-17,中国,CN,Fujian Province,Putian,55,0,10,0,71,45
+2020-02-17,中国,CN,Fujian Province,Sanming,13,0,3,0,71,10
+2020-02-17,中国,CN,Fujian Province,Quanzhou,46,0,13,0,71,33
+2020-02-17,中国,CN,Fujian Province,Zhangzhou,20,0,4,0,71,16
+2020-02-17,中国,CN,Fujian Province,Nanping,20,0,7,0,71,13
+2020-02-17,中国,CN,Fujian Province,Longyan,6,0,1,0,71,5
+2020-02-17,中国,CN,Fujian Province,Ningde,25,0,6,0,71,19
+2020-02-17,中国,CN,Jiangxi,,933,0,310,1,71,622
+2020-02-17,中国,CN,Jiangxi,Nanchang,227,0,75,0,71,152
+2020-02-17,中国,CN,Jiangxi,Jingdezhen,5,0,1,0,71,4
+2020-02-17,中国,CN,Jiangxi,Pingxiang,32,0,4,0,71,28
+2020-02-17,中国,CN,Jiangxi,Jiujiang,117,0,22,0,71,95
+2020-02-17,中国,CN,Jiangxi,Xinyu,129,0,37,0,71,92
+2020-02-17,中国,CN,Jiangxi,Yingtan,18,0,3,0,71,15
+2020-02-17,中国,CN,Jiangxi,Ganzhou,76,0,17,1,71,58
+2020-02-17,中国,CN,Jiangxi,Ji'an,21,0,9,0,71,12
+2020-02-17,中国,CN,Jiangxi,Yichun,104,0,20,0,71,84
+2020-02-17,中国,CN,Jiangxi,Fuzhou,72,0,20,0,71,52
+2020-02-17,中国,CN,Jiangxi,Shangrao,123,0,38,0,71,85
+2020-02-17,中国,CN,Shandong Province,,543,0,193,2,71,348
+2020-02-17,中国,CN,Shandong Province,Jinan,47,0,11,0,71,36
+2020-02-17,中国,CN,Shandong Province,Qingdao,57,0,27,1,71,29
+2020-02-17,中国,CN,Shandong Province,Zibo,29,0,4,0,71,25
+2020-02-17,中国,CN,Shandong Province,Zaozhuang,24,0,4,0,71,20
+2020-02-17,中国,CN,Shandong Province,Yantai,46,0,13,0,71,33
+2020-02-17,中国,CN,Shandong Province,Weifang,43,0,9,0,71,34
+2020-02-17,中国,CN,Shandong Province,Jining,51,0,18,0,71,33
+2020-02-17,中国,CN,Shandong Province,Tai'an,32,0,5,0,71,27
+2020-02-17,中国,CN,Shandong Province,Weihai,38,0,9,0,71,29
+2020-02-17,中国,CN,Shandong Province,sunshine,16,0,3,0,71,13
+2020-02-17,中国,CN,Shandong Province,Linyi,47,0,32,0,71,15
+2020-02-17,中国,CN,Shandong Province,Texas,37,0,7,1,71,29
+2020-02-17,中国,CN,Shandong Province,Liaocheng,38,0,11,0,71,27
+2020-02-17,中国,CN,Shandong Province,Binzhou,14,0,9,0,71,5
+2020-02-17,中国,CN,Shandong Province,Heze,18,0,11,0,71,7
+2020-02-17,中国,CN,Henan Province,,1257,0,505,19,71,733
+2020-02-17,中国,CN,Henan Province,Zhengzhou,148,0,66,0,71,82
+2020-02-17,中国,CN,Henan Province,Kaifeng,26,0,7,0,71,19
+2020-02-17,中国,CN,Henan Province,Luoyang,31,0,11,0,71,20
+2020-02-17,中国,CN,Henan Province,Pingdingshan,58,0,20,1,71,37
+2020-02-17,中国,CN,Henan Province,Anyang,51,0,20,0,71,31
+2020-02-17,中国,CN,Henan Province,Hebi,19,0,5,0,71,14
+2020-02-17,中国,CN,Henan Province,Xinxiang,56,0,15,2,71,39
+2020-02-17,中国,CN,Henan Province,Jiaozuo,30,0,7,1,71,22
+2020-02-17,中国,CN,Henan Province,Puyang,17,0,2,0,71,15
+2020-02-17,中国,CN,Henan Province,Xuchang,38,0,9,0,71,29
+2020-02-17,中国,CN,Henan Province,Luohe,34,0,12,0,71,22
+2020-02-17,中国,CN,Henan Province,Sanmenxia,7,0,4,0,71,3
+2020-02-17,中国,CN,Henan Province,Nanyang,151,0,57,2,71,92
+2020-02-17,中国,CN,Henan Province,Shangqiu,91,0,30,2,71,59
+2020-02-17,中国,CN,Henan Province,Xinyang,261,0,74,2,71,185
+2020-02-17,中国,CN,Henan Province,Zhoukou,71,0,27,0,71,44
+2020-02-17,中国,CN,Henan Province,Zhumadian,138,0,65,0,71,73
+2020-02-17,中国,CN,Henan Province,Jiyuan,4,0,0,0,71,4
+2020-02-17,中国,CN,Hubei Province,,59989,0,7862,1789,71,50338
+2020-02-17,中国,CN,Hubei Province,Wuhan,39462,0,2937,1233,71,35292
+2020-02-17,中国,CN,Hubei Province,Yellowstone,988,0,192,14,71,782
+2020-02-17,中国,CN,Hubei Province,Shiyan,602,0,116,2,71,484
+2020-02-17,中国,CN,Hubei Province,Yichang,901,0,140,21,71,740
+2020-02-17,中国,CN,Hubei Province,Xiangyang,1144,0,114,19,71,1011
+2020-02-17,中国,CN,Hubei Province,Ezhou,1230,0,222,34,71,974
+2020-02-17,中国,CN,Hubei Province,Jingmen,909,0,117,30,71,762
+2020-02-17,中国,CN,Hubei Province,Xiaogan,3201,0,380,65,71,2756
+2020-02-17,中国,CN,Hubei Province,Jingzhou,1490,0,263,36,71,1191
+2020-02-17,中国,CN,Hubei Province,Huanggang,2823,0,716,75,71,2032
+2020-02-17,中国,CN,Hubei Province,Xianning,852,0,152,8,71,692
+2020-02-17,中国,CN,Hubei Province,Suizhou,1254,0,113,22,71,1119
+2020-02-17,中国,CN,Hubei Province,Xiantao,523,0,87,17,71,419
+2020-02-17,中国,CN,Hubei Province,Qianjiang,166,0,12,6,71,148
+2020-02-17,中国,CN,Hubei Province,Tianmen,447,0,27,10,71,410
+2020-02-17,中国,CN,Hunan Province,,1007,0,501,4,71,502
+2020-02-17,中国,CN,Hunan Province,Changsha,241,0,89,1,71,151
+2020-02-17,中国,CN,Hunan Province,Zhuzhou,78,0,31,0,71,47
+2020-02-17,中国,CN,Hunan Province,Xiangtan,35,0,14,0,71,21
+2020-02-17,中国,CN,Hunan Province,Hengyang,47,0,28,0,71,19
+2020-02-17,中国,CN,Hunan Province,Shaoyang,101,0,64,1,71,36
+2020-02-17,中国,CN,Hunan Province,Yueyang,154,0,54,1,71,99
+2020-02-17,中国,CN,Hunan Province,Changde,79,0,31,0,71,48
+2020-02-17,中国,CN,Hunan Province,Zhangjiajie,5,0,4,0,71,1
+2020-02-17,中国,CN,Hunan Province,Yiyang,59,0,27,0,71,32
+2020-02-17,中国,CN,Hunan Province,Chenzhou,39,0,22,0,71,17
+2020-02-17,中国,CN,Hunan Province,Yongzhou,43,0,28,0,71,15
+2020-02-17,中国,CN,Hunan Province,Huaihua,40,0,30,0,71,10
+2020-02-17,中国,CN,Hunan Province,Loudi,75,0,34,0,71,41
+2020-02-17,中国,CN,Guangdong Province,,1328,0,530,4,71,794
+2020-02-17,中国,CN,Guangdong Province,Canton,338,0,121,0,71,217
+2020-02-17,中国,CN,Guangdong Province,Shaoguan,10,0,4,0,71,6
+2020-02-17,中国,CN,Guangdong Province,Shenzhen,414,0,131,0,71,283
+2020-02-17,中国,CN,Guangdong Province,Zhuhai,96,0,37,0,71,59
+2020-02-17,中国,CN,Guangdong Province,Shantou,25,0,13,0,71,12
+2020-02-17,中国,CN,Guangdong Province,Foshan,84,0,23,0,71,61
+2020-02-17,中国,CN,Guangdong Province,Jiangmen,23,0,3,0,71,20
+2020-02-17,中国,CN,Guangdong Province,Zhanjiang,22,0,11,0,71,11
+2020-02-17,中国,CN,Guangdong Province,Maoming,13,0,3,0,71,10
+2020-02-17,中国,CN,Guangdong Province,Zhaoqing,17,0,8,1,71,8
+2020-02-17,中国,CN,Guangdong Province,Huizhou,58,0,26,0,71,32
+2020-02-17,中国,CN,Guangdong Province,Meizhou,16,0,7,0,71,9
+2020-02-17,中国,CN,Guangdong Province,Shanwei,5,0,1,0,71,4
+2020-02-17,中国,CN,Guangdong Province,Heyuan,3,0,1,0,71,2
+2020-02-17,中国,CN,Guangdong Province,Yangjiang,13,0,7,0,71,6
+2020-02-17,中国,CN,Guangdong Province,Qingyuan,12,0,7,0,71,5
+2020-02-17,中国,CN,Guangdong Province,Dongguan,89,0,15,1,71,73
+2020-02-17,中国,CN,Guangdong Province,Zhongshan,65,0,34,0,71,31
+2020-02-17,中国,CN,Guangdong Province,Chaozhou,5,0,1,0,71,4
+2020-02-17,中国,CN,Guangdong Province,Jieyang,8,0,4,0,71,4
+2020-02-17,中国,CN,Guangxi Zhuang Autonomous Region,,242,0,58,2,71,182
+2020-02-17,中国,CN,Guangxi Zhuang Autonomous Region,Nanning,50,0,14,0,71,36
+2020-02-17,中国,CN,Guangxi Zhuang Autonomous Region,Liuzhou,24,0,8,0,71,16
+2020-02-17,中国,CN,Guangxi Zhuang Autonomous Region,Guilin,31,0,10,0,71,21
+2020-02-17,中国,CN,Guangxi Zhuang Autonomous Region,Wuzhou,5,0,5,0,71,0
+2020-02-17,中国,CN,Guangxi Zhuang Autonomous Region,North Sea,43,0,7,1,71,35
+2020-02-17,中国,CN,Guangxi Zhuang Autonomous Region,Fangchenggang,18,0,1,0,71,17
+2020-02-17,中国,CN,Guangxi Zhuang Autonomous Region,Qinzhou,8,0,1,0,71,7
+2020-02-17,中国,CN,Guangxi Zhuang Autonomous Region,Guigang,8,0,2,0,71,6
+2020-02-17,中国,CN,Guangxi Zhuang Autonomous Region,Yulin,10,0,1,0,71,9
+2020-02-17,中国,CN,Guangxi Zhuang Autonomous Region,Baise,3,0,0,0,71,3
+2020-02-17,中国,CN,Guangxi Zhuang Autonomous Region,Hezhou,4,0,0,0,71,4
+2020-02-17,中国,CN,Guangxi Zhuang Autonomous Region,Hechi,22,0,0,1,71,21
+2020-02-17,中国,CN,Guangxi Zhuang Autonomous Region,guest,11,0,0,0,71,11
+2020-02-17,中国,CN,Hainan,,163,0,59,4,71,100
+2020-02-17,中国,CN,Hainan,Seaport,33,0,12,0,71,21
+2020-02-17,中国,CN,Hainan,Sanya,54,0,15,1,71,38
+2020-02-17,中国,CN,Hainan,Danzhou,15,0,7,0,71,8
+2020-02-17,中国,CN,Hainan,Qionghai,6,0,3,1,71,2
+2020-02-17,中国,CN,Hainan,Wenchang,3,0,1,0,71,2
+2020-02-17,中国,CN,Hainan,Wanning,13,0,4,0,71,9
+2020-02-17,中国,CN,Hainan,East,3,0,2,0,71,1
+2020-02-17,中国,CN,Chongqing,,553,0,225,5,71,323
+2020-02-17,中国,CN,Sichuan Province,,508,0,163,3,71,342
+2020-02-17,中国,CN,Sichuan Province,Chengdu,140,0,49,3,71,88
+2020-02-17,中国,CN,Sichuan Province,Zigong,9,0,2,0,71,7
+2020-02-17,中国,CN,Sichuan Province,Panzhihua,13,0,10,0,71,3
+2020-02-17,中国,CN,Sichuan Province,Luzhou,19,0,3,0,71,16
+2020-02-17,中国,CN,Sichuan Province,Deyang,17,0,0,0,71,17
+2020-02-17,中国,CN,Sichuan Province,Mianyang,22,0,6,0,71,16
+2020-02-17,中国,CN,Sichuan Province,Guangyuan,6,0,3,0,71,3
+2020-02-17,中国,CN,Sichuan Province,Suining,12,0,4,0,71,8
+2020-02-17,中国,CN,Sichuan Province,Neijiang,22,0,5,0,71,17
+2020-02-17,中国,CN,Sichuan Province,Leshan,3,0,2,0,71,1
+2020-02-17,中国,CN,Sichuan Province,Nanchong,35,0,9,0,71,26
+2020-02-17,中国,CN,Sichuan Province,Yibin,11,0,6,0,71,5
+2020-02-17,中国,CN,Sichuan Province,Guang'an,30,0,10,0,71,20
+2020-02-17,中国,CN,Sichuan Province,Florida,36,0,5,0,71,31
+2020-02-17,中国,CN,Sichuan Province,Ya'an,7,0,2,0,71,5
+2020-02-17,中国,CN,Sichuan Province,Bazhong,24,0,3,0,71,21
+2020-02-17,中国,CN,Sichuan Province,Ziyang,3,0,2,0,71,1
+2020-02-17,中国,CN,Guizhou Province,,146,0,66,1,71,79
+2020-02-17,中国,CN,Guizhou Province,Guiyang,34,0,10,0,71,24
+2020-02-17,中国,CN,Guizhou Province,Liupanshui,10,0,3,1,71,6
+2020-02-17,中国,CN,Guizhou Province,Zunyi,32,0,5,0,71,27
+2020-02-17,中国,CN,Guizhou Province,Anshun,4,0,1,0,71,3
+2020-02-17,中国,CN,Guizhou Province,Bijie,23,0,7,0,71,16
+2020-02-17,中国,CN,Guizhou Province,Tongren,10,0,7,0,71,3
+2020-02-17,中国,CN,Yunnan Province,,172,0,47,0,71,125
+2020-02-17,中国,CN,Yunnan Province,Kunming,51,0,8,0,71,43
+2020-02-17,中国,CN,Yunnan Province,Qujing,13,0,5,0,71,8
+2020-02-17,中国,CN,Yunnan Province,Yuxi,14,0,3,0,71,11
+2020-02-17,中国,CN,Yunnan Province,Baoshan,9,0,2,0,71,7
+2020-02-17,中国,CN,Yunnan Province,Zhaotong,25,0,2,0,71,23
+2020-02-17,中国,CN,Yunnan Province,Lijiang,7,0,5,0,71,2
+2020-02-17,中国,CN,Yunnan Province,Pu'er,4,0,1,0,71,3
+2020-02-17,中国,CN,Yunnan Province,Lincang,1,0,1,0,71,0
+2020-02-17,中国,CN,Tibet Autonomous Region,,1,0,1,0,71,0
+2020-02-17,中国,CN,Tibet Autonomous Region,Lhasa,1,0,1,0,71,0
+2020-02-17,中国,CN,Shaanxi Province,,240,0,79,0,71,161
+2020-02-17,中国,CN,Shaanxi Province,Xi'an,114,0,25,0,71,89
+2020-02-17,中国,CN,Shaanxi Province,Tongchuan,8,0,4,0,71,4
+2020-02-17,中国,CN,Shaanxi Province,Baoji,13,0,8,0,71,5
+2020-02-17,中国,CN,Shaanxi Province,Xianyang,17,0,6,0,71,11
+2020-02-17,中国,CN,Shaanxi Province,Weinan,15,0,2,0,71,13
+2020-02-17,中国,CN,Shaanxi Province,Hancheng,1,0,1,0,71,0
+2020-02-17,中国,CN,Shaanxi Province,Yan'an,8,0,6,0,71,2
+2020-02-17,中国,CN,Shaanxi Province,Hanzhong,25,0,1,0,71,24
+2020-02-17,中国,CN,Shaanxi Province,Yulin,3,0,1,0,71,2
+2020-02-17,中国,CN,Shaanxi Province,Good health,24,0,7,0,71,17
+2020-02-17,中国,CN,Shaanxi Province,Shangluo,7,0,2,0,71,5
+2020-02-17,中国,CN,Gansu province,,91,0,58,2,71,31
+2020-02-17,中国,CN,Gansu province,Lanzhou,35,0,17,2,71,16
+2020-02-17,中国,CN,Gansu province,Jinchang,1,0,1,0,71,0
+2020-02-17,中国,CN,Gansu province,silver,4,0,1,0,71,3
+2020-02-17,中国,CN,Gansu province,Tianshui,12,0,9,0,71,3
+2020-02-17,中国,CN,Gansu province,Zhangye,2,0,2,0,71,0
+2020-02-17,中国,CN,Gansu province,Pingliang,9,0,1,0,71,8
+2020-02-17,中国,CN,Gansu province,Qingyang,3,0,2,0,71,1
+2020-02-17,中国,CN,Gansu province,Dingxi,9,0,8,0,71,1
+2020-02-17,中国,CN,Gansu province,Longnan,4,0,3,0,71,1
+2020-02-17,中国,CN,Qinghai Province,,18,0,13,0,71,5
+2020-02-17,中国,CN,Qinghai Province,Xining,15,0,10,0,71,5
+2020-02-17,中国,CN,Ningxia Hui Autonomous Region,,70,0,35,0,71,35
+2020-02-17,中国,CN,Ningxia Hui Autonomous Region,Yinchuan,33,0,20,0,71,13
+2020-02-17,中国,CN,Ningxia Hui Autonomous Region,Shizuishan,1,0,1,0,71,0
+2020-02-17,中国,CN,Ningxia Hui Autonomous Region,Wuzhong,27,0,6,0,71,21
+2020-02-17,中国,CN,Ningxia Hui Autonomous Region,Guyuan,5,0,2,0,71,3
+2020-02-17,中国,CN,Ningxia Hui Autonomous Region,Zhongwei,3,0,3,0,71,0
+2020-02-17,中国,CN,Xinjiang Uygur Autonomous Region,,76,0,12,1,71,63
+2020-02-17,中国,CN,Xinjiang Uygur Autonomous Region,Urumqi,23,0,4,0,71,19
+2020-02-17,中国,CN,Xinjiang Uygur Autonomous Region,Turpan,3,0,1,0,71,2
+2020-02-17,中国,CN,Xinjiang Uygur Autonomous Region,Shihezi,3,0,1,1,71,1
+2020-02-17,中国,CN,Xinjiang Uygur Autonomous Region,Wujiaqu,2,0,0,0,71,2
+2020-02-17,中国,CN,Taiwan,,22,0,2,1,71,19
+2020-02-17,中国,CN,Hongkong,,60,0,2,1,71,57
+2020-02-17,中国,CN,Macao,,10,0,5,0,71,5
+2020-02-17,德国,DE,,,16,0,1,0,71,15
+2020-02-17,埃及,EG,,,1,0,0,0,71,1
+2020-02-17,西班牙,ES,,,2,0,0,0,71,2
+2020-02-17,芬兰,FI,,,1,0,1,0,71,0
+2020-02-17,法国,FR,,,12,0,4,1,71,7
+2020-02-17,英国,GB,,,9,0,8,0,71,1
+2020-02-17,印度,IN,,,3,0,2,0,71,1
+2020-02-17,意大利,IT,,,3,0,0,0,71,3
+2020-02-17,日本,JP,,,413,0,1,1,71,411
+2020-02-17,柬埔寨,KH,,,1,0,1,0,71,0
+2020-02-17,韩国,KR,,,29,0,9,0,71,20
+2020-02-17,斯里兰卡,LK,,,1,0,1,0,71,0
+2020-02-17,马来西亚,MY,,,22,0,7,0,71,15
+2020-02-17,尼泊尔,NP,,,1,0,1,0,71,0
+2020-02-17,菲律宾,PH,,,3,0,1,1,71,1
+2020-02-17,俄罗斯,RU,,,2,0,2,0,71,0
+2020-02-17,瑞典,SE,,,1,0,0,0,71,1
+2020-02-17,新加坡,SG,,,72,0,18,0,71,54
+2020-02-17,泰国,TH,,,34,0,15,0,71,19
+2020-02-17,美国,US,,,15,0,3,0,71,12
+2020-02-17,越南,VN,,,16,0,7,0,71,9
+2020-02-18,中国,CN,,,74276,5248,14387,2006,72,57883
+2020-02-18,中国,CN,Beijing,,393,0,145,4,72,244
+2020-02-18,中国,CN,Tianjin,,128,0,48,3,72,77
+2020-02-18,中国,CN,Hebei Province,,306,0,136,4,72,166
+2020-02-18,中国,CN,Shanxi Province,,131,0,61,0,72,70
+2020-02-18,中国,CN,Inner Mongolia Autonomous Region,,75,0,9,0,72,66
+2020-02-18,中国,CN,Liaoning Province,,121,0,55,1,72,65
+2020-02-18,中国,CN,Jilin Province,,90,0,36,1,72,53
+2020-02-18,中国,CN,Heilongjiang Province,,470,0,108,12,72,350
+2020-02-18,中国,CN,Shanghai,,333,0,177,1,72,155
+2020-02-18,中国,CN,Jiangsu Province,,631,0,296,0,72,335
+2020-02-18,中国,CN,Zhejiang Province,,1173,0,544,0,72,629
+2020-02-18,中国,CN,Anhui Province,,986,0,361,6,72,619
+2020-02-18,中国,CN,Fujian Province,,293,0,96,0,72,197
+2020-02-18,中国,CN,Jiangxi,,933,0,362,1,72,570
+2020-02-18,中国,CN,Shandong Province,,544,0,215,3,72,326
+2020-02-18,中国,CN,Henan Province,,1261,0,552,19,72,690
+2020-02-18,中国,CN,Hubei Province,,61682,0,9128,1921,72,50633
+2020-02-18,中国,CN,Hunan Province,,1008,0,542,4,72,462
+2020-02-18,中国,CN,Guangdong Province,,1331,0,571,5,72,755
+2020-02-18,中国,CN,Guangxi Zhuang Autonomous Region,,244,0,76,2,72,166
+2020-02-18,中国,CN,Hainan,,163,0,79,4,72,80
+2020-02-18,中国,CN,Chongqing,,555,0,254,5,72,296
+2020-02-18,中国,CN,Sichuan Province,,514,0,177,3,72,334
+2020-02-18,中国,CN,Guizhou Province,,146,0,69,2,72,75
+2020-02-18,中国,CN,Yunnan Province,,172,0,57,0,72,115
+2020-02-18,中国,CN,Tibet Autonomous Region,,1,0,1,0,72,0
+2020-02-18,中国,CN,Shaanxi Province,,240,0,89,0,72,151
+2020-02-18,中国,CN,Gansu province,,91,0,62,2,72,27
+2020-02-18,中国,CN,Qinghai Province,,18,0,15,0,72,3
+2020-02-18,中国,CN,Ningxia Hui Autonomous Region,,71,0,42,0,72,29
+2020-02-18,中国,CN,Xinjiang Uygur Autonomous Region,,76,0,14,1,72,61
+2020-02-18,中国,CN,Taiwan,,22,0,2,1,72,19
+2020-02-18,中国,CN,Hongkong,,62,0,4,1,72,57
+2020-02-18,中国,CN,Macao,,10,0,5,0,72,5
+2020-02-19,阿联酋,AE,,,9,0,4,0,73,5
+2020-02-19,澳大利亚,AU,,,15,0,5,0,73,10
+2020-02-19,比利时,BE,,,1,0,1,0,73,0
+2020-02-19,加拿大,CA,,,8,0,1,0,73,7
+2020-02-19,中国,CN,,,75101,4922,16168,2121,73,56812
+2020-02-19,中国,CN,Beijing,,395,0,153,4,73,238
+2020-02-19,中国,CN,Tianjin,,130,0,54,3,73,73
+2020-02-19,中国,CN,Hebei Province,,307,0,152,5,73,150
+2020-02-19,中国,CN,Hebei Province,Shijiazhuang,28,0,13,0,73,15
+2020-02-19,中国,CN,Hebei Province,Tangshan,55,0,13,1,73,41
+2020-02-19,中国,CN,Hebei Province,Qinhuangdao,10,0,4,0,73,6
+2020-02-19,中国,CN,Hebei Province,Handan,31,0,13,0,73,18
+2020-02-19,中国,CN,Hebei Province,Xingtai,23,0,10,1,73,12
+2020-02-19,中国,CN,Hebei Province,Baoding,32,0,27,0,73,5
+2020-02-19,中国,CN,Hebei Province,Zhangjiakou,34,0,15,0,73,19
+2020-02-19,中国,CN,Hebei Province,Chengde,7,0,4,0,73,3
+2020-02-19,中国,CN,Hebei Province,Cangzhou,48,0,18,2,73,28
+2020-02-19,中国,CN,Hebei Province,Langfang,30,0,18,0,73,12
+2020-02-19,中国,CN,Hebei Province,Hengshui,8,0,6,0,73,2
+2020-02-19,中国,CN,Shanxi Province,,131,0,68,0,73,63
+2020-02-19,中国,CN,Shanxi Province,Taiyuan,19,0,8,0,73,11
+2020-02-19,中国,CN,Shanxi Province,Datong,12,0,6,0,73,6
+2020-02-19,中国,CN,Shanxi Province,Yangquan,4,0,1,0,73,3
+2020-02-19,中国,CN,Shanxi Province,Changzhi,8,0,1,0,73,7
+2020-02-19,中国,CN,Shanxi Province,Jincheng,10,0,3,0,73,7
+2020-02-19,中国,CN,Shanxi Province,Shuozhou,8,0,3,0,73,5
+2020-02-19,中国,CN,Shanxi Province,Jinzhong,36,0,15,0,73,21
+2020-02-19,中国,CN,Shanxi Province,Yuncheng,19,0,14,0,73,5
+2020-02-19,中国,CN,Shanxi Province,Xinzhou,7,0,4,0,73,3
+2020-02-19,中国,CN,Shanxi Province,Linfen,2,0,1,0,73,1
+2020-02-19,中国,CN,Shanxi Province,Luliang,6,0,6,0,73,0
+2020-02-19,中国,CN,Inner Mongolia Autonomous Region,,75,0,11,0,73,64
+2020-02-19,中国,CN,Inner Mongolia Autonomous Region,Hohhot,7,0,0,0,73,7
+2020-02-19,中国,CN,Inner Mongolia Autonomous Region,Baotou,11,0,0,0,73,11
+2020-02-19,中国,CN,Inner Mongolia Autonomous Region,Wuhai,2,0,0,0,73,2
+2020-02-19,中国,CN,Inner Mongolia Autonomous Region,Chifeng,9,0,3,0,73,6
+2020-02-19,中国,CN,Inner Mongolia Autonomous Region,Tongliao,7,0,0,0,73,7
+2020-02-19,中国,CN,Inner Mongolia Autonomous Region,Erdos,11,0,3,0,73,8
+2020-02-19,中国,CN,Inner Mongolia Autonomous Region,Hulunbeier,7,0,1,0,73,6
+2020-02-19,中国,CN,Inner Mongolia Autonomous Region,Bayannaoer,8,0,0,0,73,8
+2020-02-19,中国,CN,Inner Mongolia Autonomous Region,Wulanchabu,3,0,1,0,73,2
+2020-02-19,中国,CN,Liaoning Province,,121,0,58,1,73,62
+2020-02-19,中国,CN,Liaoning Province,Shenyang,28,0,12,0,73,16
+2020-02-19,中国,CN,Liaoning Province,Dalian,19,0,9,0,73,10
+2020-02-19,中国,CN,Liaoning Province,Anshan,4,0,0,0,73,4
+2020-02-19,中国,CN,Liaoning Province,Benxi,3,0,3,0,73,0
+2020-02-19,中国,CN,Liaoning Province,Dandong,7,0,4,0,73,3
+2020-02-19,中国,CN,Liaoning Province,Jinzhou,12,0,6,0,73,6
+2020-02-19,中国,CN,Liaoning Province,Yingkou,1,0,1,0,73,0
+2020-02-19,中国,CN,Liaoning Province,Fuxin,8,0,6,0,73,2
+2020-02-19,中国,CN,Liaoning Province,Liaoyang,3,0,3,0,73,0
+2020-02-19,中国,CN,Liaoning Province,Panjin,11,0,4,0,73,7
+2020-02-19,中国,CN,Liaoning Province,Tieling,7,0,2,0,73,5
+2020-02-19,中国,CN,Liaoning Province,Sunny,6,0,3,0,73,3
+2020-02-19,中国,CN,Liaoning Province,Huludao,12,0,2,1,73,9
+2020-02-19,中国,CN,Jilin Province,,91,0,40,1,73,50
+2020-02-19,中国,CN,Jilin Province,Changchun,45,0,19,0,73,26
+2020-02-19,中国,CN,Jilin Province,Jilin,5,0,3,0,73,2
+2020-02-19,中国,CN,Jilin Province,Siping,15,0,4,1,73,10
+2020-02-19,中国,CN,Jilin Province,Gongzhuling,6,0,2,0,73,4
+2020-02-19,中国,CN,Jilin Province,Liaoyuan,7,0,1,0,73,6
+2020-02-19,中国,CN,Jilin Province,Tonghua,3,0,1,0,73,2
+2020-02-19,中国,CN,Jilin Province,Matsubara,2,0,1,0,73,1
+2020-02-19,中国,CN,Jilin Province,Baicheng,1,0,0,0,73,1
+2020-02-19,中国,CN,Heilongjiang Province,,476,0,123,12,73,341
+2020-02-19,中国,CN,Heilongjiang Province,Harbin,192,0,46,3,73,143
+2020-02-19,中国,CN,Heilongjiang Province,Qiqihar,43,0,10,1,73,32
+2020-02-19,中国,CN,Heilongjiang Province,Jixi,46,0,3,0,73,43
+2020-02-19,中国,CN,Heilongjiang Province,Hegang,5,0,2,0,73,3
+2020-02-19,中国,CN,Heilongjiang Province,Shuangyashan,52,0,8,3,73,41
+2020-02-19,中国,CN,Heilongjiang Province,Daqing,23,0,7,1,73,15
+2020-02-19,中国,CN,Heilongjiang Province,Jiamusi,15,0,12,0,73,3
+2020-02-19,中国,CN,Heilongjiang Province,Qitaihe,17,0,6,0,73,11
+2020-02-19,中国,CN,Heilongjiang Province,Mudanjiang,13,0,1,0,73,12
+2020-02-19,中国,CN,Heilongjiang Province,Heihe,14,0,0,0,73,14
+2020-02-19,中国,CN,Heilongjiang Province,Suihua,47,0,18,4,73,25
+2020-02-19,中国,CN,Shanghai,,333,0,186,2,73,145
+2020-02-19,中国,CN,Jiangsu Province,,631,0,325,0,73,306
+2020-02-19,中国,CN,Jiangsu Province,Nanjing,93,0,35,0,73,58
+2020-02-19,中国,CN,Jiangsu Province,Wuxi,55,0,27,0,73,28
+2020-02-19,中国,CN,Jiangsu Province,Xuzhou,79,0,51,0,73,28
+2020-02-19,中国,CN,Jiangsu Province,Changzhou,51,0,27,0,73,24
+2020-02-19,中国,CN,Jiangsu Province,Suzhou,87,0,33,0,73,54
+2020-02-19,中国,CN,Jiangsu Province,Nantong,40,0,23,0,73,17
+2020-02-19,中国,CN,Jiangsu Province,Lianyungang,48,0,17,0,73,31
+2020-02-19,中国,CN,Jiangsu Province,Huaian,66,0,28,0,73,38
+2020-02-19,中国,CN,Jiangsu Province,Yancheng,27,0,18,0,73,9
+2020-02-19,中国,CN,Jiangsu Province,Yangzhou,23,0,11,0,73,12
+2020-02-19,中国,CN,Jiangsu Province,Zhenjiang,12,0,6,0,73,6
+2020-02-19,中国,CN,Jiangsu Province,Taizhou,37,0,22,0,73,15
+2020-02-19,中国,CN,Jiangsu Province,Suqian,13,0,7,0,73,6
+2020-02-19,中国,CN,Zhejiang Province,,1175,0,609,0,73,566
+2020-02-19,中国,CN,Zhejiang Province,Hangzhou,169,0,98,0,73,71
+2020-02-19,中国,CN,Zhejiang Province,Ningbo,156,0,73,0,73,83
+2020-02-19,中国,CN,Zhejiang Province,Wenzhou,504,0,208,0,73,296
+2020-02-19,中国,CN,Zhejiang Province,Jiaxing,44,0,15,0,73,29
+2020-02-19,中国,CN,Zhejiang Province,Huzhou,10,0,5,0,73,5
+2020-02-19,中国,CN,Zhejiang Province,Shaoxing,42,0,20,0,73,22
+2020-02-19,中国,CN,Zhejiang Province,Jinhua,55,0,30,0,73,25
+2020-02-19,中国,CN,Zhejiang Province,Quzhou,21,0,10,0,73,11
+2020-02-19,中国,CN,Zhejiang Province,Zhoushan,10,0,5,0,73,5
+2020-02-19,中国,CN,Zhejiang Province,Taizhou,146,0,74,0,73,72
+2020-02-19,中国,CN,Zhejiang Province,Lishui,17,0,11,0,73,6
+2020-02-19,中国,CN,Anhui Province,,987,0,424,6,73,557
+2020-02-19,中国,CN,Anhui Province,Hefei,173,0,71,1,73,101
+2020-02-19,中国,CN,Anhui Province,Wuhu,33,0,17,0,73,16
+2020-02-19,中国,CN,Anhui Province,Bengbu,159,0,30,5,73,124
+2020-02-19,中国,CN,Anhui Province,Huainan,27,0,11,0,73,16
+2020-02-19,中国,CN,Anhui Province,Ma'anshan,37,0,15,0,73,22
+2020-02-19,中国,CN,Anhui Province,Huaibei,27,0,13,0,73,14
+2020-02-19,中国,CN,Anhui Province,Tongling,29,0,12,0,73,17
+2020-02-19,中国,CN,Anhui Province,Anqing,83,0,44,0,73,39
+2020-02-19,中国,CN,Anhui Province,Huangshan,9,0,6,0,73,3
+2020-02-19,中国,CN,Anhui Province,Chuzhou,13,0,7,0,73,6
+2020-02-19,中国,CN,Anhui Province,Fuyang,155,0,64,0,73,91
+2020-02-19,中国,CN,Anhui Province,Suzhou,41,0,17,0,73,24
+2020-02-19,中国,CN,Anhui Province,Lu'an,69,0,30,0,73,39
+2020-02-19,中国,CN,Anhui Province,Bozhou,108,0,47,0,73,61
+2020-02-19,中国,CN,Anhui Province,Chizhou,17,0,6,0,73,11
+2020-02-19,中国,CN,Anhui Province,Xuancheng,6,0,4,0,73,2
+2020-02-19,中国,CN,Fujian Province,,293,0,112,1,73,180
+2020-02-19,中国,CN,Fujian Province,Fuzhou,71,0,28,0,73,43
+2020-02-19,中国,CN,Fujian Province,Xiamen,35,0,9,0,73,26
+2020-02-19,中国,CN,Fujian Province,Putian,55,0,17,0,73,38
+2020-02-19,中国,CN,Fujian Province,Sanming,14,0,3,0,73,11
+2020-02-19,中国,CN,Fujian Province,Quanzhou,46,0,13,0,73,33
+2020-02-19,中国,CN,Fujian Province,Zhangzhou,20,0,11,0,73,9
+2020-02-19,中国,CN,Fujian Province,Nanping,20,0,8,0,73,12
+2020-02-19,中国,CN,Fujian Province,Longyan,6,0,1,0,73,5
+2020-02-19,中国,CN,Fujian Province,Ningde,26,0,12,0,73,14
+2020-02-19,中国,CN,Jiangxi,,934,0,432,1,73,501
+2020-02-19,中国,CN,Jiangxi,Nanchang,230,0,114,0,73,116
+2020-02-19,中国,CN,Jiangxi,Jingdezhen,6,0,3,0,73,3
+2020-02-19,中国,CN,Jiangxi,Pingxiang,33,0,7,0,73,26
+2020-02-19,中国,CN,Jiangxi,Jiujiang,118,0,33,0,73,85
+2020-02-19,中国,CN,Jiangxi,Xinyu,129,0,58,0,73,71
+2020-02-19,中国,CN,Jiangxi,Yingtan,18,0,3,0,73,15
+2020-02-19,中国,CN,Jiangxi,Ganzhou,76,0,24,1,73,51
+2020-02-19,中国,CN,Jiangxi,Ji'an,22,0,11,0,73,11
+2020-02-19,中国,CN,Jiangxi,Yichun,106,0,33,0,73,73
+2020-02-19,中国,CN,Jiangxi,Fuzhou,72,0,29,0,73,43
+2020-02-19,中国,CN,Jiangxi,Shangrao,123,0,47,0,73,76
+2020-02-19,中国,CN,Shandong Province,,546,0,238,4,73,304
+2020-02-19,中国,CN,Shandong Province,Jinan,47,0,17,0,73,30
+2020-02-19,中国,CN,Shandong Province,Qingdao,59,0,29,1,73,29
+2020-02-19,中国,CN,Shandong Province,Zibo,29,0,6,0,73,23
+2020-02-19,中国,CN,Shandong Province,Zaozhuang,24,0,10,0,73,14
+2020-02-19,中国,CN,Shandong Province,Yantai,47,0,15,0,73,32
+2020-02-19,中国,CN,Shandong Province,Weifang,44,0,14,0,73,30
+2020-02-19,中国,CN,Shandong Province,Jining,52,0,27,0,73,25
+2020-02-19,中国,CN,Shandong Province,Tai'an,32,0,6,1,73,25
+2020-02-19,中国,CN,Shandong Province,Weihai,38,0,10,0,73,28
+2020-02-19,中国,CN,Shandong Province,sunshine,16,0,6,0,73,10
+2020-02-19,中国,CN,Shandong Province,Linyi,48,0,37,0,73,11
+2020-02-19,中国,CN,Shandong Province,Texas,37,0,9,1,73,27
+2020-02-19,中国,CN,Shandong Province,Liaocheng,38,0,17,0,73,21
+2020-02-19,中国,CN,Shandong Province,Binzhou,15,0,10,0,73,5
+2020-02-19,中国,CN,Shandong Province,Heze,18,0,14,0,73,4
+2020-02-19,中国,CN,Henan Province,,1265,0,614,19,73,632
+2020-02-19,中国,CN,Henan Province,Zhengzhou,156,0,76,0,73,80
+2020-02-19,中国,CN,Henan Province,Kaifeng,26,0,11,0,73,15
+2020-02-19,中国,CN,Henan Province,Luoyang,31,0,13,0,73,18
+2020-02-19,中国,CN,Henan Province,Pingdingshan,58,0,31,1,73,26
+2020-02-19,中国,CN,Henan Province,Anyang,52,0,28,0,73,24
+2020-02-19,中国,CN,Henan Province,Hebi,19,0,7,0,73,12
+2020-02-19,中国,CN,Henan Province,Xinxiang,57,0,21,3,73,33
+2020-02-19,中国,CN,Henan Province,Jiaozuo,32,0,8,1,73,23
+2020-02-19,中国,CN,Henan Province,Puyang,17,0,7,0,73,10
+2020-02-19,中国,CN,Henan Province,Xuchang,39,0,16,0,73,23
+2020-02-19,中国,CN,Henan Province,Luohe,34,0,14,0,73,20
+2020-02-19,中国,CN,Henan Province,Sanmenxia,7,0,4,0,73,3
+2020-02-19,中国,CN,Henan Province,Nanyang,155,0,65,2,73,88
+2020-02-19,中国,CN,Henan Province,Shangqiu,91,0,46,3,73,42
+2020-02-19,中国,CN,Henan Province,Xinyang,268,0,86,2,73,180
+2020-02-19,中国,CN,Henan Province,Zhoukou,76,0,31,0,73,45
+2020-02-19,中国,CN,Henan Province,Zhumadian,139,0,82,0,73,57
+2020-02-19,中国,CN,Henan Province,Jiyuan,5,0,2,0,73,3
+2020-02-19,中国,CN,Hubei Province,,62457,0,10337,2029,73,50091
+2020-02-19,中国,CN,Hubei Province,Wuhan,44412,0,4967,1497,73,37948
+2020-02-19,中国,CN,Hubei Province,Yellowstone,983,0,284,25,73,674
+2020-02-19,中国,CN,Hubei Province,Shiyan,638,0,164,2,73,472
+2020-02-19,中国,CN,Hubei Province,Yichang,907,0,208,25,73,674
+2020-02-19,中国,CN,Hubei Province,Xiangyang,1165,0,230,22,73,913
+2020-02-19,中国,CN,Hubei Province,Ezhou,1343,0,301,37,73,1005
+2020-02-19,中国,CN,Hubei Province,Jingmen,901,0,181,33,73,687
+2020-02-19,中国,CN,Hubei Province,Xiaogan,3344,0,572,82,73,2690
+2020-02-19,中国,CN,Hubei Province,Jingzhou,1541,0,409,38,73,1094
+2020-02-19,中国,CN,Hubei Province,Huanggang,2844,0,1059,85,73,1700
+2020-02-19,中国,CN,Hubei Province,Xianning,832,0,226,10,73,596
+2020-02-19,中国,CN,Hubei Province,Suizhou,1280,0,254,26,73,1000
+2020-02-19,中国,CN,Hubei Province,Xiantao,562,0,149,19,73,394
+2020-02-19,中国,CN,Hubei Province,Qianjiang,185,0,40,6,73,139
+2020-02-19,中国,CN,Hubei Province,Tianmen,486,0,73,11,73,402
+2020-02-19,中国,CN,Hunan Province,,1010,0,578,4,73,428
+2020-02-19,中国,CN,Hunan Province,Changsha,241,0,98,2,73,141
+2020-02-19,中国,CN,Hunan Province,Zhuzhou,78,0,37,0,73,41
+2020-02-19,中国,CN,Hunan Province,Xiangtan,35,0,17,0,73,18
+2020-02-19,中国,CN,Hunan Province,Hengyang,48,0,32,0,73,16
+2020-02-19,中国,CN,Hunan Province,Shaoyang,102,0,71,1,73,30
+2020-02-19,中国,CN,Hunan Province,Yueyang,155,0,64,1,73,90
+2020-02-19,中国,CN,Hunan Province,Changde,79,0,49,0,73,30
+2020-02-19,中国,CN,Hunan Province,Zhangjiajie,5,0,5,0,73,0
+2020-02-19,中国,CN,Hunan Province,Yiyang,59,0,35,0,73,24
+2020-02-19,中国,CN,Hunan Province,Chenzhou,39,0,27,0,73,12
+2020-02-19,中国,CN,Hunan Province,Yongzhou,43,0,30,0,73,13
+2020-02-19,中国,CN,Hunan Province,Huaihua,40,0,37,0,73,3
+2020-02-19,中国,CN,Hunan Province,Loudi,76,0,47,0,73,29
+2020-02-19,中国,CN,Guangdong Province,,1332,0,619,5,73,708
+2020-02-19,中国,CN,Guangdong Province,Canton,339,0,148,0,73,191
+2020-02-19,中国,CN,Guangdong Province,Shaoguan,10,0,5,0,73,5
+2020-02-19,中国,CN,Guangdong Province,Shenzhen,416,0,182,2,73,232
+2020-02-19,中国,CN,Guangdong Province,Zhuhai,98,0,45,1,73,52
+2020-02-19,中国,CN,Guangdong Province,Shantou,25,0,18,0,73,7
+2020-02-19,中国,CN,Guangdong Province,Foshan,84,0,27,0,73,57
+2020-02-19,中国,CN,Guangdong Province,Jiangmen,23,0,8,0,73,15
+2020-02-19,中国,CN,Guangdong Province,Zhanjiang,22,0,11,0,73,11
+2020-02-19,中国,CN,Guangdong Province,Maoming,14,0,6,0,73,8
+2020-02-19,中国,CN,Guangdong Province,Zhaoqing,18,0,8,1,73,9
+2020-02-19,中国,CN,Guangdong Province,Huizhou,62,0,36,0,73,26
+2020-02-19,中国,CN,Guangdong Province,Meizhou,16,0,10,0,73,6
+2020-02-19,中国,CN,Guangdong Province,Shanwei,5,0,2,0,73,3
+2020-02-19,中国,CN,Guangdong Province,Heyuan,4,0,1,0,73,3
+2020-02-19,中国,CN,Guangdong Province,Yangjiang,13,0,9,0,73,4
+2020-02-19,中国,CN,Guangdong Province,Qingyuan,12,0,9,0,73,3
+2020-02-19,中国,CN,Guangdong Province,Dongguan,91,0,24,1,73,66
+2020-02-19,中国,CN,Guangdong Province,Zhongshan,66,0,40,0,73,26
+2020-02-19,中国,CN,Guangdong Province,Chaozhou,5,0,4,0,73,1
+2020-02-19,中国,CN,Guangdong Province,Jieyang,8,0,4,0,73,4
+2020-02-19,中国,CN,Guangxi Zhuang Autonomous Region,,245,0,87,2,73,156
+2020-02-19,中国,CN,Guangxi Zhuang Autonomous Region,Nanning,54,0,23,0,73,31
+2020-02-19,中国,CN,Guangxi Zhuang Autonomous Region,Liuzhou,24,0,10,0,73,14
+2020-02-19,中国,CN,Guangxi Zhuang Autonomous Region,Guilin,31,0,15,0,73,16
+2020-02-19,中国,CN,Guangxi Zhuang Autonomous Region,Wuzhou,5,0,5,0,73,0
+2020-02-19,中国,CN,Guangxi Zhuang Autonomous Region,North Sea,44,0,14,1,73,29
+2020-02-19,中国,CN,Guangxi Zhuang Autonomous Region,Fangchenggang,18,0,6,0,73,12
+2020-02-19,中国,CN,Guangxi Zhuang Autonomous Region,Qinzhou,8,0,1,0,73,7
+2020-02-19,中国,CN,Guangxi Zhuang Autonomous Region,Guigang,8,0,3,0,73,5
+2020-02-19,中国,CN,Guangxi Zhuang Autonomous Region,Yulin,11,0,4,0,73,7
+2020-02-19,中国,CN,Guangxi Zhuang Autonomous Region,Baise,3,0,2,0,73,1
+2020-02-19,中国,CN,Guangxi Zhuang Autonomous Region,Hezhou,4,0,0,0,73,4
+2020-02-19,中国,CN,Guangxi Zhuang Autonomous Region,Hechi,23,0,3,1,73,19
+2020-02-19,中国,CN,Guangxi Zhuang Autonomous Region,guest,11,0,0,0,73,11
+2020-02-19,中国,CN,Hainan,,168,0,84,4,73,80
+2020-02-19,中国,CN,Hainan,Seaport,34,0,17,0,73,17
+2020-02-19,中国,CN,Hainan,Sanya,54,0,22,1,73,31
+2020-02-19,中国,CN,Hainan,Danzhou,15,0,9,0,73,6
+2020-02-19,中国,CN,Hainan,Qionghai,6,0,4,1,73,1
+2020-02-19,中国,CN,Hainan,Wenchang,3,0,2,0,73,1
+2020-02-19,中国,CN,Hainan,Wanning,13,0,9,0,73,4
+2020-02-19,中国,CN,Hainan,East,3,0,2,0,73,1
+2020-02-19,中国,CN,Chongqing,,560,0,274,5,73,281
+2020-02-19,中国,CN,Sichuan Province,,520,0,198,3,73,319
+2020-02-19,中国,CN,Sichuan Province,Chengdu,141,0,61,3,73,77
+2020-02-19,中国,CN,Sichuan Province,Zigong,9,0,4,0,73,5
+2020-02-19,中国,CN,Sichuan Province,Panzhihua,16,0,11,0,73,5
+2020-02-19,中国,CN,Sichuan Province,Luzhou,20,0,5,0,73,15
+2020-02-19,中国,CN,Sichuan Province,Deyang,17,0,1,0,73,16
+2020-02-19,中国,CN,Sichuan Province,Mianyang,22,0,10,0,73,12
+2020-02-19,中国,CN,Sichuan Province,Guangyuan,6,0,4,0,73,2
+2020-02-19,中国,CN,Sichuan Province,Suining,17,0,10,0,73,7
+2020-02-19,中国,CN,Sichuan Province,Neijiang,22,0,6,0,73,16
+2020-02-19,中国,CN,Sichuan Province,Leshan,3,0,2,0,73,1
+2020-02-19,中国,CN,Sichuan Province,Nanchong,38,0,14,0,73,24
+2020-02-19,中国,CN,Sichuan Province,Yibin,12,0,7,0,73,5
+2020-02-19,中国,CN,Sichuan Province,Guang'an,30,0,16,0,73,14
+2020-02-19,中国,CN,Sichuan Province,Florida,40,0,11,0,73,29
+2020-02-19,中国,CN,Sichuan Province,Ya'an,7,0,2,0,73,5
+2020-02-19,中国,CN,Sichuan Province,Bazhong,24,0,3,0,73,21
+2020-02-19,中国,CN,Sichuan Province,Ziyang,3,0,2,0,73,1
+2020-02-19,中国,CN,Guizhou Province,,146,0,71,2,73,73
+2020-02-19,中国,CN,Guizhou Province,Guiyang,36,0,13,1,73,22
+2020-02-19,中国,CN,Guizhou Province,Liupanshui,10,0,6,1,73,3
+2020-02-19,中国,CN,Guizhou Province,Zunyi,32,0,15,0,73,17
+2020-02-19,中国,CN,Guizhou Province,Anshun,4,0,1,0,73,3
+2020-02-19,中国,CN,Guizhou Province,Bijie,23,0,10,0,73,13
+2020-02-19,中国,CN,Guizhou Province,Tongren,10,0,9,0,73,1
+2020-02-19,中国,CN,Yunnan Province,,172,0,60,1,73,111
+2020-02-19,中国,CN,Yunnan Province,Kunming,53,0,15,0,73,38
+2020-02-19,中国,CN,Yunnan Province,Qujing,13,0,6,0,73,7
+2020-02-19,中国,CN,Yunnan Province,Yuxi,14,0,3,1,73,10
+2020-02-19,中国,CN,Yunnan Province,Baoshan,9,0,3,0,73,6
+2020-02-19,中国,CN,Yunnan Province,Zhaotong,25,0,2,0,73,23
+2020-02-19,中国,CN,Yunnan Province,Lijiang,7,0,7,0,73,0
+2020-02-19,中国,CN,Yunnan Province,Pu'er,4,0,3,0,73,1
+2020-02-19,中国,CN,Yunnan Province,Lincang,1,0,1,0,73,0
+2020-02-19,中国,CN,Tibet Autonomous Region,,1,0,1,0,73,0
+2020-02-19,中国,CN,Tibet Autonomous Region,Lhasa,1,0,1,0,73,0
+2020-02-19,中国,CN,Shaanxi Province,,242,0,89,0,73,153
+2020-02-19,中国,CN,Shaanxi Province,Xi'an,118,0,43,0,73,75
+2020-02-19,中国,CN,Shaanxi Province,Tongchuan,8,0,6,0,73,2
+2020-02-19,中国,CN,Shaanxi Province,Baoji,13,0,9,0,73,4
+2020-02-19,中国,CN,Shaanxi Province,Xianyang,17,0,8,0,73,9
+2020-02-19,中国,CN,Shaanxi Province,Weinan,15,0,4,0,73,11
+2020-02-19,中国,CN,Shaanxi Province,Hancheng,1,0,1,0,73,0
+2020-02-19,中国,CN,Shaanxi Province,Yan'an,8,0,6,0,73,2
+2020-02-19,中国,CN,Shaanxi Province,Hanzhong,26,0,5,0,73,21
+2020-02-19,中国,CN,Shaanxi Province,Yulin,3,0,1,0,73,2
+2020-02-19,中国,CN,Shaanxi Province,Good health,25,0,15,0,73,10
+2020-02-19,中国,CN,Shaanxi Province,Shangluo,7,0,2,0,73,5
+2020-02-19,中国,CN,Gansu province,,91,0,65,2,73,24
+2020-02-19,中国,CN,Gansu province,Lanzhou,36,0,22,2,73,12
+2020-02-19,中国,CN,Gansu province,Jinchang,1,0,1,0,73,0
+2020-02-19,中国,CN,Gansu province,silver,4,0,1,0,73,3
+2020-02-19,中国,CN,Gansu province,Tianshui,12,0,11,0,73,1
+2020-02-19,中国,CN,Gansu province,Zhangye,2,0,2,0,73,0
+2020-02-19,中国,CN,Gansu province,Pingliang,9,0,3,0,73,6
+2020-02-19,中国,CN,Gansu province,Qingyang,3,0,2,0,73,1
+2020-02-19,中国,CN,Gansu province,Dingxi,9,0,8,0,73,1
+2020-02-19,中国,CN,Gansu province,Longnan,4,0,4,0,73,0
+2020-02-19,中国,CN,Qinghai Province,,18,0,16,0,73,2
+2020-02-19,中国,CN,Qinghai Province,Xining,15,0,12,0,73,3
+2020-02-19,中国,CN,Ningxia Hui Autonomous Region,,71,0,42,0,73,29
+2020-02-19,中国,CN,Ningxia Hui Autonomous Region,Yinchuan,33,0,25,0,73,8
+2020-02-19,中国,CN,Ningxia Hui Autonomous Region,Shizuishan,1,0,1,0,73,0
+2020-02-19,中国,CN,Ningxia Hui Autonomous Region,Wuzhong,28,0,9,0,73,19
+2020-02-19,中国,CN,Ningxia Hui Autonomous Region,Guyuan,5,0,3,0,73,2
+2020-02-19,中国,CN,Ningxia Hui Autonomous Region,Zhongwei,3,0,3,0,73,0
+2020-02-19,中国,CN,Xinjiang Uygur Autonomous Region,,76,0,20,1,73,55
+2020-02-19,中国,CN,Xinjiang Uygur Autonomous Region,Urumqi,23,0,8,0,73,15
+2020-02-19,中国,CN,Xinjiang Uygur Autonomous Region,Turpan,3,0,1,0,73,2
+2020-02-19,中国,CN,Xinjiang Uygur Autonomous Region,Shihezi,4,0,1,1,73,2
+2020-02-19,中国,CN,Xinjiang Uygur Autonomous Region,Wujiaqu,2,0,0,0,73,2
+2020-02-19,中国,CN,Taiwan,,24,0,2,1,73,21
+2020-02-19,中国,CN,Hongkong,,65,0,5,2,73,58
+2020-02-19,中国,CN,Macao,,10,0,6,0,73,4
+2020-02-19,德国,DE,,,16,0,7,0,73,9
+2020-02-19,埃及,EG,,,1,0,0,0,73,1
+2020-02-19,西班牙,ES,,,2,0,0,0,73,2
+2020-02-19,芬兰,FI,,,1,0,1,0,73,0
+2020-02-19,法国,FR,,,12,0,4,1,73,7
+2020-02-19,英国,GB,,,9,0,8,0,73,1
+2020-02-19,印度,IN,,,3,0,2,0,73,1
+2020-02-19,意大利,IT,,,3,0,0,0,73,3
+2020-02-19,日本,JP,,,616,0,1,1,73,614
+2020-02-19,柬埔寨,KH,,,1,0,1,0,73,0
+2020-02-19,韩国,KR,,,51,0,10,0,73,41
+2020-02-19,斯里兰卡,LK,,,1,0,1,0,73,0
+2020-02-19,马来西亚,MY,,,22,0,9,0,73,13
+2020-02-19,尼泊尔,NP,,,1,0,1,0,73,0
+2020-02-19,菲律宾,PH,,,3,0,1,1,73,1
+2020-02-19,俄罗斯,RU,,,2,0,2,0,73,0
+2020-02-19,瑞典,SE,,,1,0,0,0,73,1
+2020-02-19,新加坡,SG,,,81,0,29,0,73,52
+2020-02-19,泰国,TH,,,35,0,15,0,73,20
+2020-02-19,美国,US,,,15,0,3,0,73,12
+2020-02-19,越南,VN,,,16,0,9,0,73,7
+2020-02-20,阿联酋,AE,,,9,0,4,0,74,5
+2020-02-20,澳大利亚,AU,,,15,0,5,0,74,10
+2020-02-20,比利时,BE,,,1,0,1,0,74,0
+2020-02-20,加拿大,CA,,,8,0,1,0,74,7
+2020-02-20,中国,CN,,,75993,5206,18277,2239,74,55477
+2020-02-20,中国,CN,Beijing,,396,0,169,4,74,223
+2020-02-20,中国,CN,Tianjin,,131,0,59,3,74,69
+2020-02-20,中国,CN,Hebei Province,,308,0,170,5,74,133
+2020-02-20,中国,CN,Hebei Province,Shijiazhuang,28,0,13,0,74,15
+2020-02-20,中国,CN,Hebei Province,Tangshan,56,0,16,1,74,39
+2020-02-20,中国,CN,Hebei Province,Qinhuangdao,10,0,5,0,74,5
+2020-02-20,中国,CN,Hebei Province,Handan,31,0,17,0,74,14
+2020-02-20,中国,CN,Hebei Province,Xingtai,23,0,13,1,74,9
+2020-02-20,中国,CN,Hebei Province,Baoding,32,0,27,0,74,5
+2020-02-20,中国,CN,Hebei Province,Zhangjiakou,34,0,24,0,74,10
+2020-02-20,中国,CN,Hebei Province,Chengde,7,0,6,0,74,1
+2020-02-20,中国,CN,Hebei Province,Cangzhou,48,0,18,3,74,27
+2020-02-20,中国,CN,Hebei Province,Langfang,30,0,20,0,74,10
+2020-02-20,中国,CN,Hebei Province,Hengshui,8,0,6,0,74,2
+2020-02-20,中国,CN,Shanxi Province,,132,0,76,0,74,56
+2020-02-20,中国,CN,Shanxi Province,Taiyuan,19,0,13,0,74,6
+2020-02-20,中国,CN,Shanxi Province,Datong,12,0,6,0,74,6
+2020-02-20,中国,CN,Shanxi Province,Yangquan,4,0,2,0,74,2
+2020-02-20,中国,CN,Shanxi Province,Changzhi,8,0,1,0,74,7
+2020-02-20,中国,CN,Shanxi Province,Jincheng,10,0,3,0,74,7
+2020-02-20,中国,CN,Shanxi Province,Shuozhou,8,0,3,0,74,5
+2020-02-20,中国,CN,Shanxi Province,Jinzhong,36,0,18,0,74,18
+2020-02-20,中国,CN,Shanxi Province,Yuncheng,19,0,16,0,74,3
+2020-02-20,中国,CN,Shanxi Province,Xinzhou,7,0,4,0,74,3
+2020-02-20,中国,CN,Shanxi Province,Linfen,2,0,1,0,74,1
+2020-02-20,中国,CN,Shanxi Province,Luliang,6,0,6,0,74,0
+2020-02-20,中国,CN,Inner Mongolia Autonomous Region,,75,0,16,0,74,59
+2020-02-20,中国,CN,Inner Mongolia Autonomous Region,Hohhot,7,0,2,0,74,5
+2020-02-20,中国,CN,Inner Mongolia Autonomous Region,Baotou,11,0,1,0,74,10
+2020-02-20,中国,CN,Inner Mongolia Autonomous Region,Wuhai,2,0,0,0,74,2
+2020-02-20,中国,CN,Inner Mongolia Autonomous Region,Chifeng,9,0,3,0,74,6
+2020-02-20,中国,CN,Inner Mongolia Autonomous Region,Tongliao,7,0,0,0,74,7
+2020-02-20,中国,CN,Inner Mongolia Autonomous Region,Erdos,11,0,5,0,74,6
+2020-02-20,中国,CN,Inner Mongolia Autonomous Region,Hulunbeier,7,0,1,0,74,6
+2020-02-20,中国,CN,Inner Mongolia Autonomous Region,Bayannaoer,8,0,0,0,74,8
+2020-02-20,中国,CN,Inner Mongolia Autonomous Region,Wulanchabu,3,0,1,0,74,2
+2020-02-20,中国,CN,Liaoning Province,,121,0,61,1,74,59
+2020-02-20,中国,CN,Liaoning Province,Shenyang,28,0,12,0,74,16
+2020-02-20,中国,CN,Liaoning Province,Dalian,19,0,9,0,74,10
+2020-02-20,中国,CN,Liaoning Province,Anshan,4,0,0,0,74,4
+2020-02-20,中国,CN,Liaoning Province,Benxi,3,0,3,0,74,0
+2020-02-20,中国,CN,Liaoning Province,Dandong,7,0,4,0,74,3
+2020-02-20,中国,CN,Liaoning Province,Jinzhou,12,0,6,0,74,6
+2020-02-20,中国,CN,Liaoning Province,Yingkou,1,0,1,0,74,0
+2020-02-20,中国,CN,Liaoning Province,Fuxin,8,0,6,0,74,2
+2020-02-20,中国,CN,Liaoning Province,Liaoyang,3,0,3,0,74,0
+2020-02-20,中国,CN,Liaoning Province,Panjin,11,0,4,0,74,7
+2020-02-20,中国,CN,Liaoning Province,Tieling,7,0,2,0,74,5
+2020-02-20,中国,CN,Liaoning Province,Sunny,6,0,3,0,74,3
+2020-02-20,中国,CN,Liaoning Province,Huludao,12,0,2,1,74,9
+2020-02-20,中国,CN,Jilin Province,,91,0,44,1,74,46
+2020-02-20,中国,CN,Jilin Province,Changchun,45,0,21,0,74,24
+2020-02-20,中国,CN,Jilin Province,Jilin,5,0,4,0,74,1
+2020-02-20,中国,CN,Jilin Province,Siping,15,0,7,1,74,7
+2020-02-20,中国,CN,Jilin Province,Gongzhuling,6,0,2,0,74,4
+2020-02-20,中国,CN,Jilin Province,Liaoyuan,7,0,1,0,74,6
+2020-02-20,中国,CN,Jilin Province,Tonghua,4,0,1,0,74,3
+2020-02-20,中国,CN,Jilin Province,Matsubara,2,0,2,0,74,0
+2020-02-20,中国,CN,Jilin Province,Baicheng,1,0,0,0,74,1
+2020-02-20,中国,CN,Heilongjiang Province,,479,0,141,12,74,326
+2020-02-20,中国,CN,Heilongjiang Province,Harbin,194,0,55,3,74,136
+2020-02-20,中国,CN,Heilongjiang Province,Qiqihar,43,0,11,1,74,31
+2020-02-20,中国,CN,Heilongjiang Province,Jixi,46,0,3,0,74,43
+2020-02-20,中国,CN,Heilongjiang Province,Hegang,5,0,2,0,74,3
+2020-02-20,中国,CN,Heilongjiang Province,Shuangyashan,52,0,11,3,74,38
+2020-02-20,中国,CN,Heilongjiang Province,Daqing,26,0,8,1,74,17
+2020-02-20,中国,CN,Heilongjiang Province,Jiamusi,15,0,14,0,74,1
+2020-02-20,中国,CN,Heilongjiang Province,Qitaihe,17,0,6,0,74,11
+2020-02-20,中国,CN,Heilongjiang Province,Mudanjiang,14,0,1,0,74,13
+2020-02-20,中国,CN,Heilongjiang Province,Heihe,14,0,3,0,74,11
+2020-02-20,中国,CN,Heilongjiang Province,Suihua,47,0,20,4,74,23
+2020-02-20,中国,CN,Shanghai,,334,0,199,2,74,133
+2020-02-20,中国,CN,Jiangsu Province,,631,0,352,0,74,279
+2020-02-20,中国,CN,Jiangsu Province,Nanjing,93,0,47,0,74,46
+2020-02-20,中国,CN,Jiangsu Province,Wuxi,55,0,35,0,74,20
+2020-02-20,中国,CN,Jiangsu Province,Xuzhou,79,0,51,0,74,28
+2020-02-20,中国,CN,Jiangsu Province,Changzhou,51,0,29,0,74,22
+2020-02-20,中国,CN,Jiangsu Province,Suzhou,87,0,38,0,74,49
+2020-02-20,中国,CN,Jiangsu Province,Nantong,40,0,23,0,74,17
+2020-02-20,中国,CN,Jiangsu Province,Lianyungang,48,0,18,0,74,30
+2020-02-20,中国,CN,Jiangsu Province,Huaian,66,0,34,0,74,32
+2020-02-20,中国,CN,Jiangsu Province,Yancheng,27,0,20,0,74,7
+2020-02-20,中国,CN,Jiangsu Province,Yangzhou,23,0,13,0,74,10
+2020-02-20,中国,CN,Jiangsu Province,Zhenjiang,12,0,8,0,74,4
+2020-02-20,中国,CN,Jiangsu Province,Taizhou,37,0,24,0,74,13
+2020-02-20,中国,CN,Jiangsu Province,Suqian,13,0,7,0,74,6
+2020-02-20,中国,CN,Zhejiang Province,,1203,0,647,1,74,555
+2020-02-20,中国,CN,Zhejiang Province,Hangzhou,169,0,108,0,74,61
+2020-02-20,中国,CN,Zhejiang Province,Ningbo,156,0,91,0,74,65
+2020-02-20,中国,CN,Zhejiang Province,Wenzhou,504,0,245,1,74,258
+2020-02-20,中国,CN,Zhejiang Province,Jiaxing,45,0,20,0,74,25
+2020-02-20,中国,CN,Zhejiang Province,Huzhou,10,0,6,0,74,4
+2020-02-20,中国,CN,Zhejiang Province,Shaoxing,42,0,20,0,74,22
+2020-02-20,中国,CN,Zhejiang Province,Jinhua,55,0,33,0,74,22
+2020-02-20,中国,CN,Zhejiang Province,Quzhou,21,0,10,0,74,11
+2020-02-20,中国,CN,Zhejiang Province,Zhoushan,10,0,5,0,74,5
+2020-02-20,中国,CN,Zhejiang Province,Taizhou,146,0,77,0,74,69
+2020-02-20,中国,CN,Zhejiang Province,Lishui,17,0,14,0,74,3
+2020-02-20,中国,CN,Anhui Province,,988,0,500,6,74,482
+2020-02-20,中国,CN,Anhui Province,Hefei,173,0,80,1,74,92
+2020-02-20,中国,CN,Anhui Province,Wuhu,33,0,21,0,74,12
+2020-02-20,中国,CN,Anhui Province,Bengbu,160,0,40,5,74,115
+2020-02-20,中国,CN,Anhui Province,Huainan,27,0,12,0,74,15
+2020-02-20,中国,CN,Anhui Province,Ma'anshan,37,0,15,0,74,22
+2020-02-20,中国,CN,Anhui Province,Huaibei,27,0,13,0,74,14
+2020-02-20,中国,CN,Anhui Province,Tongling,29,0,12,0,74,17
+2020-02-20,中国,CN,Anhui Province,Anqing,83,0,53,0,74,30
+2020-02-20,中国,CN,Anhui Province,Huangshan,9,0,6,0,74,3
+2020-02-20,中国,CN,Anhui Province,Chuzhou,13,0,8,0,74,5
+2020-02-20,中国,CN,Anhui Province,Fuyang,155,0,79,0,74,76
+2020-02-20,中国,CN,Anhui Province,Suzhou,41,0,20,0,74,21
+2020-02-20,中国,CN,Anhui Province,Lu'an,69,0,31,0,74,38
+2020-02-20,中国,CN,Anhui Province,Bozhou,108,0,65,0,74,43
+2020-02-20,中国,CN,Anhui Province,Chizhou,17,0,10,0,74,7
+2020-02-20,中国,CN,Anhui Province,Xuancheng,6,0,4,0,74,2
+2020-02-20,中国,CN,Fujian Province,,293,0,134,1,74,158
+2020-02-20,中国,CN,Fujian Province,Fuzhou,71,0,33,0,74,38
+2020-02-20,中国,CN,Fujian Province,Xiamen,35,0,10,0,74,25
+2020-02-20,中国,CN,Fujian Province,Putian,55,0,19,0,74,36
+2020-02-20,中国,CN,Fujian Province,Sanming,14,0,5,0,74,9
+2020-02-20,中国,CN,Fujian Province,Quanzhou,46,0,14,0,74,32
+2020-02-20,中国,CN,Fujian Province,Zhangzhou,20,0,11,0,74,9
+2020-02-20,中国,CN,Fujian Province,Nanping,20,0,8,0,74,12
+2020-02-20,中国,CN,Fujian Province,Longyan,6,0,1,0,74,5
+2020-02-20,中国,CN,Fujian Province,Ningde,26,0,17,0,74,9
+2020-02-20,中国,CN,Jiangxi,,934,0,489,1,74,444
+2020-02-20,中国,CN,Jiangxi,Nanchang,229,0,133,0,74,96
+2020-02-20,中国,CN,Jiangxi,Jingdezhen,6,0,3,0,74,3
+2020-02-20,中国,CN,Jiangxi,Pingxiang,33,0,9,0,74,24
+2020-02-20,中国,CN,Jiangxi,Jiujiang,118,0,44,0,74,74
+2020-02-20,中国,CN,Jiangxi,Xinyu,130,0,68,0,74,62
+2020-02-20,中国,CN,Jiangxi,Yingtan,18,0,4,0,74,14
+2020-02-20,中国,CN,Jiangxi,Ganzhou,76,0,28,1,74,47
+2020-02-20,中国,CN,Jiangxi,Ji'an,22,0,11,0,74,11
+2020-02-20,中国,CN,Jiangxi,Yichun,106,0,42,0,74,64
+2020-02-20,中国,CN,Jiangxi,Fuzhou,72,0,35,0,74,37
+2020-02-20,中国,CN,Jiangxi,Shangrao,123,0,55,0,74,68
+2020-02-20,中国,CN,Shandong Province,,748,0,270,4,74,474
+2020-02-20,中国,CN,Shandong Province,Jinan,47,0,17,0,74,30
+2020-02-20,中国,CN,Shandong Province,Qingdao,59,0,31,1,74,27
+2020-02-20,中国,CN,Shandong Province,Zibo,29,0,6,0,74,23
+2020-02-20,中国,CN,Shandong Province,Zaozhuang,24,0,11,0,74,13
+2020-02-20,中国,CN,Shandong Province,Yantai,47,0,17,0,74,30
+2020-02-20,中国,CN,Shandong Province,Weifang,44,0,15,0,74,29
+2020-02-20,中国,CN,Shandong Province,Jining,52,0,29,0,74,23
+2020-02-20,中国,CN,Shandong Province,Tai'an,33,0,10,1,74,22
+2020-02-20,中国,CN,Shandong Province,Weihai,38,0,14,0,74,24
+2020-02-20,中国,CN,Shandong Province,sunshine,16,0,7,0,74,9
+2020-02-20,中国,CN,Shandong Province,Linyi,49,0,41,0,74,8
+2020-02-20,中国,CN,Shandong Province,Texas,37,0,11,2,74,24
+2020-02-20,中国,CN,Shandong Province,Liaocheng,38,0,21,0,74,17
+2020-02-20,中国,CN,Shandong Province,Binzhou,15,0,11,0,74,4
+2020-02-20,中国,CN,Shandong Province,Heze,18,0,13,0,74,5
+2020-02-20,中国,CN,Henan Province,,1267,0,717,19,74,531
+2020-02-20,中国,CN,Henan Province,Zhengzhou,156,0,88,0,74,68
+2020-02-20,中国,CN,Henan Province,Kaifeng,26,0,13,0,74,13
+2020-02-20,中国,CN,Henan Province,Luoyang,31,0,14,0,74,17
+2020-02-20,中国,CN,Henan Province,Pingdingshan,58,0,34,1,74,23
+2020-02-20,中国,CN,Henan Province,Anyang,53,0,28,0,74,25
+2020-02-20,中国,CN,Henan Province,Hebi,19,0,8,0,74,11
+2020-02-20,中国,CN,Henan Province,Xinxiang,57,0,26,3,74,28
+2020-02-20,中国,CN,Henan Province,Jiaozuo,32,0,9,1,74,22
+2020-02-20,中国,CN,Henan Province,Puyang,17,0,7,0,74,10
+2020-02-20,中国,CN,Henan Province,Xuchang,39,0,16,0,74,23
+2020-02-20,中国,CN,Henan Province,Luohe,35,0,17,0,74,18
+2020-02-20,中国,CN,Henan Province,Sanmenxia,7,0,5,0,74,2
+2020-02-20,中国,CN,Henan Province,Nanyang,155,0,65,2,74,88
+2020-02-20,中国,CN,Henan Province,Shangqiu,91,0,50,3,74,38
+2020-02-20,中国,CN,Henan Province,Xinyang,269,0,94,2,74,173
+2020-02-20,中国,CN,Henan Province,Zhoukou,76,0,34,0,74,42
+2020-02-20,中国,CN,Henan Province,Zhumadian,139,0,93,0,74,46
+2020-02-20,中国,CN,Henan Province,Jiyuan,5,0,3,0,74,2
+2020-02-20,中国,CN,Hubei Province,,63088,0,11788,2144,74,49156
+2020-02-20,中国,CN,Hubei Province,Wuhan,45027,0,5573,1585,74,37869
+2020-02-20,中国,CN,Hubei Province,Yellowstone,967,0,299,26,74,642
+2020-02-20,中国,CN,Hubei Province,Shiyan,641,0,187,2,74,452
+2020-02-20,中国,CN,Hubei Province,Yichang,891,0,231,27,74,633
+2020-02-20,中国,CN,Hubei Province,Xiangyang,1167,0,294,23,74,850
+2020-02-20,中国,CN,Hubei Province,Ezhou,1338,0,350,38,74,950
+2020-02-20,中国,CN,Hubei Province,Jingmen,794,0,201,34,74,559
+2020-02-20,中国,CN,Hubei Province,Xiaogan,3329,0,673,89,74,2567
+2020-02-20,中国,CN,Hubei Province,Jingzhou,1510,0,451,40,74,1019
+2020-02-20,中国,CN,Hubei Province,Huanggang,2839,0,1149,87,74,1603
+2020-02-20,中国,CN,Hubei Province,Xianning,766,0,268,10,74,488
+2020-02-20,中国,CN,Hubei Province,Suizhou,1283,0,309,27,74,947
+2020-02-20,中国,CN,Hubei Province,Xiantao,567,0,184,19,74,364
+2020-02-20,中国,CN,Hubei Province,Qianjiang,185,0,49,7,74,129
+2020-02-20,中国,CN,Hubei Province,Tianmen,473,0,133,12,74,328
+2020-02-20,中国,CN,Hunan Province,,1011,0,638,4,74,369
+2020-02-20,中国,CN,Hunan Province,Changsha,242,0,125,2,74,115
+2020-02-20,中国,CN,Hunan Province,Zhuzhou,78,0,46,0,74,32
+2020-02-20,中国,CN,Hunan Province,Xiangtan,35,0,17,0,74,18
+2020-02-20,中国,CN,Hunan Province,Hengyang,48,0,37,0,74,11
+2020-02-20,中国,CN,Hunan Province,Shaoyang,102,0,71,1,74,30
+2020-02-20,中国,CN,Hunan Province,Yueyang,156,0,72,1,74,83
+2020-02-20,中国,CN,Hunan Province,Changde,79,0,52,0,74,27
+2020-02-20,中国,CN,Hunan Province,Zhangjiajie,5,0,5,0,74,0
+2020-02-20,中国,CN,Hunan Province,Yiyang,59,0,48,0,74,11
+2020-02-20,中国,CN,Hunan Province,Chenzhou,39,0,29,0,74,10
+2020-02-20,中国,CN,Hunan Province,Yongzhou,43,0,30,0,74,13
+2020-02-20,中国,CN,Hunan Province,Huaihua,40,0,38,0,74,2
+2020-02-20,中国,CN,Hunan Province,Loudi,76,0,51,0,74,25
+2020-02-20,中国,CN,Guangdong Province,,1333,0,664,5,74,664
+2020-02-20,中国,CN,Guangdong Province,Canton,339,0,157,0,74,182
+2020-02-20,中国,CN,Guangdong Province,Shaoguan,10,0,5,0,74,5
+2020-02-20,中国,CN,Guangdong Province,Shenzhen,416,0,182,2,74,232
+2020-02-20,中国,CN,Guangdong Province,Zhuhai,98,0,45,1,74,52
+2020-02-20,中国,CN,Guangdong Province,Shantou,25,0,20,0,74,5
+2020-02-20,中国,CN,Guangdong Province,Foshan,84,0,33,0,74,51
+2020-02-20,中国,CN,Guangdong Province,Jiangmen,23,0,9,0,74,14
+2020-02-20,中国,CN,Guangdong Province,Zhanjiang,22,0,12,0,74,10
+2020-02-20,中国,CN,Guangdong Province,Maoming,14,0,6,0,74,8
+2020-02-20,中国,CN,Guangdong Province,Zhaoqing,18,0,8,1,74,9
+2020-02-20,中国,CN,Guangdong Province,Huizhou,62,0,38,0,74,24
+2020-02-20,中国,CN,Guangdong Province,Meizhou,16,0,10,0,74,6
+2020-02-20,中国,CN,Guangdong Province,Shanwei,5,0,2,0,74,3
+2020-02-20,中国,CN,Guangdong Province,Heyuan,4,0,1,0,74,3
+2020-02-20,中国,CN,Guangdong Province,Yangjiang,13,0,9,0,74,4
+2020-02-20,中国,CN,Guangdong Province,Qingyuan,12,0,9,0,74,3
+2020-02-20,中国,CN,Guangdong Province,Dongguan,92,0,26,1,74,65
+2020-02-20,中国,CN,Guangdong Province,Zhongshan,66,0,42,0,74,24
+2020-02-20,中国,CN,Guangdong Province,Chaozhou,5,0,4,0,74,1
+2020-02-20,中国,CN,Guangdong Province,Jieyang,8,0,4,0,74,4
+2020-02-20,中国,CN,Guangxi Zhuang Autonomous Region,,246,0,95,2,74,149
+2020-02-20,中国,CN,Guangxi Zhuang Autonomous Region,Nanning,54,0,24,0,74,30
+2020-02-20,中国,CN,Guangxi Zhuang Autonomous Region,Liuzhou,24,0,11,0,74,13
+2020-02-20,中国,CN,Guangxi Zhuang Autonomous Region,Guilin,31,0,15,0,74,16
+2020-02-20,中国,CN,Guangxi Zhuang Autonomous Region,Wuzhou,5,0,5,0,74,0
+2020-02-20,中国,CN,Guangxi Zhuang Autonomous Region,North Sea,44,0,14,1,74,29
+2020-02-20,中国,CN,Guangxi Zhuang Autonomous Region,Fangchenggang,19,0,6,0,74,13
+2020-02-20,中国,CN,Guangxi Zhuang Autonomous Region,Qinzhou,8,0,1,0,74,7
+2020-02-20,中国,CN,Guangxi Zhuang Autonomous Region,Guigang,8,0,3,0,74,5
+2020-02-20,中国,CN,Guangxi Zhuang Autonomous Region,Yulin,11,0,4,0,74,7
+2020-02-20,中国,CN,Guangxi Zhuang Autonomous Region,Baise,3,0,2,0,74,1
+2020-02-20,中国,CN,Guangxi Zhuang Autonomous Region,Hezhou,4,0,1,0,74,3
+2020-02-20,中国,CN,Guangxi Zhuang Autonomous Region,Hechi,23,0,4,1,74,18
+2020-02-20,中国,CN,Guangxi Zhuang Autonomous Region,guest,11,0,0,0,74,11
+2020-02-20,中国,CN,Hainan,,168,0,89,4,74,75
+2020-02-20,中国,CN,Hainan,Seaport,39,0,18,0,74,21
+2020-02-20,中国,CN,Hainan,Sanya,54,0,22,1,74,31
+2020-02-20,中国,CN,Hainan,Danzhou,15,0,11,0,74,4
+2020-02-20,中国,CN,Hainan,Qionghai,6,0,4,1,74,1
+2020-02-20,中国,CN,Hainan,Wenchang,3,0,3,0,74,0
+2020-02-20,中国,CN,Hainan,Wanning,13,0,9,0,74,4
+2020-02-20,中国,CN,Hainan,East,3,0,2,0,74,1
+2020-02-20,中国,CN,Chongqing,,567,0,299,6,74,262
+2020-02-20,中国,CN,Sichuan Province,,525,0,222,3,74,300
+2020-02-20,中国,CN,Sichuan Province,Chengdu,141,0,69,3,74,69
+2020-02-20,中国,CN,Sichuan Province,Zigong,9,0,7,0,74,2
+2020-02-20,中国,CN,Sichuan Province,Panzhihua,16,0,11,0,74,5
+2020-02-20,中国,CN,Sichuan Province,Luzhou,24,0,6,0,74,18
+2020-02-20,中国,CN,Sichuan Province,Deyang,17,0,3,0,74,14
+2020-02-20,中国,CN,Sichuan Province,Mianyang,22,0,10,0,74,12
+2020-02-20,中国,CN,Sichuan Province,Guangyuan,6,0,4,0,74,2
+2020-02-20,中国,CN,Sichuan Province,Suining,17,0,10,0,74,7
+2020-02-20,中国,CN,Sichuan Province,Neijiang,22,0,10,0,74,12
+2020-02-20,中国,CN,Sichuan Province,Leshan,3,0,2,0,74,1
+2020-02-20,中国,CN,Sichuan Province,Nanchong,38,0,15,0,74,23
+2020-02-20,中国,CN,Sichuan Province,Yibin,12,0,7,0,74,5
+2020-02-20,中国,CN,Sichuan Province,Guang'an,30,0,19,0,74,11
+2020-02-20,中国,CN,Sichuan Province,Florida,40,0,11,0,74,29
+2020-02-20,中国,CN,Sichuan Province,Ya'an,7,0,3,0,74,4
+2020-02-20,中国,CN,Sichuan Province,Bazhong,24,0,9,0,74,15
+2020-02-20,中国,CN,Sichuan Province,Ziyang,3,0,2,0,74,1
+2020-02-20,中国,CN,Guizhou Province,,146,0,76,2,74,68
+2020-02-20,中国,CN,Guizhou Province,Guiyang,36,0,14,1,74,21
+2020-02-20,中国,CN,Guizhou Province,Liupanshui,10,0,6,1,74,3
+2020-02-20,中国,CN,Guizhou Province,Zunyi,32,0,17,0,74,15
+2020-02-20,中国,CN,Guizhou Province,Anshun,4,0,1,0,74,3
+2020-02-20,中国,CN,Guizhou Province,Bijie,23,0,10,0,74,13
+2020-02-20,中国,CN,Guizhou Province,Tongren,10,0,9,0,74,1
+2020-02-20,中国,CN,Yunnan Province,,174,0,79,2,74,93
+2020-02-20,中国,CN,Yunnan Province,Kunming,53,0,24,0,74,29
+2020-02-20,中国,CN,Yunnan Province,Qujing,13,0,6,0,74,7
+2020-02-20,中国,CN,Yunnan Province,Yuxi,14,0,9,1,74,4
+2020-02-20,中国,CN,Yunnan Province,Baoshan,9,0,3,0,74,6
+2020-02-20,中国,CN,Yunnan Province,Zhaotong,25,0,5,0,74,20
+2020-02-20,中国,CN,Yunnan Province,Lijiang,7,0,7,0,74,0
+2020-02-20,中国,CN,Yunnan Province,Pu'er,4,0,3,0,74,1
+2020-02-20,中国,CN,Yunnan Province,Lincang,1,0,1,0,74,0
+2020-02-20,中国,CN,Tibet Autonomous Region,,1,0,1,0,74,0
+2020-02-20,中国,CN,Tibet Autonomous Region,Lhasa,1,0,1,0,74,0
+2020-02-20,中国,CN,Shaanxi Province,,245,0,110,1,74,134
+2020-02-20,中国,CN,Shaanxi Province,Xi'an,120,0,43,1,74,76
+2020-02-20,中国,CN,Shaanxi Province,Tongchuan,8,0,6,0,74,2
+2020-02-20,中国,CN,Shaanxi Province,Baoji,13,0,10,0,74,3
+2020-02-20,中国,CN,Shaanxi Province,Xianyang,17,0,10,0,74,7
+2020-02-20,中国,CN,Shaanxi Province,Weinan,15,0,4,0,74,11
+2020-02-20,中国,CN,Shaanxi Province,Hancheng,1,0,1,0,74,0
+2020-02-20,中国,CN,Shaanxi Province,Yan'an,8,0,6,0,74,2
+2020-02-20,中国,CN,Shaanxi Province,Hanzhong,26,0,10,0,74,16
+2020-02-20,中国,CN,Shaanxi Province,Yulin,3,0,1,0,74,2
+2020-02-20,中国,CN,Shaanxi Province,Good health,26,0,15,0,74,11
+2020-02-20,中国,CN,Shaanxi Province,Shangluo,7,0,2,0,74,5
+2020-02-20,中国,CN,Gansu province,,91,0,71,2,74,18
+2020-02-20,中国,CN,Gansu province,Lanzhou,36,0,24,2,74,10
+2020-02-20,中国,CN,Gansu province,Jinchang,1,0,1,0,74,0
+2020-02-20,中国,CN,Gansu province,silver,4,0,1,0,74,3
+2020-02-20,中国,CN,Gansu province,Tianshui,12,0,12,0,74,0
+2020-02-20,中国,CN,Gansu province,Zhangye,2,0,2,0,74,0
+2020-02-20,中国,CN,Gansu province,Pingliang,9,0,4,0,74,5
+2020-02-20,中国,CN,Gansu province,Qingyang,3,0,2,0,74,1
+2020-02-20,中国,CN,Gansu province,Dingxi,9,0,8,0,74,1
+2020-02-20,中国,CN,Gansu province,Longnan,4,0,4,0,74,0
+2020-02-20,中国,CN,Qinghai Province,,18,0,16,0,74,2
+2020-02-20,中国,CN,Qinghai Province,Xining,15,0,12,0,74,3
+2020-02-20,中国,CN,Ningxia Hui Autonomous Region,,71,0,44,0,74,27
+2020-02-20,中国,CN,Ningxia Hui Autonomous Region,Yinchuan,33,0,27,0,74,6
+2020-02-20,中国,CN,Ningxia Hui Autonomous Region,Shizuishan,1,0,1,0,74,0
+2020-02-20,中国,CN,Ningxia Hui Autonomous Region,Wuzhong,28,0,9,0,74,19
+2020-02-20,中国,CN,Ningxia Hui Autonomous Region,Guyuan,5,0,3,0,74,2
+2020-02-20,中国,CN,Ningxia Hui Autonomous Region,Zhongwei,3,0,3,0,74,0
+2020-02-20,中国,CN,Xinjiang Uygur Autonomous Region,,76,0,22,1,74,53
+2020-02-20,中国,CN,Xinjiang Uygur Autonomous Region,Urumqi,23,0,8,0,74,15
+2020-02-20,中国,CN,Xinjiang Uygur Autonomous Region,Turpan,3,0,1,0,74,2
+2020-02-20,中国,CN,Xinjiang Uygur Autonomous Region,Shihezi,4,0,1,1,74,2
+2020-02-20,中国,CN,Xinjiang Uygur Autonomous Region,Wujiaqu,2,0,0,0,74,2
+2020-02-20,中国,CN,Taiwan,,24,0,2,1,74,21
+2020-02-20,中国,CN,Hongkong,,68,0,5,2,74,61
+2020-02-20,中国,CN,Macao,,10,0,6,0,74,4
+2020-02-20,德国,DE,,,16,0,7,0,74,9
+2020-02-20,西班牙,ES,,,2,0,0,0,74,2
+2020-02-20,芬兰,FI,,,1,0,1,0,74,0
+2020-02-20,法国,FR,,,12,0,4,1,74,7
+2020-02-20,英国,GB,,,9,0,8,0,74,1
+2020-02-20,印度,IN,,,3,0,3,0,74,0
+2020-02-20,伊朗,IR,,,5,0,0,2,74,3
+2020-02-20,意大利,IT,,,3,0,0,0,74,3
+2020-02-20,日本,JP,,,712,0,1,3,74,708
+2020-02-20,柬埔寨,KH,,,1,0,1,0,74,0
+2020-02-20,韩国,KR,,,104,0,12,1,74,91
+2020-02-20,斯里兰卡,LK,,,1,0,1,0,74,0
+2020-02-20,马来西亚,MY,,,22,0,15,0,74,7
+2020-02-20,尼泊尔,NP,,,1,0,1,0,74,0
+2020-02-20,菲律宾,PH,,,3,0,1,1,74,1
+2020-02-20,俄罗斯,RU,,,2,0,2,0,74,0
+2020-02-20,瑞典,SE,,,1,0,0,0,74,1
+2020-02-20,新加坡,SG,,,84,0,34,0,74,50
+2020-02-20,泰国,TH,,,35,0,17,0,74,18
+2020-02-20,美国,US,,,15,0,3,0,74,12
+2020-02-20,越南,VN,,,16,0,9,0,74,7
+2020-02-21,阿联酋,AE,,,9,0,4,0,75,5
+2020-02-21,澳大利亚,AU,,,15,0,5,0,75,10
+2020-02-21,比利时,BE,,,1,0,1,0,75,0
+2020-02-21,加拿大,CA,,,8,0,1,0,75,7
+2020-02-21,中国,CN,,,76392,5365,20672,2348,75,53372
+2020-02-21,中国,CN,Beijing,,399,0,178,4,75,217
+2020-02-21,中国,CN,Tianjin,,133,0,62,3,75,68
+2020-02-21,中国,CN,Hebei Province,,309,0,184,6,75,119
+2020-02-21,中国,CN,Hebei Province,Shijiazhuang,28,0,13,0,75,15
+2020-02-21,中国,CN,Hebei Province,Tangshan,56,0,16,1,75,39
+2020-02-21,中国,CN,Hebei Province,Qinhuangdao,10,0,5,0,75,5
+2020-02-21,中国,CN,Hebei Province,Handan,31,0,17,0,75,14
+2020-02-21,中国,CN,Hebei Province,Xingtai,23,0,13,1,75,9
+2020-02-21,中国,CN,Hebei Province,Baoding,32,0,27,0,75,5
+2020-02-21,中国,CN,Hebei Province,Zhangjiakou,34,0,24,0,75,10
+2020-02-21,中国,CN,Hebei Province,Chengde,7,0,6,0,75,1
+2020-02-21,中国,CN,Hebei Province,Cangzhou,48,0,18,3,75,27
+2020-02-21,中国,CN,Hebei Province,Langfang,30,0,21,0,75,9
+2020-02-21,中国,CN,Hebei Province,Hengshui,8,0,6,0,75,2
+2020-02-21,中国,CN,Shanxi Province,,132,0,78,0,75,54
+2020-02-21,中国,CN,Shanxi Province,Taiyuan,19,0,13,0,75,6
+2020-02-21,中国,CN,Shanxi Province,Datong,12,0,6,0,75,6
+2020-02-21,中国,CN,Shanxi Province,Yangquan,4,0,2,0,75,2
+2020-02-21,中国,CN,Shanxi Province,Changzhi,8,0,1,0,75,7
+2020-02-21,中国,CN,Shanxi Province,Jincheng,10,0,3,0,75,7
+2020-02-21,中国,CN,Shanxi Province,Shuozhou,8,0,3,0,75,5
+2020-02-21,中国,CN,Shanxi Province,Jinzhong,36,0,18,0,75,18
+2020-02-21,中国,CN,Shanxi Province,Yuncheng,19,0,16,0,75,3
+2020-02-21,中国,CN,Shanxi Province,Xinzhou,7,0,4,0,75,3
+2020-02-21,中国,CN,Shanxi Province,Linfen,2,0,1,0,75,1
+2020-02-21,中国,CN,Shanxi Province,Luliang,6,0,6,0,75,0
+2020-02-21,中国,CN,Inner Mongolia Autonomous Region,,75,0,22,0,75,53
+2020-02-21,中国,CN,Inner Mongolia Autonomous Region,Hohhot,7,0,2,0,75,5
+2020-02-21,中国,CN,Inner Mongolia Autonomous Region,Baotou,11,0,2,0,75,9
+2020-02-21,中国,CN,Inner Mongolia Autonomous Region,Wuhai,2,0,0,0,75,2
+2020-02-21,中国,CN,Inner Mongolia Autonomous Region,Chifeng,9,0,3,0,75,6
+2020-02-21,中国,CN,Inner Mongolia Autonomous Region,Tongliao,7,0,0,0,75,7
+2020-02-21,中国,CN,Inner Mongolia Autonomous Region,Erdos,11,0,5,0,75,6
+2020-02-21,中国,CN,Inner Mongolia Autonomous Region,Hulunbeier,7,0,2,0,75,5
+2020-02-21,中国,CN,Inner Mongolia Autonomous Region,Bayannaoer,8,0,0,0,75,8
+2020-02-21,中国,CN,Inner Mongolia Autonomous Region,Wulanchabu,3,0,1,0,75,2
+2020-02-21,中国,CN,Liaoning Province,,121,0,66,1,75,54
+2020-02-21,中国,CN,Liaoning Province,Shenyang,28,0,12,0,75,16
+2020-02-21,中国,CN,Liaoning Province,Dalian,19,0,9,0,75,10
+2020-02-21,中国,CN,Liaoning Province,Anshan,4,0,0,0,75,4
+2020-02-21,中国,CN,Liaoning Province,Benxi,3,0,3,0,75,0
+2020-02-21,中国,CN,Liaoning Province,Dandong,7,0,4,0,75,3
+2020-02-21,中国,CN,Liaoning Province,Jinzhou,12,0,6,0,75,6
+2020-02-21,中国,CN,Liaoning Province,Yingkou,1,0,1,0,75,0
+2020-02-21,中国,CN,Liaoning Province,Fuxin,8,0,6,0,75,2
+2020-02-21,中国,CN,Liaoning Province,Liaoyang,3,0,3,0,75,0
+2020-02-21,中国,CN,Liaoning Province,Panjin,11,0,4,0,75,7
+2020-02-21,中国,CN,Liaoning Province,Tieling,7,0,2,0,75,5
+2020-02-21,中国,CN,Liaoning Province,Sunny,6,0,3,0,75,3
+2020-02-21,中国,CN,Liaoning Province,Huludao,12,0,2,1,75,9
+2020-02-21,中国,CN,Jilin Province,,91,0,46,1,75,44
+2020-02-21,中国,CN,Jilin Province,Changchun,45,0,21,0,75,24
+2020-02-21,中国,CN,Jilin Province,Jilin,5,0,4,0,75,1
+2020-02-21,中国,CN,Jilin Province,Siping,15,0,7,1,75,7
+2020-02-21,中国,CN,Jilin Province,Gongzhuling,6,0,2,0,75,4
+2020-02-21,中国,CN,Jilin Province,Liaoyuan,7,0,1,0,75,6
+2020-02-21,中国,CN,Jilin Province,Tonghua,4,0,1,0,75,3
+2020-02-21,中国,CN,Jilin Province,Matsubara,2,0,2,0,75,0
+2020-02-21,中国,CN,Jilin Province,Baicheng,1,0,0,0,75,1
+2020-02-21,中国,CN,Heilongjiang Province,,479,0,183,12,75,284
+2020-02-21,中国,CN,Heilongjiang Province,Harbin,194,0,55,3,75,136
+2020-02-21,中国,CN,Heilongjiang Province,Qiqihar,43,0,11,1,75,31
+2020-02-21,中国,CN,Heilongjiang Province,Jixi,46,0,3,0,75,43
+2020-02-21,中国,CN,Heilongjiang Province,Hegang,5,0,2,0,75,3
+2020-02-21,中国,CN,Heilongjiang Province,Shuangyashan,52,0,11,3,75,38
+2020-02-21,中国,CN,Heilongjiang Province,Daqing,26,0,8,1,75,17
+2020-02-21,中国,CN,Heilongjiang Province,Jiamusi,15,0,14,0,75,1
+2020-02-21,中国,CN,Heilongjiang Province,Qitaihe,17,0,6,0,75,11
+2020-02-21,中国,CN,Heilongjiang Province,Mudanjiang,14,0,1,0,75,13
+2020-02-21,中国,CN,Heilongjiang Province,Heihe,14,0,3,0,75,11
+2020-02-21,中国,CN,Heilongjiang Province,Suihua,47,0,20,4,75,23
+2020-02-21,中国,CN,Shanghai,,334,0,211,3,75,120
+2020-02-21,中国,CN,Jiangsu Province,,631,0,387,0,75,244
+2020-02-21,中国,CN,Jiangsu Province,Nanjing,93,0,47,0,75,46
+2020-02-21,中国,CN,Jiangsu Province,Wuxi,55,0,35,0,75,20
+2020-02-21,中国,CN,Jiangsu Province,Xuzhou,79,0,55,0,75,24
+2020-02-21,中国,CN,Jiangsu Province,Changzhou,51,0,29,0,75,22
+2020-02-21,中国,CN,Jiangsu Province,Suzhou,87,0,38,0,75,49
+2020-02-21,中国,CN,Jiangsu Province,Nantong,40,0,23,0,75,17
+2020-02-21,中国,CN,Jiangsu Province,Lianyungang,48,0,18,0,75,30
+2020-02-21,中国,CN,Jiangsu Province,Huaian,66,0,34,0,75,32
+2020-02-21,中国,CN,Jiangsu Province,Yancheng,27,0,20,0,75,7
+2020-02-21,中国,CN,Jiangsu Province,Yangzhou,23,0,13,0,75,10
+2020-02-21,中国,CN,Jiangsu Province,Zhenjiang,12,0,8,0,75,4
+2020-02-21,中国,CN,Jiangsu Province,Taizhou,37,0,24,0,75,13
+2020-02-21,中国,CN,Jiangsu Province,Suqian,13,0,7,0,75,6
+2020-02-21,中国,CN,Zhejiang Province,,1205,0,694,1,75,510
+2020-02-21,中国,CN,Zhejiang Province,Hangzhou,169,0,108,0,75,61
+2020-02-21,中国,CN,Zhejiang Province,Ningbo,156,0,91,0,75,65
+2020-02-21,中国,CN,Zhejiang Province,Wenzhou,504,0,245,1,75,258
+2020-02-21,中国,CN,Zhejiang Province,Jiaxing,45,0,20,0,75,25
+2020-02-21,中国,CN,Zhejiang Province,Huzhou,10,0,6,0,75,4
+2020-02-21,中国,CN,Zhejiang Province,Shaoxing,42,0,20,0,75,22
+2020-02-21,中国,CN,Zhejiang Province,Jinhua,55,0,33,0,75,22
+2020-02-21,中国,CN,Zhejiang Province,Quzhou,21,0,10,0,75,11
+2020-02-21,中国,CN,Zhejiang Province,Zhoushan,10,0,5,0,75,5
+2020-02-21,中国,CN,Zhejiang Province,Taizhou,146,0,77,0,75,69
+2020-02-21,中国,CN,Zhejiang Province,Lishui,17,0,14,0,75,3
+2020-02-21,中国,CN,Anhui Province,,989,0,566,6,75,417
+2020-02-21,中国,CN,Anhui Province,Hefei,173,0,80,1,75,92
+2020-02-21,中国,CN,Anhui Province,Wuhu,33,0,21,0,75,12
+2020-02-21,中国,CN,Anhui Province,Bengbu,160,0,40,5,75,115
+2020-02-21,中国,CN,Anhui Province,Huainan,27,0,12,0,75,15
+2020-02-21,中国,CN,Anhui Province,Ma'anshan,37,0,15,0,75,22
+2020-02-21,中国,CN,Anhui Province,Huaibei,27,0,13,0,75,14
+2020-02-21,中国,CN,Anhui Province,Tongling,29,0,12,0,75,17
+2020-02-21,中国,CN,Anhui Province,Anqing,83,0,53,0,75,30
+2020-02-21,中国,CN,Anhui Province,Huangshan,9,0,6,0,75,3
+2020-02-21,中国,CN,Anhui Province,Chuzhou,13,0,8,0,75,5
+2020-02-21,中国,CN,Anhui Province,Fuyang,155,0,79,0,75,76
+2020-02-21,中国,CN,Anhui Province,Suzhou,41,0,20,0,75,21
+2020-02-21,中国,CN,Anhui Province,Lu'an,69,0,31,0,75,38
+2020-02-21,中国,CN,Anhui Province,Bozhou,108,0,65,0,75,43
+2020-02-21,中国,CN,Anhui Province,Chizhou,17,0,10,0,75,7
+2020-02-21,中国,CN,Anhui Province,Xuancheng,6,0,4,0,75,2
+2020-02-21,中国,CN,Fujian Province,,293,0,150,1,75,142
+2020-02-21,中国,CN,Fujian Province,Fuzhou,71,0,36,0,75,35
+2020-02-21,中国,CN,Fujian Province,Xiamen,35,0,10,0,75,25
+2020-02-21,中国,CN,Fujian Province,Putian,55,0,19,0,75,36
+2020-02-21,中国,CN,Fujian Province,Sanming,14,0,5,0,75,9
+2020-02-21,中国,CN,Fujian Province,Quanzhou,46,0,14,0,75,32
+2020-02-21,中国,CN,Fujian Province,Zhangzhou,20,0,11,0,75,9
+2020-02-21,中国,CN,Fujian Province,Nanping,20,0,8,0,75,12
+2020-02-21,中国,CN,Fujian Province,Longyan,6,0,1,0,75,5
+2020-02-21,中国,CN,Fujian Province,Ningde,26,0,17,0,75,9
+2020-02-21,中国,CN,Jiangxi,,934,0,544,1,75,389
+2020-02-21,中国,CN,Jiangxi,Nanchang,229,0,133,0,75,96
+2020-02-21,中国,CN,Jiangxi,Jingdezhen,6,0,3,0,75,3
+2020-02-21,中国,CN,Jiangxi,Pingxiang,33,0,9,0,75,24
+2020-02-21,中国,CN,Jiangxi,Jiujiang,118,0,44,0,75,74
+2020-02-21,中国,CN,Jiangxi,Xinyu,130,0,68,0,75,62
+2020-02-21,中国,CN,Jiangxi,Yingtan,18,0,4,0,75,14
+2020-02-21,中国,CN,Jiangxi,Ganzhou,76,0,28,1,75,47
+2020-02-21,中国,CN,Jiangxi,Ji'an,22,0,11,0,75,11
+2020-02-21,中国,CN,Jiangxi,Yichun,106,0,42,0,75,64
+2020-02-21,中国,CN,Jiangxi,Fuzhou,72,0,35,0,75,37
+2020-02-21,中国,CN,Jiangxi,Shangrao,123,0,55,0,75,68
+2020-02-21,中国,CN,Shandong Province,,750,0,293,4,75,453
+2020-02-21,中国,CN,Shandong Province,Jinan,47,0,17,0,75,30
+2020-02-21,中国,CN,Shandong Province,Qingdao,59,0,31,1,75,27
+2020-02-21,中国,CN,Shandong Province,Zibo,29,0,6,0,75,23
+2020-02-21,中国,CN,Shandong Province,Zaozhuang,24,0,11,0,75,13
+2020-02-21,中国,CN,Shandong Province,Yantai,47,0,17,0,75,30
+2020-02-21,中国,CN,Shandong Province,Weifang,44,0,15,0,75,29
+2020-02-21,中国,CN,Shandong Province,Jining,52,0,29,0,75,23
+2020-02-21,中国,CN,Shandong Province,Tai'an,33,0,10,1,75,22
+2020-02-21,中国,CN,Shandong Province,Weihai,38,0,14,0,75,24
+2020-02-21,中国,CN,Shandong Province,sunshine,16,0,7,0,75,9
+2020-02-21,中国,CN,Shandong Province,Linyi,49,0,41,0,75,8
+2020-02-21,中国,CN,Shandong Province,Texas,37,0,11,2,75,24
+2020-02-21,中国,CN,Shandong Province,Liaocheng,38,0,21,0,75,17
+2020-02-21,中国,CN,Shandong Province,Binzhou,15,0,11,0,75,4
+2020-02-21,中国,CN,Shandong Province,Heze,18,0,13,0,75,5
+2020-02-21,中国,CN,Henan Province,,1270,0,802,19,75,449
+2020-02-21,中国,CN,Henan Province,Zhengzhou,156,0,88,0,75,68
+2020-02-21,中国,CN,Henan Province,Kaifeng,26,0,13,0,75,13
+2020-02-21,中国,CN,Henan Province,Luoyang,31,0,14,0,75,17
+2020-02-21,中国,CN,Henan Province,Pingdingshan,58,0,34,1,75,23
+2020-02-21,中国,CN,Henan Province,Anyang,53,0,28,0,75,25
+2020-02-21,中国,CN,Henan Province,Hebi,19,0,8,0,75,11
+2020-02-21,中国,CN,Henan Province,Xinxiang,57,0,26,3,75,28
+2020-02-21,中国,CN,Henan Province,Jiaozuo,32,0,9,1,75,22
+2020-02-21,中国,CN,Henan Province,Puyang,17,0,7,0,75,10
+2020-02-21,中国,CN,Henan Province,Xuchang,39,0,16,0,75,23
+2020-02-21,中国,CN,Henan Province,Luohe,35,0,21,0,75,14
+2020-02-21,中国,CN,Henan Province,Sanmenxia,7,0,5,0,75,2
+2020-02-21,中国,CN,Henan Province,Nanyang,155,0,65,2,75,88
+2020-02-21,中国,CN,Henan Province,Shangqiu,91,0,50,3,75,38
+2020-02-21,中国,CN,Henan Province,Xinyang,269,0,94,2,75,173
+2020-02-21,中国,CN,Henan Province,Zhoukou,76,0,34,0,75,42
+2020-02-21,中国,CN,Henan Province,Zhumadian,139,0,93,0,75,46
+2020-02-21,中国,CN,Henan Province,Jiyuan,5,0,3,0,75,2
+2020-02-21,中国,CN,Hubei Province,,63454,0,13557,2250,75,47647
+2020-02-21,中国,CN,Hubei Province,Wuhan,45027,0,5573,1585,75,37869
+2020-02-21,中国,CN,Hubei Province,Yellowstone,967,0,331,26,75,610
+2020-02-21,中国,CN,Hubei Province,Shiyan,641,0,187,2,75,452
+2020-02-21,中国,CN,Hubei Province,Yichang,891,0,231,27,75,633
+2020-02-21,中国,CN,Hubei Province,Xiangyang,1167,0,294,23,75,850
+2020-02-21,中国,CN,Hubei Province,Ezhou,1338,0,350,38,75,950
+2020-02-21,中国,CN,Hubei Province,Jingmen,794,0,201,34,75,559
+2020-02-21,中国,CN,Hubei Province,Xiaogan,3329,0,673,89,75,2567
+2020-02-21,中国,CN,Hubei Province,Jingzhou,1510,0,451,40,75,1019
+2020-02-21,中国,CN,Hubei Province,Huanggang,2839,0,1149,87,75,1603
+2020-02-21,中国,CN,Hubei Province,Xianning,766,0,268,10,75,488
+2020-02-21,中国,CN,Hubei Province,Suizhou,1283,0,309,27,75,947
+2020-02-21,中国,CN,Hubei Province,Xiantao,567,0,184,19,75,364
+2020-02-21,中国,CN,Hubei Province,Qianjiang,185,0,49,7,75,129
+2020-02-21,中国,CN,Hubei Province,Tianmen,473,0,133,12,75,328
+2020-02-21,中国,CN,Hunan Province,,1013,0,670,4,75,339
+2020-02-21,中国,CN,Hunan Province,Changsha,242,0,125,2,75,115
+2020-02-21,中国,CN,Hunan Province,Zhuzhou,78,0,46,0,75,32
+2020-02-21,中国,CN,Hunan Province,Xiangtan,35,0,17,0,75,18
+2020-02-21,中国,CN,Hunan Province,Hengyang,48,0,37,0,75,11
+2020-02-21,中国,CN,Hunan Province,Shaoyang,102,0,77,1,75,24
+2020-02-21,中国,CN,Hunan Province,Yueyang,156,0,72,1,75,83
+2020-02-21,中国,CN,Hunan Province,Changde,79,0,52,0,75,27
+2020-02-21,中国,CN,Hunan Province,Zhangjiajie,5,0,5,0,75,0
+2020-02-21,中国,CN,Hunan Province,Yiyang,59,0,48,0,75,11
+2020-02-21,中国,CN,Hunan Province,Chenzhou,39,0,29,0,75,10
+2020-02-21,中国,CN,Hunan Province,Yongzhou,43,0,30,0,75,13
+2020-02-21,中国,CN,Hunan Province,Huaihua,40,0,38,0,75,2
+2020-02-21,中国,CN,Hunan Province,Loudi,76,0,51,0,75,25
+2020-02-21,中国,CN,Guangdong Province,,1339,0,720,5,75,614
+2020-02-21,中国,CN,Guangdong Province,Canton,339,0,157,0,75,182
+2020-02-21,中国,CN,Guangdong Province,Shaoguan,10,0,5,0,75,5
+2020-02-21,中国,CN,Guangdong Province,Shenzhen,416,0,199,2,75,215
+2020-02-21,中国,CN,Guangdong Province,Zhuhai,98,0,45,1,75,52
+2020-02-21,中国,CN,Guangdong Province,Shantou,25,0,20,0,75,5
+2020-02-21,中国,CN,Guangdong Province,Foshan,84,0,33,0,75,51
+2020-02-21,中国,CN,Guangdong Province,Jiangmen,23,0,9,0,75,14
+2020-02-21,中国,CN,Guangdong Province,Zhanjiang,22,0,12,0,75,10
+2020-02-21,中国,CN,Guangdong Province,Maoming,14,0,6,0,75,8
+2020-02-21,中国,CN,Guangdong Province,Zhaoqing,18,0,8,1,75,9
+2020-02-21,中国,CN,Guangdong Province,Huizhou,62,0,38,0,75,24
+2020-02-21,中国,CN,Guangdong Province,Meizhou,16,0,10,0,75,6
+2020-02-21,中国,CN,Guangdong Province,Shanwei,5,0,2,0,75,3
+2020-02-21,中国,CN,Guangdong Province,Heyuan,4,0,1,0,75,3
+2020-02-21,中国,CN,Guangdong Province,Yangjiang,13,0,10,0,75,3
+2020-02-21,中国,CN,Guangdong Province,Qingyuan,12,0,9,0,75,3
+2020-02-21,中国,CN,Guangdong Province,Dongguan,92,0,26,1,75,65
+2020-02-21,中国,CN,Guangdong Province,Zhongshan,66,0,42,0,75,24
+2020-02-21,中国,CN,Guangdong Province,Chaozhou,5,0,4,0,75,1
+2020-02-21,中国,CN,Guangdong Province,Jieyang,8,0,4,0,75,4
+2020-02-21,中国,CN,Guangxi Zhuang Autonomous Region,,249,0,99,2,75,148
+2020-02-21,中国,CN,Guangxi Zhuang Autonomous Region,Nanning,54,0,24,0,75,30
+2020-02-21,中国,CN,Guangxi Zhuang Autonomous Region,Liuzhou,24,0,11,0,75,13
+2020-02-21,中国,CN,Guangxi Zhuang Autonomous Region,Guilin,31,0,15,0,75,16
+2020-02-21,中国,CN,Guangxi Zhuang Autonomous Region,Wuzhou,5,0,5,0,75,0
+2020-02-21,中国,CN,Guangxi Zhuang Autonomous Region,North Sea,44,0,14,1,75,29
+2020-02-21,中国,CN,Guangxi Zhuang Autonomous Region,Fangchenggang,19,0,6,0,75,13
+2020-02-21,中国,CN,Guangxi Zhuang Autonomous Region,Qinzhou,8,0,1,0,75,7
+2020-02-21,中国,CN,Guangxi Zhuang Autonomous Region,Guigang,8,0,3,0,75,5
+2020-02-21,中国,CN,Guangxi Zhuang Autonomous Region,Yulin,11,0,4,0,75,7
+2020-02-21,中国,CN,Guangxi Zhuang Autonomous Region,Baise,3,0,2,0,75,1
+2020-02-21,中国,CN,Guangxi Zhuang Autonomous Region,Hezhou,4,0,1,0,75,3
+2020-02-21,中国,CN,Guangxi Zhuang Autonomous Region,Hechi,23,0,4,1,75,18
+2020-02-21,中国,CN,Guangxi Zhuang Autonomous Region,guest,11,0,0,0,75,11
+2020-02-21,中国,CN,Hainan,,168,0,96,4,75,68
+2020-02-21,中国,CN,Hainan,Seaport,39,0,18,0,75,21
+2020-02-21,中国,CN,Hainan,Sanya,54,0,22,1,75,31
+2020-02-21,中国,CN,Hainan,Danzhou,15,0,11,0,75,4
+2020-02-21,中国,CN,Hainan,Qionghai,6,0,4,1,75,1
+2020-02-21,中国,CN,Hainan,Wenchang,3,0,3,0,75,0
+2020-02-21,中国,CN,Hainan,Wanning,13,0,9,0,75,4
+2020-02-21,中国,CN,Hainan,East,3,0,2,0,75,1
+2020-02-21,中国,CN,Chongqing,,572,0,316,6,75,250
+2020-02-21,中国,CN,Sichuan Province,,526,0,242,3,75,281
+2020-02-21,中国,CN,Sichuan Province,Chengdu,141,0,69,3,75,69
+2020-02-21,中国,CN,Sichuan Province,Zigong,9,0,7,0,75,2
+2020-02-21,中国,CN,Sichuan Province,Panzhihua,16,0,11,0,75,5
+2020-02-21,中国,CN,Sichuan Province,Luzhou,24,0,6,0,75,18
+2020-02-21,中国,CN,Sichuan Province,Deyang,17,0,3,0,75,14
+2020-02-21,中国,CN,Sichuan Province,Mianyang,22,0,10,0,75,12
+2020-02-21,中国,CN,Sichuan Province,Guangyuan,6,0,4,0,75,2
+2020-02-21,中国,CN,Sichuan Province,Suining,17,0,10,0,75,7
+2020-02-21,中国,CN,Sichuan Province,Neijiang,22,0,10,0,75,12
+2020-02-21,中国,CN,Sichuan Province,Leshan,3,0,2,0,75,1
+2020-02-21,中国,CN,Sichuan Province,Nanchong,38,0,15,0,75,23
+2020-02-21,中国,CN,Sichuan Province,Yibin,12,0,7,0,75,5
+2020-02-21,中国,CN,Sichuan Province,Guang'an,30,0,19,0,75,11
+2020-02-21,中国,CN,Sichuan Province,Florida,40,0,11,0,75,29
+2020-02-21,中国,CN,Sichuan Province,Ya'an,7,0,3,0,75,4
+2020-02-21,中国,CN,Sichuan Province,Bazhong,24,0,10,0,75,14
+2020-02-21,中国,CN,Sichuan Province,Ziyang,3,0,2,0,75,1
+2020-02-21,中国,CN,Guizhou Province,,146,0,90,2,75,54
+2020-02-21,中国,CN,Guizhou Province,Guiyang,36,0,14,1,75,21
+2020-02-21,中国,CN,Guizhou Province,Liupanshui,10,0,6,1,75,3
+2020-02-21,中国,CN,Guizhou Province,Zunyi,32,0,17,0,75,15
+2020-02-21,中国,CN,Guizhou Province,Anshun,4,0,1,0,75,3
+2020-02-21,中国,CN,Guizhou Province,Bijie,23,0,10,0,75,13
+2020-02-21,中国,CN,Guizhou Province,Tongren,10,0,9,0,75,1
+2020-02-21,中国,CN,Yunnan Province,,174,0,96,2,75,76
+2020-02-21,中国,CN,Yunnan Province,Kunming,53,0,24,0,75,29
+2020-02-21,中国,CN,Yunnan Province,Qujing,13,0,6,0,75,7
+2020-02-21,中国,CN,Yunnan Province,Yuxi,14,0,9,1,75,4
+2020-02-21,中国,CN,Yunnan Province,Baoshan,9,0,3,0,75,6
+2020-02-21,中国,CN,Yunnan Province,Zhaotong,25,0,5,0,75,20
+2020-02-21,中国,CN,Yunnan Province,Lijiang,7,0,7,0,75,0
+2020-02-21,中国,CN,Yunnan Province,Pu'er,4,0,3,0,75,1
+2020-02-21,中国,CN,Yunnan Province,Lincang,1,0,1,0,75,0
+2020-02-21,中国,CN,Tibet Autonomous Region,,1,0,1,0,75,0
+2020-02-21,中国,CN,Tibet Autonomous Region,Lhasa,1,0,1,0,75,0
+2020-02-21,中国,CN,Shaanxi Province,,245,0,117,1,75,127
+2020-02-21,中国,CN,Shaanxi Province,Xi'an,120,0,43,1,75,76
+2020-02-21,中国,CN,Shaanxi Province,Tongchuan,8,0,6,0,75,2
+2020-02-21,中国,CN,Shaanxi Province,Baoji,13,0,10,0,75,3
+2020-02-21,中国,CN,Shaanxi Province,Xianyang,17,0,10,0,75,7
+2020-02-21,中国,CN,Shaanxi Province,Weinan,15,0,4,0,75,11
+2020-02-21,中国,CN,Shaanxi Province,Hancheng,1,0,1,0,75,0
+2020-02-21,中国,CN,Shaanxi Province,Yan'an,8,0,6,0,75,2
+2020-02-21,中国,CN,Shaanxi Province,Hanzhong,26,0,10,0,75,16
+2020-02-21,中国,CN,Shaanxi Province,Yulin,3,0,1,0,75,2
+2020-02-21,中国,CN,Shaanxi Province,Good health,26,0,15,0,75,11
+2020-02-21,中国,CN,Shaanxi Province,Shangluo,7,0,4,0,75,3
+2020-02-21,中国,CN,Gansu province,,91,0,76,2,75,13
+2020-02-21,中国,CN,Gansu province,Lanzhou,36,0,24,2,75,10
+2020-02-21,中国,CN,Gansu province,Jinchang,1,0,1,0,75,0
+2020-02-21,中国,CN,Gansu province,silver,4,0,2,0,75,2
+2020-02-21,中国,CN,Gansu province,Tianshui,12,0,12,0,75,0
+2020-02-21,中国,CN,Gansu province,Zhangye,2,0,2,0,75,0
+2020-02-21,中国,CN,Gansu province,Pingliang,9,0,4,0,75,5
+2020-02-21,中国,CN,Gansu province,Qingyang,3,0,2,0,75,1
+2020-02-21,中国,CN,Gansu province,Dingxi,9,0,8,0,75,1
+2020-02-21,中国,CN,Gansu province,Longnan,4,0,4,0,75,0
+2020-02-21,中国,CN,Qinghai Province,,18,0,18,0,75,0
+2020-02-21,中国,CN,Qinghai Province,Xining,15,0,12,0,75,3
+2020-02-21,中国,CN,Ningxia Hui Autonomous Region,,71,0,48,0,75,23
+2020-02-21,中国,CN,Ningxia Hui Autonomous Region,Yinchuan,33,0,27,0,75,6
+2020-02-21,中国,CN,Ningxia Hui Autonomous Region,Shizuishan,1,0,1,0,75,0
+2020-02-21,中国,CN,Ningxia Hui Autonomous Region,Wuzhong,28,0,9,0,75,19
+2020-02-21,中国,CN,Ningxia Hui Autonomous Region,Guyuan,5,0,3,0,75,2
+2020-02-21,中国,CN,Ningxia Hui Autonomous Region,Zhongwei,3,0,3,0,75,0
+2020-02-21,中国,CN,Xinjiang Uygur Autonomous Region,,76,0,24,2,75,50
+2020-02-21,中国,CN,Xinjiang Uygur Autonomous Region,Urumqi,23,0,10,0,75,13
+2020-02-21,中国,CN,Xinjiang Uygur Autonomous Region,Turpan,3,0,1,0,75,2
+2020-02-21,中国,CN,Xinjiang Uygur Autonomous Region,Shihezi,4,0,1,1,75,2
+2020-02-21,中国,CN,Xinjiang Uygur Autonomous Region,Wujiaqu,2,0,0,0,75,2
+2020-02-21,中国,CN,Taiwan,,26,0,2,1,75,23
+2020-02-21,中国,CN,Hongkong,,68,0,6,2,75,60
+2020-02-21,中国,CN,Macao,,10,0,6,0,75,4
+2020-02-21,德国,DE,,,16,0,7,0,75,9
+2020-02-21,西班牙,ES,,,2,0,0,0,75,2
+2020-02-21,芬兰,FI,,,1,0,1,0,75,0
+2020-02-21,法国,FR,,,12,0,4,1,75,7
+2020-02-21,英国,GB,,,9,0,8,0,75,1
+2020-02-21,印度,IN,,,3,0,3,0,75,0
+2020-02-21,伊朗,IR,,,5,0,0,2,75,3
+2020-02-21,意大利,IT,,,3,0,0,0,75,3
+2020-02-21,日本,JP,,,725,0,1,3,75,721
+2020-02-21,柬埔寨,KH,,,1,0,1,0,75,0
+2020-02-21,韩国,KR,,,104,0,12,1,75,91
+2020-02-21,斯里兰卡,LK,,,1,0,1,0,75,0
+2020-02-21,马来西亚,MY,,,22,0,15,0,75,7
+2020-02-21,尼泊尔,NP,,,1,0,1,0,75,0
+2020-02-21,菲律宾,PH,,,3,0,1,1,75,1
+2020-02-21,俄罗斯,RU,,,2,0,2,0,75,0
+2020-02-21,瑞典,SE,,,1,0,0,0,75,1
+2020-02-21,新加坡,SG,,,85,0,37,0,75,48
+2020-02-21,泰国,TH,,,35,0,17,0,75,18
+2020-02-21,美国,US,,,15,0,3,0,75,12
+2020-02-21,越南,VN,,,16,0,9,0,75,7
+2020-02-22,中国,CN,,,77041,4148,22907,2445,76,51689
+2020-02-22,中国,CN,Beijing,,399,0,189,4,76,206
+2020-02-22,中国,CN,Tianjin,,135,0,65,3,76,67
+2020-02-22,中国,CN,Hebei Province,,311,0,204,6,76,101
+2020-02-22,中国,CN,Shanxi Province,,132,0,81,0,76,51
+2020-02-22,中国,CN,Inner Mongolia Autonomous Region,,75,0,26,0,76,49
+2020-02-22,中国,CN,Liaoning Province,,121,0,68,1,76,52
+2020-02-22,中国,CN,Jilin Province,,91,0,52,1,76,38
+2020-02-22,中国,CN,Heilongjiang Province,,480,0,215,12,76,253
+2020-02-22,中国,CN,Shanghai,,335,0,227,3,76,105
+2020-02-22,中国,CN,Jiangsu Province,,631,0,411,0,76,220
+2020-02-22,中国,CN,Zhejiang Province,,1205,0,729,1,76,475
+2020-02-22,中国,CN,Anhui Province,,989,0,620,6,76,363
+2020-02-22,中国,CN,Fujian Province,,293,0,165,1,76,127
+2020-02-22,中国,CN,Jiangxi,,934,0,611,1,76,322
+2020-02-22,中国,CN,Shandong Province,,754,0,311,4,76,439
+2020-02-22,中国,CN,Henan Province,,1271,0,861,19,76,391
+2020-02-22,中国,CN,Hubei Province,,64084,0,15299,2346,76,46439
+2020-02-22,中国,CN,Hunan Province,,1016,0,704,4,76,308
+2020-02-22,中国,CN,Guangdong Province,,1342,0,740,6,76,596
+2020-02-22,中国,CN,Guangxi Zhuang Autonomous Region,,249,0,104,2,76,143
+2020-02-22,中国,CN,Hainan,,168,0,104,4,76,60
+2020-02-22,中国,CN,Chongqing,,573,0,328,6,76,239
+2020-02-22,中国,CN,Sichuan Province,,526,0,256,3,76,267
+2020-02-22,中国,CN,Guizhou Province,,146,0,91,2,76,53
+2020-02-22,中国,CN,Yunnan Province,,174,0,107,2,76,65
+2020-02-22,中国,CN,Tibet Autonomous Region,,1,0,1,0,76,0
+2020-02-22,中国,CN,Shaanxi Province,,245,0,140,1,76,104
+2020-02-22,中国,CN,Gansu province,,91,0,76,2,76,13
+2020-02-22,中国,CN,Qinghai Province,,18,0,18,0,76,0
+2020-02-22,中国,CN,Ningxia Hui Autonomous Region,,71,0,48,0,76,23
+2020-02-22,中国,CN,Xinjiang Uygur Autonomous Region,,76,0,25,2,76,49
+2020-02-22,中国,CN,Taiwan,,26,0,2,1,76,23
+2020-02-22,中国,CN,Hongkong,,69,0,11,2,76,56
+2020-02-22,中国,CN,Macao,,10,0,6,0,76,4
+2020-02-23,阿联酋,AE,,,13,0,4,0,77,9
+2020-02-23,澳大利亚,AU,,,15,0,5,0,77,10
+2020-02-23,比利时,BE,,,1,0,1,0,77,0
+2020-02-23,加拿大,CA,,,9,0,1,0,77,8
+2020-02-23,中国,CN,,,77041,4148,23000,2445,77,51596
+2020-02-23,中国,CN,Beijing,,399,0,189,4,77,206
+2020-02-23,中国,CN,Tianjin,,135,0,65,3,77,67
+2020-02-23,中国,CN,Hebei Province,,311,0,204,6,77,101
+2020-02-23,中国,CN,Hebei Province,Shijiazhuang,29,0,19,0,77,10
+2020-02-23,中国,CN,Hebei Province,Tangshan,58,0,20,1,77,37
+2020-02-23,中国,CN,Hebei Province,Qinhuangdao,10,0,6,1,77,3
+2020-02-23,中国,CN,Hebei Province,Handan,32,0,22,0,77,10
+2020-02-23,中国,CN,Hebei Province,Xingtai,23,0,18,1,77,4
+2020-02-23,中国,CN,Hebei Province,Baoding,32,0,29,0,77,3
+2020-02-23,中国,CN,Hebei Province,Zhangjiakou,34,0,26,0,77,8
+2020-02-23,中国,CN,Hebei Province,Chengde,7,0,6,0,77,1
+2020-02-23,中国,CN,Hebei Province,Cangzhou,48,0,26,3,77,19
+2020-02-23,中国,CN,Hebei Province,Langfang,30,0,25,0,77,5
+2020-02-23,中国,CN,Hebei Province,Hengshui,8,0,7,0,77,1
+2020-02-23,中国,CN,Shanxi Province,,132,0,82,0,77,50
+2020-02-23,中国,CN,Shanxi Province,Taiyuan,20,0,12,0,77,8
+2020-02-23,中国,CN,Shanxi Province,Datong,12,0,6,0,77,6
+2020-02-23,中国,CN,Shanxi Province,Yangquan,4,0,3,0,77,1
+2020-02-23,中国,CN,Shanxi Province,Changzhi,8,0,3,0,77,5
+2020-02-23,中国,CN,Shanxi Province,Jincheng,10,0,5,0,77,5
+2020-02-23,中国,CN,Shanxi Province,Shuozhou,8,0,3,0,77,5
+2020-02-23,中国,CN,Shanxi Province,Jinzhong,36,0,22,0,77,14
+2020-02-23,中国,CN,Shanxi Province,Yuncheng,19,0,17,0,77,2
+2020-02-23,中国,CN,Shanxi Province,Xinzhou,7,0,4,0,77,3
+2020-02-23,中国,CN,Shanxi Province,Linfen,2,0,1,0,77,1
+2020-02-23,中国,CN,Shanxi Province,Luliang,6,0,6,0,77,0
+2020-02-23,中国,CN,Inner Mongolia Autonomous Region,,75,0,26,0,77,49
+2020-02-23,中国,CN,Inner Mongolia Autonomous Region,Hohhot,7,0,2,0,77,5
+2020-02-23,中国,CN,Inner Mongolia Autonomous Region,Baotou,11,0,4,0,77,7
+2020-02-23,中国,CN,Inner Mongolia Autonomous Region,Wuhai,2,0,0,0,77,2
+2020-02-23,中国,CN,Inner Mongolia Autonomous Region,Chifeng,9,0,3,0,77,6
+2020-02-23,中国,CN,Inner Mongolia Autonomous Region,Tongliao,7,0,1,0,77,6
+2020-02-23,中国,CN,Inner Mongolia Autonomous Region,Erdos,11,0,7,0,77,4
+2020-02-23,中国,CN,Inner Mongolia Autonomous Region,Hulunbeier,7,0,4,0,77,3
+2020-02-23,中国,CN,Inner Mongolia Autonomous Region,Bayannaoer,8,0,3,0,77,5
+2020-02-23,中国,CN,Inner Mongolia Autonomous Region,Wulanchabu,3,0,1,0,77,2
+2020-02-23,中国,CN,Liaoning Province,,121,0,68,1,77,52
+2020-02-23,中国,CN,Liaoning Province,Shenyang,28,0,16,0,77,12
+2020-02-23,中国,CN,Liaoning Province,Dalian,19,0,9,0,77,10
+2020-02-23,中国,CN,Liaoning Province,Anshan,4,0,0,0,77,4
+2020-02-23,中国,CN,Liaoning Province,Benxi,3,0,3,0,77,0
+2020-02-23,中国,CN,Liaoning Province,Dandong,7,0,6,0,77,1
+2020-02-23,中国,CN,Liaoning Province,Jinzhou,12,0,9,0,77,3
+2020-02-23,中国,CN,Liaoning Province,Yingkou,1,0,1,0,77,0
+2020-02-23,中国,CN,Liaoning Province,Fuxin,8,0,6,0,77,2
+2020-02-23,中国,CN,Liaoning Province,Liaoyang,3,0,3,0,77,0
+2020-02-23,中国,CN,Liaoning Province,Panjin,11,0,5,0,77,6
+2020-02-23,中国,CN,Liaoning Province,Tieling,7,0,2,0,77,5
+2020-02-23,中国,CN,Liaoning Province,Sunny,6,0,3,0,77,3
+2020-02-23,中国,CN,Liaoning Province,Huludao,12,0,5,1,77,6
+2020-02-23,中国,CN,Jilin Province,,91,0,52,1,77,38
+2020-02-23,中国,CN,Jilin Province,Changchun,45,0,26,0,77,19
+2020-02-23,中国,CN,Jilin Province,Jilin,5,0,5,0,77,0
+2020-02-23,中国,CN,Jilin Province,Siping,15,0,9,1,77,5
+2020-02-23,中国,CN,Jilin Province,Gongzhuling,6,0,3,0,77,3
+2020-02-23,中国,CN,Jilin Province,Liaoyuan,7,0,1,0,77,6
+2020-02-23,中国,CN,Jilin Province,Tonghua,4,0,1,0,77,3
+2020-02-23,中国,CN,Jilin Province,Matsubara,2,0,2,0,77,0
+2020-02-23,中国,CN,Jilin Province,Baicheng,1,0,0,0,77,1
+2020-02-23,中国,CN,Heilongjiang Province,,480,0,216,12,77,252
+2020-02-23,中国,CN,Heilongjiang Province,Harbin,198,0,77,3,77,118
+2020-02-23,中国,CN,Heilongjiang Province,Qiqihar,43,0,23,1,77,19
+2020-02-23,中国,CN,Heilongjiang Province,Jixi,46,0,14,0,77,32
+2020-02-23,中国,CN,Heilongjiang Province,Hegang,5,0,4,0,77,1
+2020-02-23,中国,CN,Heilongjiang Province,Shuangyashan,52,0,20,3,77,29
+2020-02-23,中国,CN,Heilongjiang Province,Daqing,26,0,8,1,77,17
+2020-02-23,中国,CN,Heilongjiang Province,Jiamusi,15,0,15,0,77,0
+2020-02-23,中国,CN,Heilongjiang Province,Qitaihe,17,0,9,0,77,8
+2020-02-23,中国,CN,Heilongjiang Province,Mudanjiang,14,0,6,0,77,8
+2020-02-23,中国,CN,Heilongjiang Province,Heihe,14,0,9,0,77,5
+2020-02-23,中国,CN,Heilongjiang Province,Suihua,47,0,29,4,77,14
+2020-02-23,中国,CN,Shanghai,,335,0,249,3,77,83
+2020-02-23,中国,CN,Jiangsu Province,,631,0,412,0,77,219
+2020-02-23,中国,CN,Jiangsu Province,Nanjing,93,0,52,0,77,41
+2020-02-23,中国,CN,Jiangsu Province,Wuxi,55,0,39,0,77,16
+2020-02-23,中国,CN,Jiangsu Province,Xuzhou,79,0,63,0,77,16
+2020-02-23,中国,CN,Jiangsu Province,Changzhou,51,0,36,0,77,15
+2020-02-23,中国,CN,Jiangsu Province,Suzhou,87,0,50,0,77,37
+2020-02-23,中国,CN,Jiangsu Province,Nantong,40,0,32,0,77,8
+2020-02-23,中国,CN,Jiangsu Province,Lianyungang,48,0,22,0,77,26
+2020-02-23,中国,CN,Jiangsu Province,Huaian,66,0,38,0,77,28
+2020-02-23,中国,CN,Jiangsu Province,Yancheng,27,0,20,0,77,7
+2020-02-23,中国,CN,Jiangsu Province,Yangzhou,23,0,17,0,77,6
+2020-02-23,中国,CN,Jiangsu Province,Zhenjiang,12,0,10,0,77,2
+2020-02-23,中国,CN,Jiangsu Province,Taizhou,37,0,25,0,77,12
+2020-02-23,中国,CN,Jiangsu Province,Suqian,13,0,8,0,77,5
+2020-02-23,中国,CN,Zhejiang Province,,1205,0,739,1,77,465
+2020-02-23,中国,CN,Zhejiang Province,Hangzhou,169,0,123,0,77,46
+2020-02-23,中国,CN,Zhejiang Province,Ningbo,157,0,109,0,77,48
+2020-02-23,中国,CN,Zhejiang Province,Wenzhou,504,0,280,1,77,223
+2020-02-23,中国,CN,Zhejiang Province,Jiaxing,45,0,23,0,77,22
+2020-02-23,中国,CN,Zhejiang Province,Huzhou,10,0,7,0,77,3
+2020-02-23,中国,CN,Zhejiang Province,Shaoxing,42,0,27,0,77,15
+2020-02-23,中国,CN,Zhejiang Province,Jinhua,55,0,39,0,77,16
+2020-02-23,中国,CN,Zhejiang Province,Quzhou,14,0,10,0,77,4
+2020-02-23,中国,CN,Zhejiang Province,Zhoushan,10,0,5,0,77,5
+2020-02-23,中国,CN,Zhejiang Province,Taizhou,146,0,92,0,77,54
+2020-02-23,中国,CN,Zhejiang Province,Lishui,17,0,14,0,77,3
+2020-02-23,中国,CN,Anhui Province,,989,0,627,6,77,356
+2020-02-23,中国,CN,Anhui Province,Hefei,174,0,101,1,77,72
+2020-02-23,中国,CN,Anhui Province,Wuhu,33,0,27,0,77,6
+2020-02-23,中国,CN,Anhui Province,Bengbu,160,0,101,5,77,54
+2020-02-23,中国,CN,Anhui Province,Huainan,27,0,15,0,77,12
+2020-02-23,中国,CN,Anhui Province,Ma'anshan,38,0,19,0,77,19
+2020-02-23,中国,CN,Anhui Province,Huaibei,27,0,15,0,77,12
+2020-02-23,中国,CN,Anhui Province,Tongling,29,0,14,0,77,15
+2020-02-23,中国,CN,Anhui Province,Anqing,83,0,65,0,77,18
+2020-02-23,中国,CN,Anhui Province,Huangshan,9,0,6,0,77,3
+2020-02-23,中国,CN,Anhui Province,Chuzhou,13,0,8,0,77,5
+2020-02-23,中国,CN,Anhui Province,Fuyang,155,0,100,0,77,55
+2020-02-23,中国,CN,Anhui Province,Suzhou,41,0,26,0,77,15
+2020-02-23,中国,CN,Anhui Province,Lu'an,69,0,43,0,77,26
+2020-02-23,中国,CN,Anhui Province,Bozhou,108,0,73,0,77,35
+2020-02-23,中国,CN,Anhui Province,Chizhou,17,0,10,0,77,7
+2020-02-23,中国,CN,Anhui Province,Xuancheng,6,0,4,0,77,2
+2020-02-23,中国,CN,Fujian Province,,293,0,165,1,77,127
+2020-02-23,中国,CN,Fujian Province,Fuzhou,71,0,50,0,77,21
+2020-02-23,中国,CN,Fujian Province,Xiamen,35,0,17,0,77,18
+2020-02-23,中国,CN,Fujian Province,Putian,55,0,24,0,77,31
+2020-02-23,中国,CN,Fujian Province,Sanming,14,0,5,0,77,9
+2020-02-23,中国,CN,Fujian Province,Quanzhou,46,0,17,0,77,29
+2020-02-23,中国,CN,Fujian Province,Zhangzhou,20,0,13,0,77,7
+2020-02-23,中国,CN,Fujian Province,Nanping,20,0,10,0,77,10
+2020-02-23,中国,CN,Fujian Province,Longyan,6,0,1,0,77,5
+2020-02-23,中国,CN,Fujian Province,Ningde,26,0,20,0,77,6
+2020-02-23,中国,CN,Jiangxi,,934,0,611,1,77,322
+2020-02-23,中国,CN,Jiangxi,Nanchang,229,0,178,0,77,51
+2020-02-23,中国,CN,Jiangxi,Jingdezhen,6,0,3,0,77,3
+2020-02-23,中国,CN,Jiangxi,Pingxiang,33,0,13,0,77,20
+2020-02-23,中国,CN,Jiangxi,Jiujiang,118,0,51,0,77,67
+2020-02-23,中国,CN,Jiangxi,Xinyu,130,0,95,0,77,35
+2020-02-23,中国,CN,Jiangxi,Yingtan,18,0,6,0,77,12
+2020-02-23,中国,CN,Jiangxi,Ganzhou,76,0,47,1,77,28
+2020-02-23,中国,CN,Jiangxi,Ji'an,22,0,11,0,77,11
+2020-02-23,中国,CN,Jiangxi,Yichun,106,0,72,0,77,34
+2020-02-23,中国,CN,Jiangxi,Fuzhou,72,0,47,0,77,25
+2020-02-23,中国,CN,Jiangxi,Shangrao,123,0,88,0,77,35
+2020-02-23,中国,CN,Shandong Province,,754,0,311,4,77,439
+2020-02-23,中国,CN,Shandong Province,Jinan,47,0,24,0,77,23
+2020-02-23,中国,CN,Shandong Province,Qingdao,59,0,34,1,77,24
+2020-02-23,中国,CN,Shandong Province,Zibo,30,0,14,0,77,16
+2020-02-23,中国,CN,Shandong Province,Zaozhuang,24,0,15,0,77,9
+2020-02-23,中国,CN,Shandong Province,Yantai,47,0,19,0,77,28
+2020-02-23,中国,CN,Shandong Province,Weifang,44,0,18,0,77,26
+2020-02-23,中国,CN,Shandong Province,Jining,257,0,31,0,77,226
+2020-02-23,中国,CN,Shandong Province,Tai'an,35,0,21,1,77,13
+2020-02-23,中国,CN,Shandong Province,Weihai,38,0,21,0,77,17
+2020-02-23,中国,CN,Shandong Province,sunshine,16,0,10,0,77,6
+2020-02-23,中国,CN,Shandong Province,Linyi,49,0,44,0,77,5
+2020-02-23,中国,CN,Shandong Province,Texas,37,0,12,2,77,23
+2020-02-23,中国,CN,Shandong Province,Liaocheng,38,0,22,0,77,16
+2020-02-23,中国,CN,Shandong Province,Binzhou,15,0,11,0,77,4
+2020-02-23,中国,CN,Shandong Province,Heze,18,0,15,0,77,3
+2020-02-23,中国,CN,Henan Province,,1271,0,863,19,77,389
+2020-02-23,中国,CN,Henan Province,Zhengzhou,157,0,98,0,77,59
+2020-02-23,中国,CN,Henan Province,Kaifeng,26,0,16,0,77,10
+2020-02-23,中国,CN,Henan Province,Luoyang,31,0,18,0,77,13
+2020-02-23,中国,CN,Henan Province,Pingdingshan,58,0,42,1,77,15
+2020-02-23,中国,CN,Henan Province,Anyang,53,0,33,0,77,20
+2020-02-23,中国,CN,Henan Province,Hebi,19,0,11,0,77,8
+2020-02-23,中国,CN,Henan Province,Xinxiang,57,0,45,3,77,9
+2020-02-23,中国,CN,Henan Province,Jiaozuo,32,0,15,1,77,16
+2020-02-23,中国,CN,Henan Province,Puyang,17,0,7,0,77,10
+2020-02-23,中国,CN,Henan Province,Xuchang,39,0,26,0,77,13
+2020-02-23,中国,CN,Henan Province,Luohe,35,0,22,0,77,13
+2020-02-23,中国,CN,Henan Province,Sanmenxia,7,0,6,1,77,0
+2020-02-23,中国,CN,Henan Province,Nanyang,155,0,106,2,77,47
+2020-02-23,中国,CN,Henan Province,Shangqiu,91,0,68,3,77,20
+2020-02-23,中国,CN,Henan Province,Xinyang,274,0,171,2,77,101
+2020-02-23,中国,CN,Henan Province,Zhoukou,76,0,48,0,77,28
+2020-02-23,中国,CN,Henan Province,Zhumadian,139,0,116,0,77,23
+2020-02-23,中国,CN,Henan Province,Jiyuan,5,0,3,0,77,2
+2020-02-23,中国,CN,Hubei Province,,64084,0,15324,2346,77,46414
+2020-02-23,中国,CN,Hubei Province,Wuhan,46201,0,8186,1856,77,36159
+2020-02-23,中国,CN,Hubei Province,Yellowstone,1001,0,452,29,77,520
+2020-02-23,中国,CN,Hubei Province,Shiyan,667,0,267,2,77,398
+2020-02-23,中国,CN,Hubei Province,Yichang,917,0,289,29,77,599
+2020-02-23,中国,CN,Hubei Province,Xiangyang,1173,0,463,28,77,682
+2020-02-23,中国,CN,Hubei Province,Ezhou,1379,0,417,40,77,922
+2020-02-23,中国,CN,Hubei Province,Jingmen,918,0,361,37,77,520
+2020-02-23,中国,CN,Hubei Province,Xiaogan,3443,0,1078,102,77,2263
+2020-02-23,中国,CN,Hubei Province,Jingzhou,1574,0,681,41,77,852
+2020-02-23,中国,CN,Hubei Province,Huanggang,2904,0,1540,98,77,1266
+2020-02-23,中国,CN,Hubei Province,Xianning,836,0,398,11,77,427
+2020-02-23,中国,CN,Hubei Province,Suizhou,1300,0,498,30,77,772
+2020-02-23,中国,CN,Hubei Province,Xiantao,571,0,248,19,77,304
+2020-02-23,中国,CN,Hubei Province,Qianjiang,191,0,78,8,77,105
+2020-02-23,中国,CN,Hubei Province,Tianmen,494,0,232,13,77,249
+2020-02-23,中国,CN,Hunan Province,,1016,0,705,4,77,307
+2020-02-23,中国,CN,Hunan Province,Changsha,242,0,141,2,77,99
+2020-02-23,中国,CN,Hunan Province,Zhuzhou,80,0,47,0,77,33
+2020-02-23,中国,CN,Hunan Province,Xiangtan,36,0,21,0,77,15
+2020-02-23,中国,CN,Hunan Province,Hengyang,48,0,37,0,77,11
+2020-02-23,中国,CN,Hunan Province,Shaoyang,102,0,86,1,77,15
+2020-02-23,中国,CN,Hunan Province,Yueyang,156,0,87,1,77,68
+2020-02-23,中国,CN,Hunan Province,Changde,82,0,61,0,77,21
+2020-02-23,中国,CN,Hunan Province,Zhangjiajie,5,0,5,0,77,0
+2020-02-23,中国,CN,Hunan Province,Yiyang,59,0,52,0,77,7
+2020-02-23,中国,CN,Hunan Province,Chenzhou,39,0,31,0,77,8
+2020-02-23,中国,CN,Hunan Province,Yongzhou,43,0,37,0,77,6
+2020-02-23,中国,CN,Hunan Province,Huaihua,40,0,38,0,77,2
+2020-02-23,中国,CN,Hunan Province,Loudi,76,0,54,0,77,22
+2020-02-23,中国,CN,Guangdong Province,,1342,0,742,6,77,594
+2020-02-23,中国,CN,Guangdong Province,Canton,345,0,196,0,77,149
+2020-02-23,中国,CN,Guangdong Province,Shaoguan,10,0,6,0,77,4
+2020-02-23,中国,CN,Guangdong Province,Shenzhen,417,0,226,3,77,188
+2020-02-23,中国,CN,Guangdong Province,Zhuhai,98,0,52,1,77,45
+2020-02-23,中国,CN,Guangdong Province,Shantou,25,0,20,0,77,5
+2020-02-23,中国,CN,Guangdong Province,Foshan,84,0,36,0,77,48
+2020-02-23,中国,CN,Guangdong Province,Jiangmen,23,0,9,0,77,14
+2020-02-23,中国,CN,Guangdong Province,Zhanjiang,22,0,12,0,77,10
+2020-02-23,中国,CN,Guangdong Province,Maoming,14,0,6,0,77,8
+2020-02-23,中国,CN,Guangdong Province,Zhaoqing,19,0,8,1,77,10
+2020-02-23,中国,CN,Guangdong Province,Huizhou,62,0,46,0,77,16
+2020-02-23,中国,CN,Guangdong Province,Meizhou,16,0,11,0,77,5
+2020-02-23,中国,CN,Guangdong Province,Shanwei,5,0,2,0,77,3
+2020-02-23,中国,CN,Guangdong Province,Heyuan,4,0,1,0,77,3
+2020-02-23,中国,CN,Guangdong Province,Yangjiang,13,0,10,0,77,3
+2020-02-23,中国,CN,Guangdong Province,Qingyuan,12,0,10,0,77,2
+2020-02-23,中国,CN,Guangdong Province,Dongguan,94,0,31,1,77,62
+2020-02-23,中国,CN,Guangdong Province,Zhongshan,66,0,49,0,77,17
+2020-02-23,中国,CN,Guangdong Province,Chaozhou,5,0,4,0,77,1
+2020-02-23,中国,CN,Guangdong Province,Jieyang,8,0,4,0,77,4
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,,249,0,104,2,77,143
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Nanning,55,0,28,0,77,27
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Liuzhou,24,0,11,0,77,13
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Guilin,32,0,17,0,77,15
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Wuzhou,5,0,5,0,77,0
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,North Sea,44,0,14,1,77,29
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Fangchenggang,19,0,6,0,77,13
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Qinzhou,8,0,6,0,77,2
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Guigang,8,0,3,0,77,5
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Yulin,11,0,6,0,77,5
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Baise,3,0,2,0,77,1
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Hezhou,4,0,2,0,77,2
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Hechi,25,0,4,1,77,20
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,guest,11,0,0,0,77,11
+2020-02-23,中国,CN,Hainan,,168,0,104,4,77,60
+2020-02-23,中国,CN,Hainan,Seaport,39,0,19,0,77,20
+2020-02-23,中国,CN,Hainan,Sanya,54,0,33,1,77,20
+2020-02-23,中国,CN,Hainan,Danzhou,15,0,12,0,77,3
+2020-02-23,中国,CN,Hainan,Qionghai,6,0,4,1,77,1
+2020-02-23,中国,CN,Hainan,Wenchang,3,0,3,0,77,0
+2020-02-23,中国,CN,Hainan,Wanning,13,0,9,0,77,4
+2020-02-23,中国,CN,Hainan,East,3,0,2,0,77,1
+2020-02-23,中国,CN,Chongqing,,573,0,328,6,77,239
+2020-02-23,中国,CN,Sichuan Province,,526,0,259,3,77,264
+2020-02-23,中国,CN,Sichuan Province,Chengdu,143,0,78,3,77,62
+2020-02-23,中国,CN,Sichuan Province,Zigong,9,0,7,0,77,2
+2020-02-23,中国,CN,Sichuan Province,Panzhihua,16,0,16,0,77,0
+2020-02-23,中国,CN,Sichuan Province,Luzhou,24,0,6,0,77,18
+2020-02-23,中国,CN,Sichuan Province,Deyang,18,0,7,0,77,11
+2020-02-23,中国,CN,Sichuan Province,Mianyang,22,0,12,0,77,10
+2020-02-23,中国,CN,Sichuan Province,Guangyuan,6,0,6,0,77,0
+2020-02-23,中国,CN,Sichuan Province,Suining,17,0,10,0,77,7
+2020-02-23,中国,CN,Sichuan Province,Neijiang,22,0,11,0,77,11
+2020-02-23,中国,CN,Sichuan Province,Leshan,3,0,2,0,77,1
+2020-02-23,中国,CN,Sichuan Province,Nanchong,38,0,20,0,77,18
+2020-02-23,中国,CN,Sichuan Province,Yibin,12,0,8,0,77,4
+2020-02-23,中国,CN,Sichuan Province,Guang'an,30,0,20,0,77,10
+2020-02-23,中国,CN,Sichuan Province,Florida,41,0,13,0,77,28
+2020-02-23,中国,CN,Sichuan Province,Ya'an,7,0,4,0,77,3
+2020-02-23,中国,CN,Sichuan Province,Bazhong,24,0,10,0,77,14
+2020-02-23,中国,CN,Sichuan Province,Ziyang,3,0,2,0,77,1
+2020-02-23,中国,CN,Guizhou Province,,146,0,91,2,77,53
+2020-02-23,中国,CN,Guizhou Province,Guiyang,36,0,18,1,77,17
+2020-02-23,中国,CN,Guizhou Province,Liupanshui,10,0,7,1,77,2
+2020-02-23,中国,CN,Guizhou Province,Zunyi,32,0,18,0,77,14
+2020-02-23,中国,CN,Guizhou Province,Anshun,4,0,1,0,77,3
+2020-02-23,中国,CN,Guizhou Province,Bijie,23,0,13,0,77,10
+2020-02-23,中国,CN,Guizhou Province,Tongren,10,0,10,0,77,0
+2020-02-23,中国,CN,Yunnan Province,,174,0,115,2,77,57
+2020-02-23,中国,CN,Yunnan Province,Kunming,53,0,32,0,77,21
+2020-02-23,中国,CN,Yunnan Province,Qujing,13,0,9,0,77,4
+2020-02-23,中国,CN,Yunnan Province,Yuxi,14,0,9,1,77,4
+2020-02-23,中国,CN,Yunnan Province,Baoshan,9,0,5,0,77,4
+2020-02-23,中国,CN,Yunnan Province,Zhaotong,25,0,14,0,77,11
+2020-02-23,中国,CN,Yunnan Province,Lijiang,7,0,7,0,77,0
+2020-02-23,中国,CN,Yunnan Province,Pu'er,4,0,4,0,77,0
+2020-02-23,中国,CN,Yunnan Province,Lincang,1,0,1,0,77,0
+2020-02-23,中国,CN,Tibet Autonomous Region,,1,0,1,0,77,0
+2020-02-23,中国,CN,Tibet Autonomous Region,Lhasa,1,0,1,0,77,0
+2020-02-23,中国,CN,Shaanxi Province,,245,0,153,0,77,92
+2020-02-23,中国,CN,Shaanxi Province,Xi'an,120,0,71,1,77,48
+2020-02-23,中国,CN,Shaanxi Province,Tongchuan,8,0,6,0,77,2
+2020-02-23,中国,CN,Shaanxi Province,Baoji,13,0,11,0,77,2
+2020-02-23,中国,CN,Shaanxi Province,Xianyang,17,0,14,0,77,3
+2020-02-23,中国,CN,Shaanxi Province,Weinan,15,0,4,0,77,11
+2020-02-23,中国,CN,Shaanxi Province,Hancheng,1,0,1,0,77,0
+2020-02-23,中国,CN,Shaanxi Province,Yan'an,8,0,8,0,77,0
+2020-02-23,中国,CN,Shaanxi Province,Hanzhong,26,0,10,0,77,16
+2020-02-23,中国,CN,Shaanxi Province,Yulin,3,0,3,0,77,0
+2020-02-23,中国,CN,Shaanxi Province,Good health,26,0,17,0,77,9
+2020-02-23,中国,CN,Shaanxi Province,Shangluo,7,0,4,0,77,3
+2020-02-23,中国,CN,Gansu province,,91,0,76,2,77,13
+2020-02-23,中国,CN,Gansu province,Lanzhou,36,0,29,2,77,5
+2020-02-23,中国,CN,Gansu province,Jinchang,1,0,1,0,77,0
+2020-02-23,中国,CN,Gansu province,silver,4,0,3,0,77,1
+2020-02-23,中国,CN,Gansu province,Tianshui,12,0,12,0,77,0
+2020-02-23,中国,CN,Gansu province,Zhangye,2,0,2,0,77,0
+2020-02-23,中国,CN,Gansu province,Pingliang,9,0,6,0,77,3
+2020-02-23,中国,CN,Gansu province,Qingyang,3,0,2,0,77,1
+2020-02-23,中国,CN,Gansu province,Dingxi,9,0,8,0,77,1
+2020-02-23,中国,CN,Gansu province,Longnan,4,0,4,0,77,0
+2020-02-23,中国,CN,Qinghai Province,,18,0,18,0,77,0
+2020-02-23,中国,CN,Qinghai Province,Xining,15,0,15,0,77,0
+2020-02-23,中国,CN,Ningxia Hui Autonomous Region,,71,0,56,0,77,15
+2020-02-23,中国,CN,Ningxia Hui Autonomous Region,Yinchuan,33,0,32,0,77,1
+2020-02-23,中国,CN,Ningxia Hui Autonomous Region,Shizuishan,1,0,1,0,77,0
+2020-02-23,中国,CN,Ningxia Hui Autonomous Region,Wuzhong,28,0,16,0,77,12
+2020-02-23,中国,CN,Ningxia Hui Autonomous Region,Guyuan,5,0,3,0,77,2
+2020-02-23,中国,CN,Ningxia Hui Autonomous Region,Zhongwei,3,0,3,0,77,0
+2020-02-23,中国,CN,Xinjiang Uygur Autonomous Region,,76,0,25,2,77,49
+2020-02-23,中国,CN,Xinjiang Uygur Autonomous Region,Urumqi,23,0,10,0,77,13
+2020-02-23,中国,CN,Xinjiang Uygur Autonomous Region,Turpan,3,0,1,0,77,2
+2020-02-23,中国,CN,Xinjiang Uygur Autonomous Region,Shihezi,4,0,1,1,77,2
+2020-02-23,中国,CN,Xinjiang Uygur Autonomous Region,Wujiaqu,2,0,0,0,77,2
+2020-02-23,中国,CN,Taiwan,,26,0,2,1,77,23
+2020-02-23,中国,CN,Hongkong,,69,0,11,2,77,56
+2020-02-23,中国,CN,Macao,,10,0,6,0,77,4
+2020-02-23,德国,DE,,,16,0,7,0,77,9
+2020-02-23,西班牙,ES,,,2,0,0,0,77,2
+2020-02-23,芬兰,FI,,,1,0,1,0,77,0
+2020-02-23,法国,FR,,,12,0,4,1,77,7
+2020-02-23,英国,GB,,,9,0,8,0,77,1
+2020-02-23,印度,IN,,,3,0,3,0,77,0
+2020-02-23,伊拉克,IQ,,,1,0,0,0,77,1
+2020-02-23,伊朗,IR,,,28,0,0,4,77,24
+2020-02-23,意大利,IT,,,79,0,0,2,77,77
+2020-02-23,日本,JP,,,769,0,15,3,77,751
+2020-02-23,柬埔寨,KH,,,1,0,1,0,77,0
+2020-02-23,韩国,KR,,,556,0,18,4,77,534
+2020-02-23,黎巴嫩,LB,,,1,0,0,0,77,1
+2020-02-23,斯里兰卡,LK,,,1,0,1,0,77,0
+2020-02-23,马来西亚,MY,,,22,0,15,0,77,7
+2020-02-23,尼泊尔,NP,,,1,0,1,0,77,0
+2020-02-23,菲律宾,PH,,,3,0,1,1,77,1
+2020-02-23,俄罗斯,RU,,,2,0,2,0,77,0
+2020-02-23,瑞典,SE,,,1,0,0,0,77,1
+2020-02-23,新加坡,SG,,,89,0,49,0,77,40
+2020-02-23,泰国,TH,,,35,0,17,0,77,18
+2020-02-23,美国,US,,,34,0,3,0,77,31
+2020-02-23,越南,VN,,,16,0,9,0,77,7

@@ -14,7 +14,7 @@
 2. Model 3: Real-Time forecasting of the confirmed cases in China in the next 2 months
    > Baseline: Ridge regression, improved by Dynamic SEIR model <br />
    > Author: [Shih Heng Lo](https://github.com/Harrisonust); Yiran Jing
-   
+
    - Prediction for China total trend
    - Prediction for Hubei and ex-hubei trend
 
@@ -74,7 +74,7 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
 
 ## Model 3:[Real-Time forecasting of the confirmed cases in China in the next 2 months](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%203)📉
    - Author: [Shih Heng Lo](https://github.com/Harrisonust); Yiran Jing
-   > Method: Dynamic SEIR (susceptible-exposed-infectious- recovered) model, estimate contact rate per day
+   > Method: Dynamic SEIR (susceptible-exposed-infectious- recovered) model, Gradient Descent
    > Model comparison based on the test score (MAPE) of last 5 days, baseline is [ridge Ridge regression](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%203/Baseline_RidgeRegression.ipynb)
    > Reference: [Dynamic SIR model](https://github.com/Harrisonust/Machine-Learning/tree/master/nCoV2)
 
@@ -101,6 +101,7 @@ Note:
 - Infected: Confirmed cases
 
 #### Dynamic contact rate β as a function of time t
+Optimization algorithm Gradient Descent
 ![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/beta.png)
 
 

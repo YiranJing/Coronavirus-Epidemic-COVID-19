@@ -70,7 +70,7 @@
 ***
 ## 模型 3: [根据丁香园实时数据预测全国未来两个月的肺炎趋势](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%203)📉
    - 作者: [羅士恆](https://github.com/Harrisonust); 景怡然
-   > Method: Dynamic SEIR (susceptible-exposed-infectious- recovered) model, estimate contact rate per day;
+   > Method: Dynamic SEIR (susceptible-exposed-infectious- recovered) model, Gradient Descent
    > Model comparison based on the test score (MAPE) of last 5 days, baseline is [ridge Ridge regression](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%203/Baseline_RidgeRegression.ipynb)
    > Reference: [Dynamic SIR model](https://github.com/Harrisonust/Machine-Learning/tree/master/nCoV2)
 
@@ -95,6 +95,7 @@
 - Infected(确诊并隔离患者): 确诊人群
 
 #### Dynamic contact rate β as a function of time t
+Optimization algorithm Gradient Descent
 ![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/beta.png)
 
 
