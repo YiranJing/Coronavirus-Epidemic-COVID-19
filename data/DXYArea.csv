@@ -9613,26 +9613,26 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-22,中国,CN,Hongkong,,69,0,11,2,76,56
 2020-02-22,中国,CN,Macao,,10,0,6,0,76,4
 2020-02-23,阿联酋,AE,,,13,0,4,0,77,9
-2020-02-23,澳大利亚,AU,,,15,0,5,0,77,10
+2020-02-23,澳大利亚,AU,,,17,0,5,0,77,12
 2020-02-23,比利时,BE,,,1,0,1,0,77,0
 2020-02-23,加拿大,CA,,,9,0,1,0,77,8
-2020-02-23,中国,CN,,,77041,4148,23000,2445,77,51596
+2020-02-23,中国,CN,,,77043,4148,23061,2445,77,51537
 2020-02-23,中国,CN,Beijing,,399,0,189,4,77,206
-2020-02-23,中国,CN,Tianjin,,135,0,65,3,77,67
-2020-02-23,中国,CN,Hebei Province,,311,0,204,6,77,101
-2020-02-23,中国,CN,Hebei Province,Shijiazhuang,29,0,19,0,77,10
+2020-02-23,中国,CN,Tianjin,,135,0,75,3,77,57
+2020-02-23,中国,CN,Hebei Province,,311,0,212,6,77,93
+2020-02-23,中国,CN,Hebei Province,Shijiazhuang,29,0,21,0,77,8
 2020-02-23,中国,CN,Hebei Province,Tangshan,58,0,20,1,77,37
 2020-02-23,中国,CN,Hebei Province,Qinhuangdao,10,0,6,1,77,3
 2020-02-23,中国,CN,Hebei Province,Handan,32,0,22,0,77,10
-2020-02-23,中国,CN,Hebei Province,Xingtai,23,0,18,1,77,4
+2020-02-23,中国,CN,Hebei Province,Xingtai,23,0,19,1,77,3
 2020-02-23,中国,CN,Hebei Province,Baoding,32,0,29,0,77,3
-2020-02-23,中国,CN,Hebei Province,Zhangjiakou,34,0,26,0,77,8
-2020-02-23,中国,CN,Hebei Province,Chengde,7,0,6,0,77,1
-2020-02-23,中国,CN,Hebei Province,Cangzhou,48,0,26,3,77,19
+2020-02-23,中国,CN,Hebei Province,Zhangjiakou,34,0,28,0,77,6
+2020-02-23,中国,CN,Hebei Province,Chengde,7,0,7,0,77,0
+2020-02-23,中国,CN,Hebei Province,Cangzhou,48,0,28,3,77,17
 2020-02-23,中国,CN,Hebei Province,Langfang,30,0,25,0,77,5
 2020-02-23,中国,CN,Hebei Province,Hengshui,8,0,7,0,77,1
-2020-02-23,中国,CN,Shanxi Province,,132,0,82,0,77,50
-2020-02-23,中国,CN,Shanxi Province,Taiyuan,20,0,12,0,77,8
+2020-02-23,中国,CN,Shanxi Province,,132,0,85,0,77,47
+2020-02-23,中国,CN,Shanxi Province,Taiyuan,20,0,15,0,77,5
 2020-02-23,中国,CN,Shanxi Province,Datong,12,0,6,0,77,6
 2020-02-23,中国,CN,Shanxi Province,Yangquan,4,0,3,0,77,1
 2020-02-23,中国,CN,Shanxi Province,Changzhi,8,0,3,0,77,5
@@ -9689,7 +9689,7 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-23,中国,CN,Heilongjiang Province,Heihe,14,0,9,0,77,5
 2020-02-23,中国,CN,Heilongjiang Province,Suihua,47,0,29,4,77,14
 2020-02-23,中国,CN,Shanghai,,335,0,249,3,77,83
-2020-02-23,中国,CN,Jiangsu Province,,631,0,412,0,77,219
+2020-02-23,中国,CN,Jiangsu Province,,631,0,415,0,77,216
 2020-02-23,中国,CN,Jiangsu Province,Nanjing,93,0,52,0,77,41
 2020-02-23,中国,CN,Jiangsu Province,Wuxi,55,0,39,0,77,16
 2020-02-23,中国,CN,Jiangsu Province,Xuzhou,79,0,63,0,77,16
@@ -9697,50 +9697,50 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-23,中国,CN,Jiangsu Province,Suzhou,87,0,50,0,77,37
 2020-02-23,中国,CN,Jiangsu Province,Nantong,40,0,32,0,77,8
 2020-02-23,中国,CN,Jiangsu Province,Lianyungang,48,0,22,0,77,26
-2020-02-23,中国,CN,Jiangsu Province,Huaian,66,0,38,0,77,28
+2020-02-23,中国,CN,Jiangsu Province,Huaian,66,0,40,0,77,26
 2020-02-23,中国,CN,Jiangsu Province,Yancheng,27,0,20,0,77,7
 2020-02-23,中国,CN,Jiangsu Province,Yangzhou,23,0,17,0,77,6
 2020-02-23,中国,CN,Jiangsu Province,Zhenjiang,12,0,10,0,77,2
 2020-02-23,中国,CN,Jiangsu Province,Taizhou,37,0,25,0,77,12
-2020-02-23,中国,CN,Jiangsu Province,Suqian,13,0,8,0,77,5
-2020-02-23,中国,CN,Zhejiang Province,,1205,0,739,1,77,465
+2020-02-23,中国,CN,Jiangsu Province,Suqian,13,0,9,0,77,4
+2020-02-23,中国,CN,Zhejiang Province,,1205,0,747,1,77,457
 2020-02-23,中国,CN,Zhejiang Province,Hangzhou,169,0,123,0,77,46
 2020-02-23,中国,CN,Zhejiang Province,Ningbo,157,0,109,0,77,48
 2020-02-23,中国,CN,Zhejiang Province,Wenzhou,504,0,280,1,77,223
-2020-02-23,中国,CN,Zhejiang Province,Jiaxing,45,0,23,0,77,22
+2020-02-23,中国,CN,Zhejiang Province,Jiaxing,45,0,24,0,77,21
 2020-02-23,中国,CN,Zhejiang Province,Huzhou,10,0,7,0,77,3
-2020-02-23,中国,CN,Zhejiang Province,Shaoxing,42,0,27,0,77,15
+2020-02-23,中国,CN,Zhejiang Province,Shaoxing,42,0,28,0,77,14
 2020-02-23,中国,CN,Zhejiang Province,Jinhua,55,0,39,0,77,16
 2020-02-23,中国,CN,Zhejiang Province,Quzhou,14,0,10,0,77,4
 2020-02-23,中国,CN,Zhejiang Province,Zhoushan,10,0,5,0,77,5
-2020-02-23,中国,CN,Zhejiang Province,Taizhou,146,0,92,0,77,54
+2020-02-23,中国,CN,Zhejiang Province,Taizhou,146,0,98,0,77,48
 2020-02-23,中国,CN,Zhejiang Province,Lishui,17,0,14,0,77,3
-2020-02-23,中国,CN,Anhui Province,,989,0,627,6,77,356
+2020-02-23,中国,CN,Anhui Province,,989,0,630,6,77,353
 2020-02-23,中国,CN,Anhui Province,Hefei,174,0,101,1,77,72
 2020-02-23,中国,CN,Anhui Province,Wuhu,33,0,27,0,77,6
 2020-02-23,中国,CN,Anhui Province,Bengbu,160,0,101,5,77,54
 2020-02-23,中国,CN,Anhui Province,Huainan,27,0,15,0,77,12
 2020-02-23,中国,CN,Anhui Province,Ma'anshan,38,0,19,0,77,19
 2020-02-23,中国,CN,Anhui Province,Huaibei,27,0,15,0,77,12
-2020-02-23,中国,CN,Anhui Province,Tongling,29,0,14,0,77,15
+2020-02-23,中国,CN,Anhui Province,Tongling,29,0,15,0,77,14
 2020-02-23,中国,CN,Anhui Province,Anqing,83,0,65,0,77,18
 2020-02-23,中国,CN,Anhui Province,Huangshan,9,0,6,0,77,3
 2020-02-23,中国,CN,Anhui Province,Chuzhou,13,0,8,0,77,5
-2020-02-23,中国,CN,Anhui Province,Fuyang,155,0,100,0,77,55
+2020-02-23,中国,CN,Anhui Province,Fuyang,155,0,102,0,77,53
 2020-02-23,中国,CN,Anhui Province,Suzhou,41,0,26,0,77,15
 2020-02-23,中国,CN,Anhui Province,Lu'an,69,0,43,0,77,26
 2020-02-23,中国,CN,Anhui Province,Bozhou,108,0,73,0,77,35
 2020-02-23,中国,CN,Anhui Province,Chizhou,17,0,10,0,77,7
 2020-02-23,中国,CN,Anhui Province,Xuancheng,6,0,4,0,77,2
 2020-02-23,中国,CN,Fujian Province,,293,0,165,1,77,127
-2020-02-23,中国,CN,Fujian Province,Fuzhou,71,0,50,0,77,21
-2020-02-23,中国,CN,Fujian Province,Xiamen,35,0,17,0,77,18
+2020-02-23,中国,CN,Fujian Province,Fuzhou,71,0,50,1,77,20
+2020-02-23,中国,CN,Fujian Province,Xiamen,35,0,19,0,77,16
 2020-02-23,中国,CN,Fujian Province,Putian,55,0,24,0,77,31
 2020-02-23,中国,CN,Fujian Province,Sanming,14,0,5,0,77,9
-2020-02-23,中国,CN,Fujian Province,Quanzhou,46,0,17,0,77,29
-2020-02-23,中国,CN,Fujian Province,Zhangzhou,20,0,13,0,77,7
+2020-02-23,中国,CN,Fujian Province,Quanzhou,46,0,19,0,77,27
+2020-02-23,中国,CN,Fujian Province,Zhangzhou,20,0,14,0,77,6
 2020-02-23,中国,CN,Fujian Province,Nanping,20,0,10,0,77,10
-2020-02-23,中国,CN,Fujian Province,Longyan,6,0,1,0,77,5
+2020-02-23,中国,CN,Fujian Province,Longyan,6,0,4,0,77,2
 2020-02-23,中国,CN,Fujian Province,Ningde,26,0,20,0,77,6
 2020-02-23,中国,CN,Jiangxi,,934,0,611,1,77,322
 2020-02-23,中国,CN,Jiangxi,Nanchang,229,0,178,0,77,51
@@ -9754,13 +9754,13 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-23,中国,CN,Jiangxi,Yichun,106,0,72,0,77,34
 2020-02-23,中国,CN,Jiangxi,Fuzhou,72,0,47,0,77,25
 2020-02-23,中国,CN,Jiangxi,Shangrao,123,0,88,0,77,35
-2020-02-23,中国,CN,Shandong Province,,754,0,311,4,77,439
+2020-02-23,中国,CN,Shandong Province,,754,0,318,4,77,432
 2020-02-23,中国,CN,Shandong Province,Jinan,47,0,24,0,77,23
 2020-02-23,中国,CN,Shandong Province,Qingdao,59,0,34,1,77,24
 2020-02-23,中国,CN,Shandong Province,Zibo,30,0,14,0,77,16
-2020-02-23,中国,CN,Shandong Province,Zaozhuang,24,0,15,0,77,9
+2020-02-23,中国,CN,Shandong Province,Zaozhuang,24,0,18,0,77,6
 2020-02-23,中国,CN,Shandong Province,Yantai,47,0,19,0,77,28
-2020-02-23,中国,CN,Shandong Province,Weifang,44,0,18,0,77,26
+2020-02-23,中国,CN,Shandong Province,Weifang,44,0,22,0,77,22
 2020-02-23,中国,CN,Shandong Province,Jining,257,0,31,0,77,226
 2020-02-23,中国,CN,Shandong Province,Tai'an,35,0,21,1,77,13
 2020-02-23,中国,CN,Shandong Province,Weihai,38,0,21,0,77,17
@@ -9778,12 +9778,12 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-23,中国,CN,Henan Province,Anyang,53,0,33,0,77,20
 2020-02-23,中国,CN,Henan Province,Hebi,19,0,11,0,77,8
 2020-02-23,中国,CN,Henan Province,Xinxiang,57,0,45,3,77,9
-2020-02-23,中国,CN,Henan Province,Jiaozuo,32,0,15,1,77,16
+2020-02-23,中国,CN,Henan Province,Jiaozuo,32,0,17,1,77,14
 2020-02-23,中国,CN,Henan Province,Puyang,17,0,7,0,77,10
 2020-02-23,中国,CN,Henan Province,Xuchang,39,0,26,0,77,13
 2020-02-23,中国,CN,Henan Province,Luohe,35,0,22,0,77,13
 2020-02-23,中国,CN,Henan Province,Sanmenxia,7,0,6,1,77,0
-2020-02-23,中国,CN,Henan Province,Nanyang,155,0,106,2,77,47
+2020-02-23,中国,CN,Henan Province,Nanyang,155,0,114,3,77,38
 2020-02-23,中国,CN,Henan Province,Shangqiu,91,0,68,3,77,20
 2020-02-23,中国,CN,Henan Province,Xinyang,274,0,171,2,77,101
 2020-02-23,中国,CN,Henan Province,Zhoukou,76,0,48,0,77,28
@@ -9819,17 +9819,17 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-23,中国,CN,Hunan Province,Yongzhou,43,0,37,0,77,6
 2020-02-23,中国,CN,Hunan Province,Huaihua,40,0,38,0,77,2
 2020-02-23,中国,CN,Hunan Province,Loudi,76,0,54,0,77,22
-2020-02-23,中国,CN,Guangdong Province,,1342,0,742,6,77,594
+2020-02-23,中国,CN,Guangdong Province,,1342,0,755,6,77,581
 2020-02-23,中国,CN,Guangdong Province,Canton,345,0,196,0,77,149
 2020-02-23,中国,CN,Guangdong Province,Shaoguan,10,0,6,0,77,4
-2020-02-23,中国,CN,Guangdong Province,Shenzhen,417,0,226,3,77,188
+2020-02-23,中国,CN,Guangdong Province,Shenzhen,417,0,237,3,77,177
 2020-02-23,中国,CN,Guangdong Province,Zhuhai,98,0,52,1,77,45
-2020-02-23,中国,CN,Guangdong Province,Shantou,25,0,20,0,77,5
+2020-02-23,中国,CN,Guangdong Province,Shantou,25,0,21,0,77,4
 2020-02-23,中国,CN,Guangdong Province,Foshan,84,0,36,0,77,48
 2020-02-23,中国,CN,Guangdong Province,Jiangmen,23,0,9,0,77,14
-2020-02-23,中国,CN,Guangdong Province,Zhanjiang,22,0,12,0,77,10
+2020-02-23,中国,CN,Guangdong Province,Zhanjiang,22,0,14,0,77,8
 2020-02-23,中国,CN,Guangdong Province,Maoming,14,0,6,0,77,8
-2020-02-23,中国,CN,Guangdong Province,Zhaoqing,19,0,8,1,77,10
+2020-02-23,中国,CN,Guangdong Province,Zhaoqing,19,0,10,1,77,8
 2020-02-23,中国,CN,Guangdong Province,Huizhou,62,0,46,0,77,16
 2020-02-23,中国,CN,Guangdong Province,Meizhou,16,0,11,0,77,5
 2020-02-23,中国,CN,Guangdong Province,Shanwei,5,0,2,0,77,3
@@ -9840,8 +9840,8 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-23,中国,CN,Guangdong Province,Zhongshan,66,0,49,0,77,17
 2020-02-23,中国,CN,Guangdong Province,Chaozhou,5,0,4,0,77,1
 2020-02-23,中国,CN,Guangdong Province,Jieyang,8,0,4,0,77,4
-2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,,249,0,104,2,77,143
-2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Nanning,55,0,28,0,77,27
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,,249,0,105,2,77,142
+2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Nanning,55,0,29,0,77,26
 2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Liuzhou,24,0,11,0,77,13
 2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Guilin,32,0,17,0,77,15
 2020-02-23,中国,CN,Guangxi Zhuang Autonomous Region,Wuzhou,5,0,5,0,77,0
@@ -9863,11 +9863,11 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-23,中国,CN,Hainan,Wanning,13,0,9,0,77,4
 2020-02-23,中国,CN,Hainan,East,3,0,2,0,77,1
 2020-02-23,中国,CN,Chongqing,,573,0,328,6,77,239
-2020-02-23,中国,CN,Sichuan Province,,526,0,259,3,77,264
+2020-02-23,中国,CN,Sichuan Province,,526,0,261,3,77,262
 2020-02-23,中国,CN,Sichuan Province,Chengdu,143,0,78,3,77,62
 2020-02-23,中国,CN,Sichuan Province,Zigong,9,0,7,0,77,2
 2020-02-23,中国,CN,Sichuan Province,Panzhihua,16,0,16,0,77,0
-2020-02-23,中国,CN,Sichuan Province,Luzhou,24,0,6,0,77,18
+2020-02-23,中国,CN,Sichuan Province,Luzhou,24,0,8,0,77,16
 2020-02-23,中国,CN,Sichuan Province,Deyang,18,0,7,0,77,11
 2020-02-23,中国,CN,Sichuan Province,Mianyang,22,0,12,0,77,10
 2020-02-23,中国,CN,Sichuan Province,Guangyuan,6,0,6,0,77,0
@@ -9900,7 +9900,7 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-23,中国,CN,Tibet Autonomous Region,,1,0,1,0,77,0
 2020-02-23,中国,CN,Tibet Autonomous Region,Lhasa,1,0,1,0,77,0
 2020-02-23,中国,CN,Shaanxi Province,,245,0,153,0,77,92
-2020-02-23,中国,CN,Shaanxi Province,Xi'an,120,0,71,1,77,48
+2020-02-23,中国,CN,Shaanxi Province,Xi'an,120,0,74,1,77,45
 2020-02-23,中国,CN,Shaanxi Province,Tongchuan,8,0,6,0,77,2
 2020-02-23,中国,CN,Shaanxi Province,Baoji,13,0,11,0,77,2
 2020-02-23,中国,CN,Shaanxi Province,Xianyang,17,0,14,0,77,3
@@ -9934,7 +9934,7 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-23,中国,CN,Xinjiang Uygur Autonomous Region,Turpan,3,0,1,0,77,2
 2020-02-23,中国,CN,Xinjiang Uygur Autonomous Region,Shihezi,4,0,1,1,77,2
 2020-02-23,中国,CN,Xinjiang Uygur Autonomous Region,Wujiaqu,2,0,0,0,77,2
-2020-02-23,中国,CN,Taiwan,,26,0,2,1,77,23
+2020-02-23,中国,CN,Taiwan,,28,0,2,1,77,25
 2020-02-23,中国,CN,Hongkong,,69,0,11,2,77,56
 2020-02-23,中国,CN,Macao,,10,0,6,0,77,4
 2020-02-23,德国,DE,,,16,0,7,0,77,9
@@ -9942,11 +9942,12 @@ date,country,countryCode,province,city,confirmed,suspected,cured,dead,Days,net_c
 2020-02-23,芬兰,FI,,,1,0,1,0,77,0
 2020-02-23,法国,FR,,,12,0,4,1,77,7
 2020-02-23,英国,GB,,,9,0,8,0,77,1
+2020-02-23,以色列,IL,,,1,0,0,0,77,1
 2020-02-23,印度,IN,,,3,0,3,0,77,0
 2020-02-23,伊拉克,IQ,,,1,0,0,0,77,1
 2020-02-23,伊朗,IR,,,28,0,0,4,77,24
 2020-02-23,意大利,IT,,,79,0,0,2,77,77
-2020-02-23,日本,JP,,,769,0,15,3,77,751
+2020-02-23,日本,JP,,,770,0,15,3,77,752
 2020-02-23,柬埔寨,KH,,,1,0,1,0,77,0
 2020-02-23,韩国,KR,,,556,0,18,4,77,534
 2020-02-23,黎巴嫩,LB,,,1,0,0,0,77,1
