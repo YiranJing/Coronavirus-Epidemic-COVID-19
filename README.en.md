@@ -7,7 +7,7 @@
 ## Contents：
 1. Nowcasting and Forecasting the 2019-nCoV Outbreak size in Wuhan
    > MSE, basic SEIR model, sentiment analysis
-   > [Overview of SEIR model](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/SEIRModel.png)
+   > [Overview of SEIR model](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/SEIR_model3.pdf)
    - Model 1: Estimating the potential number of cases in Wuhan until Jan 23
    - Model 2: Simulating Peak of 2019-nCoV in Wuhan after 23 Jan
 
@@ -78,11 +78,11 @@ Consider the transmissibility and population of Wuhan changed a lot before and a
    > Model comparison based on the test score (MAPE) of last 5 days, baseline is [ridge Ridge regression](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%203/Baseline_RidgeRegression.ipynb)
    > Reference: [Dynamic SIR model](https://github.com/Harrisonust/Machine-Learning/tree/master/nCoV2)
 
-   - **Main Conclusion (China TOtal):** (using Chinese official data between 2019-12-08 and 2020-02-14)
+   - **Main Conclusion (China TOtal):** (using Chinese official data between 2019-12-08 and 2020-02-13)
       - **The number of net confirmed cases will exceed 60000, and the peak can be reach before 20 Feb**.
       - **The transmissibility has been controlled from initial 3.2(R0) to less than 0.5**.
-
-  - Model assumptions: [Overview of SEIR model](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/SEIRModel.png)
+      - **The estimated number of infected case will be less than 4000 in early April**
+  - Model assumptions: [Overview of SEIR model](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/SEIR_model3.pdf)
       - Constant (closed) population size:  Due to the international travel ban, strict home quarantine rules in China and the low death rate of COVID-19 (less than 2%), we can assume the China population is constant.
       - In SEIR models, the exposed individuals is infected but not yet infectious, and the first transmission can only happen after symptoms appear. However, InCOVID-19 case, we know that individuals are infectious during the whole incubation period. Assume latent period is the same as incubation.
       - Suppose the average duration of recovery is 14 days, which is similar with SARS
@@ -99,6 +99,12 @@ Note:
 - Exposed: individuals during incubation period
 - Susceptible: Healthy people
 - Infected: Confirmed cases
+
+#### Model performance
+The mean absolute percentage error (MAPE) is a measure of prediction accuracy of a forecasting method in statistics. The MAPE of confirmed cases using data between 2020- 2-14 to 2020-02-22 is 0.0066. The figure below visualizes the real observation and the SEIR model predictions for the next 9 days. Overall, SEIR model predicts well for the peaking time and the general trend.
+
+![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/SEIR_test_7days.png)
+
 
 #### Dynamic contact rate β as a function of time t
 Optimization algorithm Gradient Descent

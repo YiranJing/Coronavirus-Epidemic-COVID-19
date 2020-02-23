@@ -7,7 +7,7 @@
 ## 内容：
 1. 估计和预测 2019-nCoV 新型冠状病毒在武汉的爆发情况
    > MSE, basic SEIR model, sentiment analysis
-   > [了解 SEIR 模型原理](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/SEIRModel.png)
+   > [了解 SEIR 模型原理](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/SEIR_model3.pdf)
    - 模型 1: 估计武汉封城时的感染人数
    - 模型 2: 模拟预测武汉封城后肺炎感染人数以及峰值
 
@@ -74,10 +74,11 @@
    > Model comparison based on the test score (MAPE) of last 5 days, baseline is [ridge Ridge regression](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/Model%203/Baseline_RidgeRegression.ipynb)
    > Reference: [Dynamic SIR model](https://github.com/Harrisonust/Machine-Learning/tree/master/nCoV2)
 
-   - **主要结论(针对全国):** (根据 2019-12-08 至 2020-02-14 官方数据)
+   - **主要结论(针对全国):** (根据 2019-12-08 至 2020-02-13 官方数据)
       - **现存确诊患者的峰值会突破6万，峰值有望在2月20日之前到来**
       - **目前传播速率已经有效得到控制，从最初的R0>3以降至0.5以下**
-   - 模型主要假设：[了解 SEIR 模型原理](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/SEIRModel.png)
+      - **四月初全国的总体感染人数会下降到4000以下**
+   - 模型主要假设：[了解 SEIR 模型原理](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/SEIR_model3.pdf)
       - 人口总数不变: 由于国际航空禁运，严格的居家隔离错误和肺炎较低的死亡率，这个假设基本成立
       - 在SEIR模型中，潜伏期的人前期不具有传染性。然而新型冠状肺炎在初期就有较高的传染率
       - 假设平均恢复期为14天，和非典类似
@@ -93,6 +94,11 @@
 - Exposed(潜伏人群): 在潜伏期的患者
 - Susceptible(易感人群): 健康但有风险被感染的人群
 - Infected(确诊并隔离患者): 确诊人群
+
+#### 模型实际表现
+The mean absolute percentage error (MAPE) is a measure of prediction accuracy of a forecasting method in statistics. The MAPE of confirmed cases using data between 2020- 2-14 to 2020-02-22 is 0.0066. The figure below visualizes the real observation and the SEIR model predictions for the next 9 days. Overall, SEIR model predicts well for the peaking time and the general trend.
+
+![](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov/blob/master/image/SEIR_test_7days.png)
 
 #### Dynamic contact rate β as a function of time t
 Optimization algorithm Gradient Descent
